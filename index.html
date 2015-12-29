@@ -197,10 +197,10 @@
 
 
   
-    <article id="post-123" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-http://baidu.com" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/12/27/123/" class="article-date">
+      <a href="/2015/12/27/http://baidu.com/" class="article-date">
   	<time datetime="2015-12-27T05:14:21.000Z" itemprop="datePublished">2015-12-27</time>
 </a>
     </div>
@@ -214,7 +214,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/27/123/">测试测试</a>
+      <a class="article-title" href="/2015/12/27/http://baidu.com/">测试测试</a>
     </h1>
   
 
@@ -231,6 +231,7 @@
 <p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="D"><a href="#D" class="headerlink" title="D"></a>D</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">UIView</span> *sv1 = [<span class="built_in">UIView</span> new];</span><br><span class="line">[sv1 showPlaceHolder];</span><br><span class="line">sv1<span class="variable">.backgroundColor</span> = [<span class="built_in">UIColor</span> redColor];</span><br><span class="line">[sv addSubview:sv1];</span><br><span class="line">[sv1 mas_makeConstraints:^(MASConstraintMaker *make) &#123;</span><br><span class="line">make<span class="variable">.edges</span><span class="variable">.equalTo</span>(sv)<span class="variable">.with</span><span class="variable">.insets</span>(<span class="built_in">UIEdgeInsetsMake</span>(<span class="number">10</span>, <span class="number">10</span>, <span class="number">10</span>, <span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 等价于</span><br><span class="line">make.top.equalTo(sv).with.offset(10);</span><br><span class="line">make.left.equalTo(sv).with.offset(10);</span><br><span class="line">make.bottom.equalTo(sv).with.offset(-10);</span><br><span class="line">make.right.equalTo(sv).with.offset(-10);</span><br><span class="line">*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 也等价于</span><br><span class="line">make.top.left.bottom.and.right.equalTo(sv).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));</span><br><span class="line">*/</span></span><br><span class="line">&#125;];</span><br></pre></td></tr></table></figure>
 
       
     </div>
