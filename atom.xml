@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Summer</title>
-  <subtitle>永远有多远?</subtitle>
+  <title>Summer的技术博客</title>
+  <subtitle>蜗牛, 为梦想而生。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
