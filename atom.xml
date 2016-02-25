@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-25T07:23:17.000Z</updated>
+  <updated>2016-02-25T07:24:38.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <link href="http://yoursite.com/2016/02/25/%E6%B5%8B%E8%AF%95%E5%8F%91%E5%B8%83%E5%8D%9A%E6%96%87/"/>
     <id>http://yoursite.com/2016/02/25/测试发布博文/</id>
     <published>2016-02-25T07:08:08.000Z</published>
-    <updated>2016-02-25T07:23:17.000Z</updated>
+    <updated>2016-02-25T07:24:38.000Z</updated>
     
     <content type="html">&lt;p&gt;这是测试啦啦&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xpjrd.com1.z0.glb.clouddn.com/123.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;测试图片&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;这是测试啦啦&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xpjrd.com1.z0.glb.clouddn.com/123.jpg&quot; alt=&quot;测试图片&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;测试图片&quot;&gt;&lt;/p&gt;
 
     
     </summary>
