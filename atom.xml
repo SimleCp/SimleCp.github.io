@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-13T09:15:38.000Z</updated>
+  <updated>2015-12-29T05:14:21.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,42 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>打算打算的</title>
-    <link href="http://yoursite.com/2016/04/13/%E6%89%93%E7%AE%97%E6%89%93%E7%AE%97%E7%9A%84/"/>
-    <id>http://yoursite.com/2016/04/13/打算打算的/</id>
-    <published>2016-04-13T09:15:35.000Z</published>
-    <updated>2016-04-13T09:15:38.000Z</updated>
-    
-    <content type="html">&lt;p&gt;as打死 &lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;as打死 &lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>测试发布</title>
-    <link href="http://yoursite.com/2016/04/13/%E6%B5%8B%E8%AF%95%E5%8F%91%E5%B8%83/"/>
-    <id>http://yoursite.com/2016/04/13/测试发布/</id>
-    <published>2016-04-13T09:13:19.000Z</published>
-    <updated>2016-04-13T09:13:19.000Z</updated>
-    
-    <content type="html"></content>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>测试测试</title>
