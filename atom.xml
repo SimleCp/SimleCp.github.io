@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-29T05:14:21.000Z</updated>
+  <updated>2016-04-13T09:18:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Swift从入门到放弃</title>
+    <link href="http://yoursite.com/2016/04/13/Swift%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/"/>
+    <id>http://yoursite.com/2016/04/13/Swift从入门到放弃/</id>
+    <published>2016-04-13T09:18:04.000Z</published>
+    <updated>2016-04-13T09:18:08.000Z</updated>
+    
+    <content type="html">&lt;p&gt;as打死大速度啊&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;as打死大速度啊&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>测试测试</title>
