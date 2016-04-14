@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-13T09:21:49.000Z</updated>
+  <updated>2016-04-14T02:43:58.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,22 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Swift从入门到放弃</title>
-    <link href="http://yoursite.com/2016/04/13/Swift%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/"/>
-    <id>http://yoursite.com/2016/04/13/Swift从入门到放弃/</id>
-    <published>2016-04-13T09:21:44.000Z</published>
-    <updated>2016-04-13T09:21:49.000Z</updated>
+    <title>Swift导入SQLite库, 并桥接文件 步骤</title>
+    <link href="http://yoursite.com/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%E5%B9%B6%E6%A1%A5%E6%8E%A5%E6%96%87%E4%BB%B6%20%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://yoursite.com/2016/04/14/Swift导入SQLite库,并桥接文件 步骤/</id>
+    <published>2016-04-14T02:25:08.000Z</published>
+    <updated>2016-04-14T02:43:58.000Z</updated>
     
-    <content type="html">&lt;p&gt;as打死打死A点是啊&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-0@2x.png&quot; alt=&quot;QQ20160414-0@2x.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-2@2x.png&quot; alt=&quot;QQ20160414-2@2x.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u6865_u63A5_u6587_u4EF6&quot;&gt;&lt;a href=&quot;#u6865_u63A5_u6587_u4EF6&quot; class=&quot;headerlink&quot; title=&quot;桥接文件&quot;&gt;&lt;/a&gt;桥接文件&lt;/h2&gt;&lt;p&gt;导入成功后, 新建一个Header File文件进行桥接&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-6@2x.png&quot; alt=&quot;QQ20160414-6@2x.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果没有提示, 就按图中头文件名手动敲入&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-7@2x.png&quot; alt=&quot;QQ20160414-7@2x.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;打开Build Settings, 输入bri关键字进行搜索, 找到图中我选中的 &lt;code&gt;Objective-C Bridging Header&lt;/code&gt; 这一行, 点击此行右边空白的地方, 弹出输入框, 从左边的文件栏选中文件你的桥接文件拽入输入框, 然后删除前面多余的路径地址&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-8@2x.png&quot; alt=&quot;QQ20160414-8@2x.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后编译一下, 成功就表示路径地址设置对了&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-9@2x.png&quot; alt=&quot;QQ20160414-9@2x.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;随便回到哪个控制器, 能够敲出sqlite的方法, 并且编译成功, 就表示导入成功了&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-10@2x.png&quot; alt=&quot;QQ20160414-10@2x.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;u6CE8_u610F_u70B9_3A&quot;&gt;&lt;a href=&quot;#u6CE8_u610F_u70B9_3A&quot; class=&quot;headerlink&quot; title=&quot;注意点:&quot;&gt;&lt;/a&gt;注意点:&lt;/h2&gt;&lt;p&gt;移除sqlite库文件的时候, 千万不要选择移除到废纸篓, 不然不小心清空废纸篓了, 那么你的库文件也被删掉了, 点击图中箭头指示的移除引用即可&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-11@2x.png&quot; alt=&quot;QQ20160414-11@2x.png&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;as打死打死A点是啊&lt;/p&gt;
-
+      &lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
+      <category term="Swift" scheme="http://yoursite.com/categories/Swift/"/>
+    
+    
+      <category term="SQLite" scheme="http://yoursite.com/tags/SQLite/"/>
     
   </entry>
   
