@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-14T02:43:58.000Z</updated>
+  <updated>2016-04-14T08:54:49.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,115 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试啦啦啦</title>
+    <link href="http://yoursite.com/2016/04/14/%E6%B5%8B%E8%AF%95%E5%95%A6%E5%95%A6%E5%95%A6/"/>
+    <id>http://yoursite.com/2016/04/14/测试啦啦啦/</id>
+    <published>2016-04-14T08:54:49.000Z</published>
+    <updated>2016-04-14T08:54:49.000Z</updated>
+    
+    <content type="html">&lt;p&gt;asas打死A酸打死打隧道&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;asas打死A酸打死打隧道&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2016/04/14/test/"/>
+    <id>http://yoursite.com/2016/04/14/test/</id>
+    <published>2016-04-14T03:52:57.000Z</published>
+    <updated>2016-04-14T03:52:57.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>dddd</title>
+    <link href="http://yoursite.com/2016/04/14/dddd/"/>
+    <id>http://yoursite.com/2016/04/14/dddd/</id>
+    <published>2016-04-14T03:13:18.000Z</published>
+    <updated>2016-04-14T03:13:18.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ddd</title>
+    <link href="http://yoursite.com/2016/04/14/ddd/"/>
+    <id>http://yoursite.com/2016/04/14/ddd/</id>
+    <published>2016-04-14T03:09:58.000Z</published>
+    <updated>2016-04-14T03:09:58.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>asd</title>
+    <link href="http://yoursite.com/2016/04/14/asd/"/>
+    <id>http://yoursite.com/2016/04/14/asd/</id>
+    <published>2016-04-14T03:01:19.000Z</published>
+    <updated>2016-04-14T03:01:19.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;David Levithan&lt;/strong&gt;&lt;cite&gt;Wide Awake&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;David L
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Swift导入SQLite库, 并桥接文件 步骤</title>
