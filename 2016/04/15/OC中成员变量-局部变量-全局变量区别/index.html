@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Games,PS3," />
+  <meta name="keywords" content="OC基础," />
 
 
 
@@ -59,22 +59,25 @@
 
 
 
-<meta name="description" content="QC1$ hexo new &quot;My New Post&quot;
-More info: Writing
-Run server1$ hexo server">
+<meta name="description" content="成员变量
+写在类声明的大括号中的变量，称之为：成员变量（属性，实例变量） 
+成员变量只能通过对象来访问 
+成员变量不能离开类，离开类之后就不是成员变量；成员变量不能在定义的同时进行初始化">
 <meta property="og:type" content="article">
-<meta property="og:title" content="测试测试">
-<meta property="og:url" content="http://yoursite.com/2015/12/27/123/index.html">
+<meta property="og:title" content="OC中成员变量, 局部变量, 全局变量区别">
+<meta property="og:url" content="http://yoursite.com/2016/04/15/OC中成员变量-局部变量-全局变量区别/index.html">
 <meta property="og:site_name" content="Summer的博客">
-<meta property="og:description" content="QC1$ hexo new &quot;My New Post&quot;
-More info: Writing
-Run server1$ hexo server">
-<meta property="og:updated_time" content="2015-12-29T05:14:21.000Z">
+<meta property="og:description" content="成员变量
+写在类声明的大括号中的变量，称之为：成员变量（属性，实例变量） 
+成员变量只能通过对象来访问 
+成员变量不能离开类，离开类之后就不是成员变量；成员变量不能在定义的同时进行初始化">
+<meta property="og:updated_time" content="2016-04-15T02:03:56.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="测试测试">
-<meta name="twitter:description" content="QC1$ hexo new &quot;My New Post&quot;
-More info: Writing
-Run server1$ hexo server">
+<meta name="twitter:title" content="OC中成员变量, 局部变量, 全局变量区别">
+<meta name="twitter:description" content="成员变量
+写在类声明的大括号中的变量，称之为：成员变量（属性，实例变量） 
+成员变量只能通过对象来访问 
+成员变量不能离开类，离开类之后就不是成员变量；成员变量不能在定义的同时进行初始化">
 
 
 
@@ -92,7 +95,7 @@ Run server1$ hexo server">
   };
 </script>
 
-  <title> 测试测试 | Summer的博客 </title>
+  <title> OC中成员变量, 局部变量, 全局变量区别 | Summer的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -242,7 +245,7 @@ Run server1$ hexo server">
             
             
               
-                测试测试
+                OC中成员变量, 局部变量, 全局变量区别
               
             
           </h1>
@@ -254,8 +257,8 @@ Run server1$ hexo server">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-12-27T13:14:21+08:00" content="2015-12-27">
-              2015-12-27
+            <time itemprop="dateCreated" datetime="2016-04-15T09:57:25+08:00" content="2016-04-15">
+              2016-04-15
             </time>
           </span>
 
@@ -268,8 +271,8 @@ Run server1$ hexo server">
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Diary/" itemprop="url" rel="index">
-                    <span itemprop="name">Diary</span>
+                  <a href="/categories/Objective-C/" itemprop="url" rel="index">
+                    <span itemprop="name">Objective-C</span>
                   </a>
                 </span>
 
@@ -284,8 +287,8 @@ Run server1$ hexo server">
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/12/27/123/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/12/27/123/" itemprop="commentsCount"></span>
+                <a href="/2016/04/15/OC中成员变量-局部变量-全局变量区别/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/15/OC中成员变量-局部变量-全局变量区别/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -306,16 +309,28 @@ Run server1$ hexo server">
       
 
       
-        <h2 id="Q"><a href="#Q" class="headerlink" title="Q"></a>Q</h2><h3 id="C"><a href="#C" class="headerlink" title="C"></a>C</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="G"><a href="#G" class="headerlink" title="G"></a>G</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="D"><a href="#D" class="headerlink" title="D"></a>D</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">UIView</span> *sv1 = [<span class="built_in">UIView</span> new];</span><br><span class="line">[sv1 showPlaceHolder];</span><br><span class="line">sv1<span class="variable">.backgroundColor</span> = [<span class="built_in">UIColor</span> redColor];</span><br><span class="line">[sv addSubview:sv1];</span><br><span class="line">[sv1 mas_makeConstraints:^(MASConstraintMaker *make) &#123;</span><br><span class="line">make<span class="variable">.edges</span><span class="variable">.equalTo</span>(sv)<span class="variable">.with</span><span class="variable">.insets</span>(<span class="built_in">UIEdgeInsetsMake</span>(<span class="number">10</span>, <span class="number">10</span>, <span class="number">10</span>, <span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 等价于</span><br><span class="line">make.top.equalTo(sv).with.offset(10);</span><br><span class="line">make.left.equalTo(sv).with.offset(10);</span><br><span class="line">make.bottom.equalTo(sv).with.offset(-10);</span><br><span class="line">make.right.equalTo(sv).with.offset(-10);</span><br><span class="line">*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 也等价于</span><br><span class="line">make.top.left.bottom.and.right.equalTo(sv).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));</span><br><span class="line">*/</span></span><br><span class="line">&#125;];</span><br></pre></td></tr></table></figure>
+        <h3 id="u6210_u5458_u53D8_u91CF"><a href="#u6210_u5458_u53D8_u91CF" class="headerlink" title="成员变量"></a>成员变量</h3><ol>
+<li>写在类声明的大括号中的变量，称之为：成员变量（属性，实例变量） <br></li>
+<li>成员变量只能通过对象来访问 <br></li>
+<li>成员变量不能离开类，离开类之后就不是成员变量；成员变量不能在定义的同时进行初始化 <br><a id="more"></a></li>
+<li>存储：堆（当前对象对应的堆的存储空间） </li>
+<li>存储在堆中的数据，不会被自动释放，由程序员手动释放（后面引用了ARC，不需要考虑内存问题）</li>
+</ol>
+<h3 id="u5C40_u90E8_u53D8_u91CF"><a href="#u5C40_u90E8_u53D8_u91CF" class="headerlink" title="局部变量"></a>局部变量</h3><ol>
+<li>写在函数或者代码块中的变量，称之为：局部变量</li>
+<li>作用域：从定义的那一行开始，一直到遇到大括号或者return</li>
+<li>局部变量可以先定义在初始化，也可以定义的同时初始化</li>
+<li>存储位置：栈</li>
+<li>存储在栈中的数据有一个特点，系统会自动释放</li>
+</ol>
+<h3 id="u5168_u5C40_u53D8_u91CF"><a href="#u5168_u5C40_u53D8_u91CF" class="headerlink" title="全局变量"></a>全局变量</h3><ol>
+<li>写在函数和大括号之外的变量，我们称之为全局变量</li>
+<li>作用域：从定义的那一行开始，一直到文件末尾</li>
+<li>全局变量可以先定义再初始化，也可以定义的同时初始</li>
+<li>存储：静态区； 程序一启动就会分配存储空间，直到程序结束才会释放</li>
+</ol>
+<hr>
+<h4 id="Contact_Me"><a href="#Contact_Me" class="headerlink" title="Contact Me"></a>Contact Me</h4><p>如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  <code>simlecp@swift520.com</code></p>
 
       
     </div>
@@ -324,9 +339,7 @@ Run server1$ hexo server">
       
         <div class="post-tags">
           
-            <a href="/tags/Games/" rel="tag">#Games</a>
-          
-            <a href="/tags/PS3/" rel="tag">#PS3</a>
+            <a href="/tags/OC基础/" rel="tag">#OC基础</a>
           
         </div>
       
@@ -335,13 +348,13 @@ Run server1$ hexo server">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/04/14/Swift导入SQLite库,并桥接文件 步骤/" rel="next" title="Swift导入SQLite库, 并桥接文件 步骤">
+                <i class="fa fa-chevron-left"></i> Swift导入SQLite库, 并桥接文件 步骤
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/04/14/Swift导入SQLite库,并桥接文件 步骤/" rel="prev" title="Swift导入SQLite库, 并桥接文件 步骤">
-                Swift导入SQLite库, 并桥接文件 步骤 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -433,7 +446,7 @@ Run server1$ hexo server">
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -494,7 +507,7 @@ Run server1$ hexo server">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Q"><span class="nav-number">1.</span> <span class="nav-text">Q</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#C"><span class="nav-number">1.1.</span> <span class="nav-text">C</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run_server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#G"><span class="nav-number">1.3.</span> <span class="nav-text">G</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#D"><span class="nav-number">1.4.</span> <span class="nav-text">D</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#u6210_u5458_u53D8_u91CF"><span class="nav-number">1.</span> <span class="nav-text">成员变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u5C40_u90E8_u53D8_u91CF"><span class="nav-number">2.</span> <span class="nav-text">局部变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u5168_u5C40_u53D8_u91CF"><span class="nav-number">3.</span> <span class="nav-text">全局变量</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Contact_Me"><span class="nav-number">3.1.</span> <span class="nav-text">Contact Me</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
@@ -759,9 +772,9 @@ Run server1$ hexo server">
 
     <script type="text/javascript">
       var disqus_shortname = 'swift520';
-      var disqus_identifier = '2015/12/27/123/';
-      var disqus_title = '测试测试';
-      var disqus_url = 'http://yoursite.com/2015/12/27/123/';
+      var disqus_identifier = '2016/04/15/OC中成员变量-局部变量-全局变量区别/';
+      var disqus_title = 'OC中成员变量, 局部变量, 全局变量区别';
+      var disqus_url = 'http://yoursite.com/2016/04/15/OC中成员变量-局部变量-全局变量区别/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');

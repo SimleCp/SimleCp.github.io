@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-14T02:43:58.000Z</updated>
+  <updated>2016-04-15T02:03:56.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,16 +16,62 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>OC中成员变量, 局部变量, 全局变量区别</title>
+    <link href="http://yoursite.com/2016/04/15/OC%E4%B8%AD%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F-%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F-%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F%E5%8C%BA%E5%88%AB/"/>
+    <id>http://yoursite.com/2016/04/15/OC中成员变量-局部变量-全局变量区别/</id>
+    <published>2016-04-15T01:57:25.000Z</published>
+    <updated>2016-04-15T02:03:56.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;u6210_u5458_u53D8_u91CF&quot;&gt;&lt;a href=&quot;#u6210_u5458_u53D8_u91CF&quot; class=&quot;headerlink&quot; title=&quot;成员变量&quot;&gt;&lt;/a&gt;成员变量&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;写在类声明的大括号中的变量，称之为：成员变量（属性，实例变量） &lt;br&gt;&lt;/li&gt;
+&lt;li&gt;成员变量只能通过对象来访问 &lt;br&gt;&lt;/li&gt;
+&lt;li&gt;成员变量不能离开类，离开类之后就不是成员变量；成员变量不能在定义的同时进行初始化 &lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;存储：堆（当前对象对应的堆的存储空间） &lt;/li&gt;
+&lt;li&gt;存储在堆中的数据，不会被自动释放，由程序员手动释放（后面引用了ARC，不需要考虑内存问题）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;u5C40_u90E8_u53D8_u91CF&quot;&gt;&lt;a href=&quot;#u5C40_u90E8_u53D8_u91CF&quot; class=&quot;headerlink&quot; title=&quot;局部变量&quot;&gt;&lt;/a&gt;局部变量&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;写在函数或者代码块中的变量，称之为：局部变量&lt;/li&gt;
+&lt;li&gt;作用域：从定义的那一行开始，一直到遇到大括号或者return&lt;/li&gt;
+&lt;li&gt;局部变量可以先定义在初始化，也可以定义的同时初始化&lt;/li&gt;
+&lt;li&gt;存储位置：栈&lt;/li&gt;
+&lt;li&gt;存储在栈中的数据有一个特点，系统会自动释放&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;u5168_u5C40_u53D8_u91CF&quot;&gt;&lt;a href=&quot;#u5168_u5C40_u53D8_u91CF&quot; class=&quot;headerlink&quot; title=&quot;全局变量&quot;&gt;&lt;/a&gt;全局变量&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;写在函数和大括号之外的变量，我们称之为全局变量&lt;/li&gt;
+&lt;li&gt;作用域：从定义的那一行开始，一直到文件末尾&lt;/li&gt;
+&lt;li&gt;全局变量可以先定义再初始化，也可以定义的同时初始&lt;/li&gt;
+&lt;li&gt;存储：静态区； 程序一启动就会分配存储空间，直到程序结束才会释放&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;u6210_u5458_u53D8_u91CF&quot;&gt;&lt;a href=&quot;#u6210_u5458_u53D8_u91CF&quot; class=&quot;headerlink&quot; title=&quot;成员变量&quot;&gt;&lt;/a&gt;成员变量&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;写在类声明的大括号中的变量，称之为：成员变量（属性，实例变量） &lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;成员变量只能通过对象来访问 &lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;成员变量不能离开类，离开类之后就不是成员变量；成员变量不能在定义的同时进行初始化 &lt;br /&gt;
+    
+    </summary>
+    
+      <category term="Objective-C" scheme="http://yoursite.com/categories/Objective-C/"/>
+    
+    
+      <category term="OC基础" scheme="http://yoursite.com/tags/OC%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Swift导入SQLite库, 并桥接文件 步骤</title>
     <link href="http://yoursite.com/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%E5%B9%B6%E6%A1%A5%E6%8E%A5%E6%96%87%E4%BB%B6%20%E6%AD%A5%E9%AA%A4/"/>
     <id>http://yoursite.com/2016/04/14/Swift导入SQLite库,并桥接文件 步骤/</id>
     <published>2016-04-14T02:25:08.000Z</published>
-    <updated>2016-04-14T02:43:58.000Z</updated>
+    <updated>2016-04-15T02:16:21.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-0@2x.png&quot; alt=&quot;QQ20160414-0@2x.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-2@2x.png&quot; alt=&quot;QQ20160414-2@2x.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-0@2x.png&quot; alt=&quot;QQ20160414-0@2x.png&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-2@2x.png&quot; alt=&quot;QQ20160414-2@2x.png&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;u6865_u63A5_u6587_u4EF6&quot;&gt;&lt;a href=&quot;#u6865_u63A5_u6587_u4EF6&quot; class=&quot;headerlink&quot; title=&quot;桥接文件&quot;&gt;&lt;/a&gt;桥接文件&lt;/h2&gt;&lt;p&gt;导入成功后, 新建一个Header File文件进行桥接&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-6@2x.png&quot; alt=&quot;QQ20160414-6@2x.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;如果没有提示, 就按图中头文件名手动敲入&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-7@2x.png&quot; alt=&quot;QQ20160414-7@2x.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;打开Build Settings, 输入bri关键字进行搜索, 找到图中我选中的 &lt;code&gt;Objective-C Bridging Header&lt;/code&gt; 这一行, 点击此行右边空白的地方, 弹出输入框, 从左边的文件栏选中文件你的桥接文件拽入输入框, 然后删除前面多余的路径地址&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-8@2x.png&quot; alt=&quot;QQ20160414-8@2x.png&quot;&gt;&lt;/p&gt;
@@ -39,6 +85,8 @@
     <summary type="html">
     
       &lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-0@2x.png&quot; alt=&quot;QQ20160414-0@2x.png&quot;&gt;&lt;br&gt;
     
     </summary>
     
@@ -46,42 +94,6 @@
     
     
       <category term="SQLite" scheme="http://yoursite.com/tags/SQLite/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试测试</title>
-    <link href="http://yoursite.com/2015/12/27/123/"/>
-    <id>http://yoursite.com/2015/12/27/123/</id>
-    <published>2015-12-27T05:14:21.000Z</published>
-    <updated>2015-12-29T05:14:21.000Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;Q&quot;&gt;&lt;a href=&quot;#Q&quot; class=&quot;headerlink&quot; title=&quot;Q&quot;&gt;&lt;/a&gt;Q&lt;/h2&gt;&lt;h3 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C&quot;&gt;&lt;/a&gt;C&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run_server&quot;&gt;&lt;a href=&quot;#Run_server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;G&quot;&gt;&lt;a href=&quot;#G&quot; class=&quot;headerlink&quot; title=&quot;G&quot;&gt;&lt;/a&gt;G&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;D&quot;&gt;&lt;a href=&quot;#D&quot; class=&quot;headerlink&quot; title=&quot;D&quot;&gt;&lt;/a&gt;D&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;UIView&lt;/span&gt; *sv1 = [&lt;span class=&quot;built_in&quot;&gt;UIView&lt;/span&gt; new];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[sv1 showPlaceHolder];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sv1&lt;span class=&quot;variable&quot;&gt;.backgroundColor&lt;/span&gt; = [&lt;span class=&quot;built_in&quot;&gt;UIColor&lt;/span&gt; redColor];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[sv addSubview:sv1];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[sv1 mas_makeConstraints:^(MASConstraintMaker *make) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make&lt;span class=&quot;variable&quot;&gt;.edges&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.equalTo&lt;/span&gt;(sv)&lt;span class=&quot;variable&quot;&gt;.with&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.insets&lt;/span&gt;(&lt;span class=&quot;built_in&quot;&gt;UIEdgeInsetsMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;));&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/* 等价于&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make.top.equalTo(sv).with.offset(10);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make.left.equalTo(sv).with.offset(10);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make.bottom.equalTo(sv).with.offset(-10);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make.right.equalTo(sv).with.offset(-10);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/* 也等价于&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;make.top.left.bottom.and.right.equalTo(sv).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Q&quot;&gt;&lt;a href=&quot;#Q&quot; class=&quot;headerlink&quot; title=&quot;Q&quot;&gt;&lt;/a&gt;Q&lt;/h2&gt;&lt;h3 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C&quot;&gt;&lt;/a&gt;C&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run_server&quot;&gt;&lt;a href=&quot;#Run_server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="Diary" scheme="http://yoursite.com/categories/Diary/"/>
-    
-    
-      <category term="Games" scheme="http://yoursite.com/tags/Games/"/>
-    
-      <category term="PS3" scheme="http://yoursite.com/tags/PS3/"/>
     
   </entry>
   
