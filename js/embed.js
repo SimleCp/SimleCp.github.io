@@ -1,3 +1,4 @@
+
 //移动客户端判断开始
 function checkMobile() {
     var isiPad = navigator.userAgent.match(/iPad/i) != null;
