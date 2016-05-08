@@ -150,11 +150,11 @@
   </entry>
   
   <entry>
-    <title>Swift导入SQLite库, 并桥接文件 步骤</title>
-    <link href="http://yoursite.com/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%E5%B9%B6%E6%A1%A5%E6%8E%A5%E6%96%87%E4%BB%B6%20%E6%AD%A5%E9%AA%A4/"/>
-    <id>http://yoursite.com/2016/04/14/Swift导入SQLite库,并桥接文件 步骤/</id>
+    <title>Swift导入SQLite库, Swift桥接OC 步骤</title>
+    <link href="http://yoursite.com/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%20Swift%E6%A1%A5%E6%8E%A5OC%20%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://yoursite.com/2016/04/14/Swift导入SQLite库, Swift桥接OC 步骤/</id>
     <published>2016-04-14T02:25:08.000Z</published>
-    <updated>2016-04-15T02:32:43.000Z</updated>
+    <updated>2016-05-08T08:50:48.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
