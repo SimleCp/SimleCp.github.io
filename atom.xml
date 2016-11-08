@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-08T08:22:53.000Z</updated>
+  <updated>2016-11-08T09:17:13.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>屏幕亮点/坏点检查, 屏幕漏光检查教程</title>
+    <link href="http://yoursite.com/2016/11/08/MobileHelperProDoc/"/>
+    <id>http://yoursite.com/2016/11/08/MobileHelperProDoc/</id>
+    <published>2016-11-08T09:17:13.000Z</published>
+    <updated>2016-11-08T09:17:13.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;u6CE8_u610F_u70B9_3A&quot;&gt;&lt;a href=&quot;#u6CE8_u610F_u70B9_3A&quot; class=&quot;headerlink&quot; title=&quot;注意点:&quot;&gt;&lt;/a&gt;注意点:&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;建议在暗光环境下进行检查, 并将手机屏幕亮度设置为最高.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;注意: 手机已贴膜的情况下, 贴膜中的小颗粒灰层, 可能会影响你的判断.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;u6B65_u9AA4_3A&quot;&gt;&lt;a href=&quot;#u6B65_u9AA4_3A&quot; class=&quot;headerlink&quot; title=&quot;步骤:&quot;&gt;&lt;/a&gt;步骤:&lt;/h3&gt;&lt;h4 id=&quot;u4EAE_u70B9/_u574F_u70B9_u68C0_u6D4B&quot;&gt;&lt;a href=&quot;#u4EAE_u70B9/_u574F_u70B9_u68C0_u6D4B&quot; class=&quot;headerlink&quot; title=&quot;亮点/坏点检测&quot;&gt;&lt;/a&gt;亮点/坏点检测&lt;/h4&gt;&lt;p&gt;1.进入亮点检测功能, 轻触屏幕更换纯色背景, 在纯色的屏幕上, 如果出现白色或者黑色的小点, 便是屏幕亮点/坏点.如下图:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Mobile_Helper_Pro_Example/liangdian.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h4 id=&quot;u6F0F_u5149_u68C0_u6D4B&quot;&gt;&lt;a href=&quot;#u6F0F_u5149_u68C0_u6D4B&quot; class=&quot;headerlink&quot; title=&quot;漏光检测&quot;&gt;&lt;/a&gt;漏光检测&lt;/h4&gt;&lt;p&gt;2.进入漏光检测功能, 在纯黑色的屏幕上, 斜视屏幕四周边角, 如果出现了如下图所示的情况, 便是屏幕漏光.如下图:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/Mobile_Helper_Pro_Example/louguang.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;u5199_u5728_u6700_u540E_u7684_u8BDD_3A&quot;&gt;&lt;a href=&quot;#u5199_u5728_u6700_u540E_u7684_u8BDD_3A&quot; class=&quot;headerlink&quot; title=&quot;写在最后的话:&quot;&gt;&lt;/a&gt;写在最后的话:&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;如果本App给了你一定帮助, 烦请在AppStore给我好评.&lt;/li&gt;
+&lt;li&gt;大家在使用的过程中有任何建议, 可以直接在AppStore留言, 或者直接通过 simlecp@swift520.com 联系我.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;u6CE8_u610F_u70B9_3A&quot;&gt;&lt;a href=&quot;#u6CE8_u610F_u70B9_3A&quot; class=&quot;headerlink&quot; title=&quot;注意点:&quot;&gt;&lt;/a&gt;注意点:&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;建议在暗光环境下进行检查, 并将手机屏幕亮度设置为最高.&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Phone Helper Pro" scheme="http://yoursite.com/categories/Phone-Helper-Pro/"/>
+    
+    
+      <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Quartz2D</title>
