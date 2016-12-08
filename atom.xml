@@ -143,8 +143,6 @@
 &lt;ul&gt;
 &lt;li&gt;这里是需要关闭路径的, 不关闭会有问题. 你可以试试注释掉关闭路径的代码.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -186,8 +184,6 @@
 &lt;li&gt;全局变量可以先定义再初始化，也可以定义的同时初始&lt;/li&gt;
 &lt;li&gt;存储：静态区； 程序一启动就会分配存储空间，直到程序结束才会释放&lt;/li&gt;
 &lt;/ol&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -211,7 +207,7 @@
     <link href="http://yoursite.com/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%20Swift%E6%A1%A5%E6%8E%A5OC%20%E6%AD%A5%E9%AA%A4/"/>
     <id>http://yoursite.com/2016/04/14/Swift导入SQLite库, Swift桥接OC 步骤/</id>
     <published>2016-04-14T02:25:08.000Z</published>
-    <updated>2016-11-08T12:29:04.000Z</updated>
+    <updated>2016-12-08T01:17:18.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
@@ -225,7 +221,6 @@
 &lt;p&gt;随便回到哪个控制器, 能够敲出sqlite的方法, 并且编译成功, 就表示导入成功了&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-10@2x.png&quot; alt=&quot;QQ20160414-10@2x.png&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;u6CE8_u610F_u70B9_3A&quot;&gt;&lt;a href=&quot;#u6CE8_u610F_u70B9_3A&quot; class=&quot;headerlink&quot; title=&quot;注意点:&quot;&gt;&lt;/a&gt;注意点:&lt;/h2&gt;&lt;p&gt;移除sqlite库文件的时候, 千万不要选择移除到废纸篓, 不然不小心清空废纸篓了, 那么你的库文件也被删掉了, 点击图中箭头指示的移除引用即可&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-11@2x.png&quot; alt=&quot;QQ20160414-11@2x.png&quot;&gt;&lt;/p&gt;
-&lt;h4 id=&quot;Contact_Me&quot;&gt;&lt;a href=&quot;#Contact_Me&quot; class=&quot;headerlink&quot; title=&quot;Contact Me&quot;&gt;&lt;/a&gt;Contact Me&lt;/h4&gt;&lt;p&gt;如有疑问, 请在博文下方留言, 或通过邮件联系我.  Email:  &lt;code&gt;simlecp@swift520.com&lt;/code&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
