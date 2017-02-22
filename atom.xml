@@ -154,6 +154,10 @@
     
     </summary>
     
+      <category term="Quartz2D" scheme="http://www.cxp.im/categories/Quartz2D/"/>
+    
+    
+      <category term="Quartz2D" scheme="http://www.cxp.im/tags/Quartz2D/"/>
     
   </entry>
   
@@ -162,7 +166,7 @@
     <link href="http://www.cxp.im/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%20Swift%E6%A1%A5%E6%8E%A5OC%20%E6%AD%A5%E9%AA%A4/"/>
     <id>http://www.cxp.im/2016/04/14/Swift导入SQLite库, Swift桥接OC 步骤/</id>
     <published>2016-04-14T02:25:08.000Z</published>
-    <updated>2016-12-08T01:17:18.000Z</updated>
+    <updated>2017-02-22T11:09:01.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
@@ -189,6 +193,8 @@
     
     
       <category term="SQLite" scheme="http://www.cxp.im/tags/SQLite/"/>
+    
+      <category term="Swift" scheme="http://www.cxp.im/tags/Swift/"/>
     
   </entry>
   
