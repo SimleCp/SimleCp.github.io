@@ -4,9 +4,9 @@
   <subtitle>蜗牛, 为梦想而生。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.cxp.im/"/>
+  <link href="https://www.cxp.im/"/>
   <updated>2016-05-08T08:22:53.000Z</updated>
-  <id>http://www.cxp.im/</id>
+  <id>https://www.cxp.im/</id>
   
   <author>
     <name>cxp</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Quartz2D</title>
-    <link href="http://www.cxp.im/2016/05/08/Quartz2D/"/>
-    <id>http://www.cxp.im/2016/05/08/Quartz2D/</id>
+    <link href="https://www.cxp.im/2016/05/08/Quartz2D/"/>
+    <id>https://www.cxp.im/2016/05/08/Quartz2D/</id>
     <published>2016-05-08T08:22:53.000Z</published>
     <updated>2016-05-08T08:22:53.000Z</updated>
     
@@ -154,17 +154,17 @@
     
     </summary>
     
-      <category term="Quartz2D" scheme="http://www.cxp.im/categories/Quartz2D/"/>
+      <category term="Quartz2D" scheme="https://www.cxp.im/categories/Quartz2D/"/>
     
     
-      <category term="Quartz2D" scheme="http://www.cxp.im/tags/Quartz2D/"/>
+      <category term="Quartz2D" scheme="https://www.cxp.im/tags/Quartz2D/"/>
     
   </entry>
   
   <entry>
     <title>Swift导入SQLite库, Swift桥接OC 步骤</title>
-    <link href="http://www.cxp.im/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%20Swift%E6%A1%A5%E6%8E%A5OC%20%E6%AD%A5%E9%AA%A4/"/>
-    <id>http://www.cxp.im/2016/04/14/Swift导入SQLite库, Swift桥接OC 步骤/</id>
+    <link href="https://www.cxp.im/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%20Swift%E6%A1%A5%E6%8E%A5OC%20%E6%AD%A5%E9%AA%A4/"/>
+    <id>https://www.cxp.im/2016/04/14/Swift导入SQLite库, Swift桥接OC 步骤/</id>
     <published>2016-04-14T02:25:08.000Z</published>
     <updated>2017-02-22T11:09:01.000Z</updated>
     
@@ -189,12 +189,12 @@
     
     </summary>
     
-      <category term="Swift" scheme="http://www.cxp.im/categories/Swift/"/>
+      <category term="Swift" scheme="https://www.cxp.im/categories/Swift/"/>
     
     
-      <category term="SQLite" scheme="http://www.cxp.im/tags/SQLite/"/>
+      <category term="SQLite" scheme="https://www.cxp.im/tags/SQLite/"/>
     
-      <category term="Swift" scheme="http://www.cxp.im/tags/Swift/"/>
+      <category term="Swift" scheme="https://www.cxp.im/tags/Swift/"/>
     
   </entry>
   
