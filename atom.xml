@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.cxp.im/"/>
-  <updated>2016-05-08T08:22:53.000Z</updated>
+  <updated>2017-02-25T14:34:41.000Z</updated>
   <id>https://www.cxp.im/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://www.cxp.im/2017/02/25/Vim%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/"/>
+    <id>https://www.cxp.im/2017/02/25/Vim的简单使用/</id>
+    <published>2017-02-25T14:34:41.000Z</published>
+    <updated>2017-02-25T14:34:41.000Z</updated>
+    
+    <content type="html">&lt;p&gt;title: ‘Vim的简单使用’&lt;br&gt;date: 2017-02-25 22:34:07&lt;br&gt;categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vim&lt;br&gt;tags:&lt;/li&gt;
+&lt;li&gt;Vim使用&lt;/li&gt;
+&lt;li&gt;VPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为配合教程, 所以简单的介绍下vim的基础使用.&lt;/p&gt;
+&lt;p&gt;当你在终端输入&lt;code&gt;vi xxx&lt;/code&gt;或者&lt;code&gt;vim xxx&lt;/code&gt;的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化.&lt;/p&gt;
+&lt;p&gt;1.未编辑状态&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.按键盘上的&lt;code&gt;i&lt;/code&gt;进入编辑状态, 然后输入内容&lt;br&gt;输入前&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;输入后&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3.按&lt;code&gt;esc&lt;/code&gt;退出编辑状态&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221401@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4.输入&lt;code&gt;:wq&lt;/code&gt;保存并退出&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221412@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;5.保存并退出后&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221420@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;title: ‘Vim的简单使用’&lt;br&gt;date: 2017-02-25 22:34:07&lt;br&gt;categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vim&lt;br&gt;tags:&lt;/li&gt;
+&lt;li&gt;Vim使用&lt;/li&gt;
+&lt;li&gt;VPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为配合教程, 
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Quartz2D</title>
