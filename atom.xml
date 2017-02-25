@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.cxp.im/"/>
-  <updated>2017-02-25T14:34:41.000Z</updated>
+  <updated>2017-02-25T14:37:06.000Z</updated>
   <id>https://www.cxp.im/</id>
   
   <author>
@@ -16,19 +16,150 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>利用VPS搭建科学上网工具和个人博客(教程合集)</title>
+    <link href="https://www.cxp.im/2017/02/25/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BA%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E6%95%99%E7%A8%8B%E5%90%88%E9%9B%86)/"/>
+    <id>https://www.cxp.im/2017/02/25/利用VPS搭建科学上网工具和个人博客(教程合集)/</id>
+    <published>2017-02-25T14:34:53.000Z</published>
+    <updated>2017-02-25T14:37:06.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;从教程中, 你可以收获什么?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如何购买搬瓦工vps&lt;/li&gt;
+&lt;li&gt;如何使用搬瓦工vps后台&lt;/li&gt;
+&lt;li&gt;如何搭建Shadowsocks Sever来实现多终端翻墙.&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;如何搭建个人博客(hexo)&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;如何为博客配置域名&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;如何使用vps存放个人博客&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;如何使用vps当图床&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;如何为博客配置https&lt;/del&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上内容都是我全部亲测过, 中横线部分, 会在下来的日子更新, 请持续关注.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;搭建一个翻墙工具, 上google找文章, 存放个人博客, 把vps当图床, 都还是比较值得的.毕竟入门款的vps, 算上优惠码, 一年也仅仅只需要19美刀左右.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;文章收集了从购买vps, 搭建Shadowsocks, 搭建Ipsec等一系列文章. 并结合自己使用时碰到的问题, 一一分享给大家. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;文章内容, 假设阅读者是没有任何购买和搭建vps的经验, 所以会尽量讲解的比较仔细. 文章内容均以搬瓦工vps来讲解.&lt;/li&gt;
+&lt;li&gt;以下购买和登录后台的教程来自&lt;a href=&quot;http://banwagong.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://banwagong.cn/&lt;/a&gt;, 实际操作均在搬瓦工官网.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;u73AF_u5883&quot;&gt;&lt;a href=&quot;#u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h2&gt;&lt;p&gt;vps: 搬瓦工&lt;br&gt;工具: Mac终端&lt;/p&gt;
+&lt;h2 id=&quot;u8D2D_u4E70_u548C_u4F7F_u7528&quot;&gt;&lt;a href=&quot;#u8D2D_u4E70_u548C_u4F7F_u7528&quot; class=&quot;headerlink&quot; title=&quot;购买和使用&quot;&gt;&lt;/a&gt;购买和使用&lt;/h2&gt;&lt;p&gt;注: 搬瓦工vps支付方式支持&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PayPal&lt;/li&gt;
+&lt;li&gt;AliPay&lt;/li&gt;
+&lt;li&gt;Credit Card(Stripe)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://bwh1.net&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工官网&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工购买方案&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/gonglue.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;图文并茂购买指导教程&lt;/a&gt;  注: 购买时长分月付, 季度付, 半年付, 年付&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/jichu.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;选择登录已购VPS方案面板&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;注: 不知道你自己的服务器ip和密码, 用此方式登录&lt;br&gt;已知你的服务器ip和密码, 可以直接进入&lt;a href=&quot;https://kiwivm.64clouds.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工面板登录&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;u6559_u7A0B_u4E2D_u7684vps_u7CFB_u7EDF_u90FD_u662Fcentos-6-x86_u7684-_u8BF7_u5B89_u88C5_u4E00_u81F4&quot;&gt;&lt;a href=&quot;#u6559_u7A0B_u4E2D_u7684vps_u7CFB_u7EDF_u90FD_u662Fcentos-6-x86_u7684-_u8BF7_u5B89_u88C5_u4E00_u81F4&quot; class=&quot;headerlink&quot; title=&quot;教程中的vps系统都是centos-6-x86的.请安装一致.&quot;&gt;&lt;/a&gt;教程中的vps系统都是centos-6-x86的.请安装一致.&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880213549019.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/genghuan.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自主任意更换机房实现换IP&lt;/a&gt; (无此需求可略过)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/anzhuang.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;重新安装Linux系统过程及注意事项&lt;/a&gt; (无此需求可略过)&lt;/p&gt;
+&lt;p&gt;注: 切换机房ip和重装系统, 请先stop服务器&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880199458363.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;u63D2_u66F2&quot;&gt;&lt;a href=&quot;#u63D2_u66F2&quot; class=&quot;headerlink&quot; title=&quot;插曲&quot;&gt;&lt;/a&gt;插曲&lt;/h2&gt;&lt;p&gt;建议大家购买搬瓦工vps后, 从官网的已购列表进入kiwivm面板, 记录自己的ip地址, 并更改kiwivm面板的密码. 避免每次进入kiwivm面板都要从官网操作好几步才能进.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kiwivm.64clouds.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kiwivm搬瓦工面板登录入口&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;ip_u5730_u5740_u67E5_u770B_28_u6559_u7A0B_u4E2D_u7684ip_u5730_u5740_u90FD_u662F_u8FD9_u4E2A_29&quot;&gt;&lt;a href=&quot;#ip_u5730_u5740_u67E5_u770B_28_u6559_u7A0B_u4E2D_u7684ip_u5730_u5740_u90FD_u662F_u8FD9_u4E2A_29&quot; class=&quot;headerlink&quot; title=&quot;ip地址查看(教程中的ip地址都是这个)&quot;&gt;&lt;/a&gt;ip地址查看(教程中的ip地址都是这个)&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880208219830.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;u4FEE_u6539kiwivm_u9762_u677F_u5BC6_u7801&quot;&gt;&lt;a href=&quot;#u4FEE_u6539kiwivm_u9762_u677F_u5BC6_u7801&quot; class=&quot;headerlink&quot; title=&quot;修改kiwivm面板密码&quot;&gt;&lt;/a&gt;修改kiwivm面板密码&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880208634025.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u4E00_u952E_u642D_u5EFAShadowsocks&quot;&gt;&lt;a href=&quot;#u4E00_u952E_u642D_u5EFAShadowsocks&quot; class=&quot;headerlink&quot; title=&quot;一键搭建Shadowsocks&quot;&gt;&lt;/a&gt;一键搭建Shadowsocks&lt;/h2&gt;&lt;h3 id=&quot;u4E0B_u8F7D&quot;&gt;&lt;a href=&quot;#u4E0B_u8F7D&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;Shadowsocks可以在Windows/Mac/iPhone系统上使用.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;windows下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;mac下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iphoneApp下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;u5B89_u88C5Shadowsocks_Sever&quot;&gt;&lt;a href=&quot;#u5B89_u88C5Shadowsocks_Sever&quot; class=&quot;headerlink&quot; title=&quot;安装Shadowsocks Sever&quot;&gt;&lt;/a&gt;安装Shadowsocks Sever&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;在左边部分菜单栏滑动到底部, 点击shadowsocks sever之后, 如果没有安装过shadowsocks sever, 就需要点击install来一键安装shadowsocks sever.&lt;/li&gt;
+&lt;li&gt;请记录页面上的port和password.后面设置会用到.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880211240769.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Windows/Mac/iPhone上的shadowsocks软件设置都差不多, 所以这里只讲一种, 以mac为例&lt;/p&gt;
+&lt;p&gt;为方便讲解, 后面会统一叫Shadowsocks为小飞机!&lt;/p&gt;
+&lt;h3 id=&quot;u914D_u7F6EShadowsocks_u8F6F_u4EF6&quot;&gt;&lt;a href=&quot;#u914D_u7F6EShadowsocks_u8F6F_u4EF6&quot; class=&quot;headerlink&quot; title=&quot;配置Shadowsocks软件&quot;&gt;&lt;/a&gt;配置Shadowsocks软件&lt;/h3&gt;&lt;p&gt;下载并打开软件后在状态栏找到软件, 对! 就是一个飞机的样子=. =&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880222141646.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;红色框住的部分是我们可能会使用到.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自动代理模式: 需要翻墙的会自动翻墙, 不需要的就不翻墙.&lt;/li&gt;
+&lt;li&gt;全局模式: 所有的都会翻墙.&lt;/li&gt;
+&lt;li&gt;服务器: 选择, 增加, 减少, 编辑服务器设定.&lt;/li&gt;
+&lt;li&gt;编辑自动模式的PAC: 如果你需要指定某个网站强制翻墙, 那么你需要点击它, 并且编辑gfwlist.js文件, 照着葫芦画瓢, 加上网站地址既可, 如果用mac自带的文本编辑来编辑文件, 请务必注意双引号的区别!!!否则可能导致无法使用小飞机.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880228934002.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;生成二维码和扫描二维码: 在iPhone上或者mac上, 为了快速的分享你的小飞机的服务器配置, 可能会使用到. 扫描一下生成的二维码, 既可添加配置. 不用你在多设备的时候输入N遍.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;帮助: 当你想下载最新的小飞机版本, 或者找不到小飞机下载地址, 可以点它.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880224043452.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在图中填入服务器ip地址, 填入刚刚在shadowsocks sever中的prot端口号和密码, 加密方式不动它. 备注随便填~然后点击确定既可.接下来就是打开浏览器, 输入google.com来测试你的成果~&lt;/p&gt;
+&lt;p&gt;iPhone/iPad实现VPN翻墙, 有两种方式.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一种是使用&lt;a href=&quot;https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wingy - Http(s),Socks5 Proxy Utility&lt;/a&gt;这个app软件+之前配置的Shadowsocks Sever来实现, 并且软件支持Widget一键翻墙.&lt;/li&gt;
+&lt;li&gt;一种是需要在vps服务器安装ipsec, 稍微比较麻烦点. 并且需要在设置-&amp;gt;通用-&amp;gt;VPN中配置一次. 但是不需要下载任何软件. 以后使用, 直接打开设置&amp;gt;打开VPN既可.(我个人是比较喜欢这种方式, 不想安装软件)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你选择了第二种方式, 那么, 请接着往下看.&lt;/p&gt;
+&lt;h2 id=&quot;u5728VPS_u4E0A_u914D_u7F6EiPsec&quot;&gt;&lt;a href=&quot;#u5728VPS_u4E0A_u914D_u7F6EiPsec&quot; class=&quot;headerlink&quot; title=&quot;在VPS上配置iPsec&quot;&gt;&lt;/a&gt;在VPS上配置iPsec&lt;/h2&gt;&lt;p&gt;以下内容均来自&lt;a href=&quot;https://quericy.me/blog/699/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://quericy.me/blog/699/&lt;/a&gt;, 我只是在他的教程基础上进行了重新整理, 并补充了一些说明, 让你更快的配置iPsec, 所以你直接按照我的步骤来既可.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;接下来会使用vim编辑内容, 如果你不会vim, 那么请点开查看&lt;a href=&quot;http://www.jianshu.com/p/c03ee7b6e1e8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;vim的简单使用&lt;/a&gt;.如果你会vim的使用, 那么请继续往下看.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1.打开root shell - interactive, 点击launch&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880262928954.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.界面会跳转并变大变小几次来进行加载, 然后输入passwd, 修改服务器密码, 服务器密码和kiwivm后台是两个互不干扰的密码, 但是建议改成一样.输入新密码, 回车, 再次输入, 回车, 出现下图最后一句话, 表示密码修改成功.&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880263846376.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3.打开kiwivm首页, 找到ip地址和ssh port端口地址并记录下来&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880266281824.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4.打开mac终端, 输入&lt;code&gt;ssh root@你的ip地址 -p SSH Port端口号&lt;/code&gt;&lt;br&gt;如: &lt;code&gt;ssh root@192.192.192.192 -p 28400&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;5.会提示你输入密码, 输入刚刚修改的服务器密码.出现&lt;code&gt;[root@localhost ~]#&lt;/code&gt;表示连接成功.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880268233754.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;6.输入 &lt;code&gt;wget --no-check-certificate https://raw.githubusercontent.com/quericy/one-key-ikev2-vpn/master/one-key-ikev2.sh&lt;/code&gt;&lt;br&gt;7.等进度走完了, 继续输入&lt;code&gt;chmod +x one-key-ikev2.sh&lt;/code&gt;&lt;br&gt;8.输入&lt;code&gt;bash one-key-ikev2.sh&lt;/code&gt;&lt;br&gt;9.出现这个时, 请输入&lt;code&gt;2&lt;/code&gt;并回车&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880255324341.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880257032609.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;10.接下来只要有停顿, 也是直接回车既可.&lt;br&gt;11.当出现&lt;code&gt;install complete&lt;/code&gt;, 说明安装成功了.&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880259925620.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;12.打开sysctl文件, 输入&lt;code&gt;vim /etc/sysctl.conf&lt;/code&gt;&lt;br&gt;修改&lt;code&gt;net.ipv4.ip_forward = 1&lt;/code&gt;, 把&lt;code&gt;0&lt;/code&gt;改成&lt;code&gt;1&lt;/code&gt;&lt;br&gt;找到以下四个, 分别在每句最前面加上#把当前行注释掉.&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;net.bridge.bridge-nf-call-ip6tables&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net.bridge.bridge-nf-call-iptables&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net.bridge.bridge-nf-call-arptables&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net.nf_conntrack_max&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;如: &lt;code&gt;#net.bridge.bridge-nf-call-ip6tables......&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;13.使用以下指令刷新sysctl, 输入：&lt;code&gt;sysctl -p&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;14.输入&lt;code&gt;vim /usr/local/etc/ipsec.secrets&lt;/code&gt;并编辑, 编辑完后保存并退出编辑.&lt;/p&gt;
+&lt;p&gt;账号格式: &lt;code&gt;账号 %any : EAP &amp;quot;密码&amp;quot;&lt;/code&gt;, 密码用&lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;双引号包起来, 如果你只需要一个, 就添加一个, 如果需要多个, 换行添加.&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;: RSA server.pem&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;: PSK &quot;myPSKkey&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;: XAUTH &quot;myXAUTHPass&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;peng %any : EAP &quot;123456&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;peng2 %any : EAP &quot;123456&quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;15.输入&lt;code&gt;ipsec start&lt;/code&gt;启动ipsec&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ipsec常用指令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec start   #启动服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec stop    #关闭服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec restart #重启服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec reload  #重新读取&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec status  #查看状态&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec --help  #查看帮助&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;16.服务器重启后, ipsec是不会自动启动的, 所以我们需要把它添加到自启动.在终端输入&lt;code&gt;vim /etc/rc.local&lt;/code&gt;,添加&lt;code&gt;/usr/local/sbin/ipsec start&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;添加后如图:&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880276182551.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;17.然后打开手机, 设置-&amp;gt;通用-&amp;gt;VPN-&amp;gt;添加VPN配置&lt;/p&gt;
+&lt;p&gt;下图中的PSK是有用的&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880278856543.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880280151318.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;18.点击完成后, 回到VPN页面点连接既可.&lt;/p&gt;
+&lt;p&gt;19.如果你的手机上没有装任何小飞机的软件, 你后续使用, 就直接点这个就可以了.否则你需要进到 设置-&amp;gt;通用-&amp;gt;VPN-&amp;gt;连接.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880281376766.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u672A_u5B8C_u5F85_u7EED_2C__u8BF7_u5173_u6CE8_u6211_21_7E&quot;&gt;&lt;a href=&quot;#u672A_u5B8C_u5F85_u7EED_2C__u8BF7_u5173_u6CE8_u6211_21_7E&quot; class=&quot;headerlink&quot; title=&quot;未完待续, 请关注我!~&quot;&gt;&lt;/a&gt;未完待续, 请关注我!~&lt;/h2&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;从教程中, 你可以收获什么?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如何购买搬瓦工vps&lt;/li&gt;
+&lt;li&gt;如何使用
+    
+    </summary>
+    
+      <category term="VPS" scheme="https://www.cxp.im/categories/VPS/"/>
+    
+    
+      <category term="VPS科学上网" scheme="https://www.cxp.im/tags/VPS%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vim的简单使用</title>
     <link href="https://www.cxp.im/2017/02/25/Vim%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/"/>
     <id>https://www.cxp.im/2017/02/25/Vim的简单使用/</id>
-    <published>2017-02-25T14:34:41.000Z</published>
-    <updated>2017-02-25T14:34:41.000Z</updated>
+    <published>2017-02-25T14:34:07.000Z</published>
+    <updated>2017-02-25T14:37:13.000Z</updated>
     
-    <content type="html">&lt;p&gt;title: ‘Vim的简单使用’&lt;br&gt;date: 2017-02-25 22:34:07&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Vim&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;Vim使用&lt;/li&gt;
-&lt;li&gt;VPS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;为配合教程, 所以简单的介绍下vim的基础使用.&lt;/p&gt;
+    <content type="html">&lt;p&gt;为配合教程, 所以简单的介绍下vim的基础使用.&lt;/p&gt;
 &lt;p&gt;当你在终端输入&lt;code&gt;vi xxx&lt;/code&gt;或者&lt;code&gt;vim xxx&lt;/code&gt;的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化.&lt;/p&gt;
 &lt;p&gt;1.未编辑状态&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;2.按键盘上的&lt;code&gt;i&lt;/code&gt;进入编辑状态, 然后输入内容&lt;br&gt;输入前&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;输入后&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -39,16 +170,18 @@
     
     <summary type="html">
     
-      &lt;p&gt;title: ‘Vim的简单使用’&lt;br&gt;date: 2017-02-25 22:34:07&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Vim&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;Vim使用&lt;/li&gt;
-&lt;li&gt;VPS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;为配合教程, 
+      &lt;p&gt;为配合教程, 所以简单的介绍下vim的基础使用.&lt;/p&gt;
+&lt;p&gt;当你在终端输入&lt;code&gt;vi xxx&lt;/code&gt;或者&lt;code&gt;vim xxx&lt;/code&gt;的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化.&lt;/p&gt;
+&lt;p&gt;1.未编辑状态&lt;br&gt;&lt;i
     
     </summary>
     
+      <category term="Vim" scheme="https://www.cxp.im/categories/Vim/"/>
+    
+    
+      <category term="VPS" scheme="https://www.cxp.im/tags/VPS/"/>
+    
+      <category term="Vim使用" scheme="https://www.cxp.im/tags/Vim%E4%BD%BF%E7%94%A8/"/>
     
   </entry>
   
