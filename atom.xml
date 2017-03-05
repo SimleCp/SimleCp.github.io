@@ -71,7 +71,7 @@
     <link href="https://www.cxp.im/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
     <id>https://www.cxp.im/2017/03/05/图片并茂教你搭建hexo博客,部署github,更换主题/</id>
     <published>2017-03-05T14:48:33.000Z</published>
-    <updated>2017-03-05T14:49:54.000Z</updated>
+    <updated>2017-03-05T14:52:21.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;u5FC5_u5907_u73AF_u5883&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;必备环境&quot;&gt;&lt;/a&gt;必备环境&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Git(安装了Xcode就会自带, 所以不再赘述)&lt;/p&gt;
@@ -194,15 +194,15 @@
     <link href="https://www.cxp.im/2017/02/25/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BA%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E6%95%99%E7%A8%8B%E5%90%88%E9%9B%86)/"/>
     <id>https://www.cxp.im/2017/02/25/利用VPS搭建科学上网工具和个人博客(教程合集)/</id>
     <published>2017-02-25T14:34:53.000Z</published>
-    <updated>2017-02-25T14:37:06.000Z</updated>
+    <updated>2017-03-05T14:58:26.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;从教程中, 你可以收获什么?&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;如何购买搬瓦工vps&lt;/li&gt;
 &lt;li&gt;如何使用搬瓦工vps后台&lt;/li&gt;
 &lt;li&gt;如何搭建Shadowsocks Sever来实现多终端翻墙.&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;如何搭建个人博客(hexo)&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;如何为博客配置域名&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cxp.im/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何搭建个人hexo博客, 如何用github当博客图床, 更换hexo主题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cxp.im/2017/03/05/%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何为博客配置个性域名&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;如何使用vps存放个人博客&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;如何使用vps当图床&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;如何为博客配置https&lt;/del&gt;&lt;/li&gt;
