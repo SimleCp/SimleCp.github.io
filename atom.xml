@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.cxp.im/"/>
-  <updated>2017-02-25T14:37:06.000Z</updated>
+  <updated>2017-03-05T14:44:58.000Z</updated>
   <id>https://www.cxp.im/</id>
   
   <author>
@@ -14,6 +14,168 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://www.cxp.im/2017/03/05/%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D/"/>
+    <id>https://www.cxp.im/2017/03/05/为你的hexo博客配置个性域名/</id>
+    <published>2017-03-05T14:47:04.000Z</published>
+    <updated>2017-03-05T14:44:58.000Z</updated>
+    
+    <content type="html">&lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
+&lt;h2 id=&quot;u8D2D_u4E70&quot;&gt;&lt;a href=&quot;#u8D2D_u4E70&quot; class=&quot;headerlink&quot; title=&quot;购买&quot;&gt;&lt;/a&gt;购买&lt;/h2&gt;&lt;p&gt;1.打开阿里云&lt;a href=&quot;https://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://wanwang.aliyun.com/&lt;/a&gt;, 输入你想搜索的域名, 点击&lt;code&gt;查域名&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;2.选好域名, 域名的后缀, 加入清单, 确认信息, 然后去结算.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3.确定域名, 年限, 持有者为个人, 创建信息模板. 立即购买.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4.结算完成后, 点击右上角的控制台, 为域名进行解析.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u89E3_u6790&quot;&gt;&lt;a href=&quot;#u89E3_u6790&quot; class=&quot;headerlink&quot; title=&quot;解析&quot;&gt;&lt;/a&gt;解析&lt;/h2&gt;&lt;p&gt;1.点击域名, 域名列表, 找到域名进行解析.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.添加&lt;code&gt;3条&lt;/code&gt;解析记录.初次解析可能会有点慢.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;记录类型, 主机记录, 记录值, 是需要我们填写的, 其他的不要管.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按我下面的指示填写, 除了&lt;code&gt;pengpengtest.github.io&lt;/code&gt;中的&lt;code&gt;pengpengtest&lt;/code&gt;需要换成你的&lt;code&gt;github用户名&lt;/code&gt;, 其他的照着填.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;记录类型 	主机记录 	记录值&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CNAME      www       你的github用户名.github.io&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;A          @         192.30.252.153&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;A          @         192.30.252.154&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u672C_u5730_u914D_u7F6E&quot;&gt;&lt;a href=&quot;#u672C_u5730_u914D_u7F6E&quot; class=&quot;headerlink&quot; title=&quot;本地配置&quot;&gt;&lt;/a&gt;本地配置&lt;/h2&gt;&lt;p&gt;1.先进入桌面, &lt;code&gt;cd 你的hexo本地目录&lt;/code&gt;, &lt;code&gt;cd source&lt;/code&gt;, &lt;code&gt;touch CNAME&lt;/code&gt;创建CNAME文件, &lt;code&gt;open CNAME&lt;/code&gt;打开并编辑.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.填入域名, 不用加任何&lt;a href=&quot;http://或者www&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://或者www&lt;/a&gt;, 填写完成后保存退出.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3.输入&lt;code&gt;../&lt;/code&gt;回到你的hexo本地目录. &lt;code&gt;hexo g -d&lt;/code&gt;重新生成部署.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4.然后访问域名, 比如我的, &lt;code&gt;swift520.com&lt;/code&gt;, 成功!~&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/10.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
+&lt;h2 id=&quot;u8D2D_u4E70&quot;&gt;&lt;a href=&quot;#u8D2D_u4E70&quot; class=&quot;headerlink&quot; title=&quot;购买&quot;&gt;&lt;/a&gt;购买&lt;/h2&gt;&lt;p&gt;1.打开阿里云&lt;a hr
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://www.cxp.im/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
+    <id>https://www.cxp.im/2017/03/05/图片并茂教你搭建hexo博客,部署github,更换主题/</id>
+    <published>2017-03-05T14:47:04.000Z</published>
+    <updated>2017-03-05T14:40:32.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;u5FC5_u5907_u73AF_u5883&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;必备环境&quot;&gt;&lt;/a&gt;必备环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Git(安装了Xcode就会自带, 所以不再赘述)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Node.js&lt;br&gt;可以用很多种方式安装Node.js, 但是为了必免因缺少各种环境而安装失败, 这里推荐直接下载安装包安装.&lt;br&gt;&lt;a href=&quot;https://nodejs.org/zh-cn/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://nodejs.org/zh-cn/download/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hexo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;打开终端, 输入&lt;code&gt;npm install -g hexo-cli&lt;/code&gt;进行安装.&lt;/p&gt;
+&lt;h2 id=&quot;u642D_u5EFA_u672C_u5730Hexo&quot;&gt;&lt;a href=&quot;#u642D_u5EFA_u672C_u5730Hexo&quot; class=&quot;headerlink&quot; title=&quot;搭建本地Hexo&quot;&gt;&lt;/a&gt;搭建本地Hexo&lt;/h2&gt;&lt;p&gt;Hexo只是帮你生成静态网页博客的工具, 你可以在本地进行调试. 如果你想让别人也能看到. 你必须上传到github或者自己的vps服务器. 别急, 接下来我都会为你讲解如何操作.&lt;/p&gt;
+&lt;p&gt;1.为了测试方便, 我把我的本地环境搭建在桌面的某个文件夹. 你也可以存放到你想存放的文件夹去.&lt;/p&gt;
+&lt;p&gt;注: 如果你想存放到别的地方, 那么你需要打开想存放的地方, 并且cd进去, 拖拽目标文件夹到终端, 既可获取目标路径, 拷贝路径, 然后cd进去既可.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/2.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/3.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.打开终端, 输入&lt;code&gt;cd Desktop&lt;/code&gt;到桌面.&lt;/p&gt;
+&lt;p&gt;3.我准备把环境搭建在桌面的&lt;code&gt;peng&lt;/code&gt;文件夹中, 所以我继续在终端输入&lt;code&gt;mkdir peng&lt;/code&gt;创建名叫peng的文件夹.&lt;/p&gt;
+&lt;p&gt;4.&lt;code&gt;cd peng&lt;/code&gt;进入叫&lt;code&gt;peng&lt;/code&gt;的文件夹中.&lt;/p&gt;
+&lt;p&gt;5.输入&lt;code&gt;hexo init&lt;/code&gt;进行初始化.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;6.输入&lt;code&gt;npm install&lt;/code&gt;进行安装, 过一会儿会卡在&lt;code&gt;&amp;gt; node scripts/install.js&lt;/code&gt;这里, 你继续等待既可, 当出现如下图片, 安装成功.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;7.输入&lt;code&gt;npm install hexo-deployer-git --save&lt;/code&gt;安装简化命令的插件.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;8.输入&lt;code&gt;hexo s&lt;/code&gt;, 并且拷贝地址&lt;code&gt;http://0.0.0.0:4000/&lt;/code&gt;到浏览器, 进行本地预览.  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;9.对, 就是这么简单, 本地环境搭建成功. 按&lt;code&gt;control + c&lt;/code&gt;退出预览.&lt;code&gt;不要关掉终端, 待会所有的操作, 都要在这个叫peng的文件夹中操作&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;10.接下来我们需要让本地环境生成静态网页, 并且上传到github中.&lt;/p&gt;
+&lt;h2 id=&quot;u90E8_u7F72_u535A_u5BA2_u5230github_pages&quot;&gt;&lt;a href=&quot;#u90E8_u7F72_u535A_u5BA2_u5230github_pages&quot; class=&quot;headerlink&quot; title=&quot;部署博客到github pages&quot;&gt;&lt;/a&gt;部署博客到github pages&lt;/h2&gt;&lt;p&gt;1.打开github.com并且登录你的账号, 账号必须已经通过了邮箱认证&lt;code&gt;点击 Verify email address 链接验证邮箱&lt;/code&gt;, 否则可能导致部署失败出现404. 在你注册账号的时候, github就会发送邮件到你的邮箱.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/13.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.登录账号后, 点击右上角的github头像, 点击Your profile.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/14.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3.然后将浏览器地址栏,红框框起来的&lt;code&gt;github用户名&lt;/code&gt;记录下来.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/15.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4.点击右上角的&lt;code&gt;+&lt;/code&gt;号按钮, 创建新的仓库.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/16.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;5.仓库名必须是你的&lt;code&gt;用户名.github.io&lt;/code&gt;组成, 其他的都可以不用管, 填完仓库名后, 直接Create repository既可.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/17.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;6.点击按钮复制并且记录&lt;code&gt;仓库地址&lt;/code&gt;, 待会要用到.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/18.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;7.在终端输入&lt;code&gt;open _config.yml&lt;/code&gt;, 打开hexo配置文件, 滑动到最下面, 找到&lt;code&gt;deploy&lt;/code&gt;, &lt;code&gt;repository&lt;/code&gt;和&lt;code&gt;branch&lt;/code&gt;这两个默认没有, 你按我的格式粘贴既可.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;type后面写git, repository后面是你刚刚复制并记录的仓库地址, branch直接写master既可, 然后保存并关闭&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    type: git &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    repository: https://github.com/pengpengtest/pengpengtest.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/19.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;8.输入&lt;code&gt;hexo g -d&lt;/code&gt;, 重新生成并部署网页到github仓库.期间会让你输入账号和密码.账号和密码每输入完一项回车既可.密码是不会显式出现的.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/20.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/21.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;9.出现下图,表示部署博客到github仓库成功.打开github仓库, 里面已经有了文件了. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/22.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/23.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;10.接下来在浏览器输入&lt;code&gt;你的用户名.github.io&lt;/code&gt;打开.博客已成功部署到github仓库!别人也可以通过这个地址&lt;code&gt;你的用户名.github.io&lt;/code&gt;来访问你的博客了!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/24.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u53D1_u5E03_u65B0_u6587_u7AE0&quot;&gt;&lt;a href=&quot;#u53D1_u5E03_u65B0_u6587_u7AE0&quot; class=&quot;headerlink&quot; title=&quot;发布新文章&quot;&gt;&lt;/a&gt;发布新文章&lt;/h2&gt;&lt;p&gt;1.在终端输入&lt;code&gt;hexo n &amp;quot;文章名&amp;quot;&lt;/code&gt;, 创建文章.并且用&lt;code&gt;open xxxxx&lt;/code&gt;打开它. 写入文章内容.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/25.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/26.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.分别输入&lt;code&gt;hexo g&lt;/code&gt;(生成)和&lt;code&gt;hexo d&lt;/code&gt;(部署)后, 或者直接&lt;code&gt;hexo g -d&lt;/code&gt;后, 再打开&lt;code&gt;你的用户名.github.io&lt;/code&gt;. 新的文章也发布成功了.(有时候可能需要清除一下浏览器缓存才行)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分别输入&lt;code&gt;hexo g&lt;/code&gt;和&lt;code&gt;hexo d&lt;/code&gt;等效于&lt;code&gt;hexo g -d&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/27.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u66F4_u6362hexo_u4E3B_u9898&quot;&gt;&lt;a href=&quot;#u66F4_u6362hexo_u4E3B_u9898&quot; class=&quot;headerlink&quot; title=&quot;更换hexo主题&quot;&gt;&lt;/a&gt;更换hexo主题&lt;/h2&gt;&lt;p&gt;1.在搜索引擎搜索 &lt;code&gt;hexo theme&lt;/code&gt; 既可.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/28.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.在这里, 我们用&lt;code&gt;iissnan/hexo-theme-next&lt;/code&gt;主题来演示.首先进入你想用的主题github仓库, 拷贝仓库地址.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/29.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3.在终端输入&lt;code&gt;git clone 主题仓库地址 theme/主题名字&lt;/code&gt;.接下来一顿下载.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git clone https://github.com/iissnan/hexo-theme-next.git themes/iissnan&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/30.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4.下载完成后, 输入&lt;code&gt;open _config.yml&lt;/code&gt;找到&lt;code&gt;theme&lt;/code&gt;,修改hexo配置, 告诉hexo你想用的主题名字.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/31.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;5.接下来&lt;code&gt;hexo clean&lt;/code&gt;清理缓存, &lt;code&gt;hexo g -d&lt;/code&gt;重新生成博客并且部署. 打开&lt;code&gt;你的用户名.github.io&lt;/code&gt;, 更换主题成功!(有时候可能需要清除一下浏览器缓存才行, 浏览器缓存就是这么麻烦, 你懂的)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/32.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/33.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;6.以后想更换主题, 按这个步骤来就行了.清理缓存并不会删除你的文章, 可以放心操作.&lt;/p&gt;
+&lt;h2 id=&quot;u7528github_u5F53_u56FE_u5E8A&quot;&gt;&lt;a href=&quot;#u7528github_u5F53_u56FE_u5E8A&quot; class=&quot;headerlink&quot; title=&quot;用github当图床&quot;&gt;&lt;/a&gt;用github当图床&lt;/h2&gt;&lt;p&gt;如果需要用github当图床, 可以把图片放到&lt;code&gt;本地hexo目录/source/&lt;/code&gt;文件夹里面, 我是新建了一个&lt;code&gt;images&lt;/code&gt;来存放的. 需要先部署和生成, 把图片放到github上, 才能通过链接找到.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/35.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果是直接放在&lt;code&gt;source&lt;/code&gt;目录下, 那么你的图片链接地址就是&lt;code&gt;http://域名/图片名.图片后缀&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;比如:&lt;code&gt;http://cxp.im/favicon.ico&lt;/code&gt;这个小图标, 我是做了https转发, 所以实际浏览器上显示的链接不一样(你可以直接拷贝我给的链接查看)&lt;/p&gt;
+&lt;p&gt;如果是放在二级目录下, 就需要加上目录名称, 比如我放在&lt;code&gt;images&lt;/code&gt;下的这个头像, 那么就是&lt;code&gt;http://cxp.im/images/icon.jpg&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/36.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/37.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;u79D1_u666E_u65F6_u95F4&quot;&gt;&lt;a href=&quot;#u79D1_u666E_u65F6_u95F4&quot; class=&quot;headerlink&quot; title=&quot;科普时间&quot;&gt;&lt;/a&gt;科普时间&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;重点: 所有&lt;code&gt;hexo xxx&lt;/code&gt;的操作, 必须用终端&lt;code&gt;cd 你本地环境目录&lt;/code&gt;下, 然后才能用&lt;code&gt;hexo xxx&lt;/code&gt;操作.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有时候明明已经新建, 修改了文章, 或者改变了博客或主题的各种配置, 并且生成部署了, 还是不能显示, 可能是github还没缓存好, 稍微等半分钟的样子, 再看看. 不行就清理浏览器缓存. 还是不行, 就&lt;code&gt;hexo clean&lt;/code&gt;清理本地缓存. 再重新生成和部署.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;hexo_u672C_u5730_u73AF_u5883_u4ECB_u7ECD&quot;&gt;&lt;a href=&quot;#hexo_u672C_u5730_u73AF_u5883_u4ECB_u7ECD&quot; class=&quot;headerlink&quot; title=&quot;hexo本地环境介绍&quot;&gt;&lt;/a&gt;hexo本地环境介绍&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/34.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;_config.yml 用来存放hexo博客的个人描述, 博客小图标地址, 头像地址等等.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;source下的_posts 存放你所有的博文.md文件 你可以通过 hexo n &quot;xxx&quot; 创建博客文章, 也可以直接把xxx.md 格式的文件直接拖入进去&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;themes 存放你的所有主题文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;u5404_u79CDhexo_xxx_u64CD_u4F5C&quot;&gt;&lt;a href=&quot;#u5404_u79CDhexo_xxx_u64CD_u4F5C&quot; class=&quot;headerlink&quot; title=&quot;各种hexo xxx操作&quot;&gt;&lt;/a&gt;各种hexo xxx操作&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo clean 清理缓存, 一般是在配置不能生效, 或者文章发布了不显示, 等等异常情况下使用的. 当然有时候清除浏览器缓存也是必须的操作.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo g 重新生成静态网页, 所有发布文章, 修改文章, 修改hexo配置, 修改主题配置等等操作, 都需要.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo d 让你的静态网页从本地部署到github&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo s 你可以边写文章, 边使用这个命令在本地预览, 包括修改各种配置, 都可以预览.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;u5FC5_u5907_u8BED_u6CD5_u548C_u5DE5_u5177&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u8BED_u6CD5_u548C_u5DE5_u5177&quot; class=&quot;headerlink&quot; title=&quot;必备语法和工具&quot;&gt;&lt;/a&gt;必备语法和工具&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;使用hexo博客, 你需要会&lt;code&gt;markdown&lt;/code&gt;语法, 才能编写更漂亮排版的文章.自行搜索&lt;code&gt;markdown 语法&lt;/code&gt;关键字查找. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;并且你需要一个能识别并编写&lt;code&gt;markdown&lt;/code&gt;语法的编辑器. 自行搜索&lt;code&gt;markdown 编辑器&lt;/code&gt;关键字查找. 各种免费的, 收费的.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;u5FC5_u5907_u73AF_u5883&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;必备环境&quot;&gt;&lt;/a&gt;必备环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Git(安装了Xcode就会自
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>利用VPS搭建科学上网工具和个人博客(教程合集)</title>
