@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.cxp.im/"/>
-  <updated>2017-03-05T14:44:58.000Z</updated>
+  <updated>2017-03-05T14:50:09.000Z</updated>
   <id>https://www.cxp.im/</id>
   
   <author>
@@ -16,13 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>为你的hexo博客配置个性域名</title>
     <link href="https://www.cxp.im/2017/03/05/%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D/"/>
     <id>https://www.cxp.im/2017/03/05/为你的hexo博客配置个性域名/</id>
-    <published>2017-03-05T14:47:04.000Z</published>
-    <updated>2017-03-05T14:44:58.000Z</updated>
+    <published>2017-03-05T14:49:43.000Z</published>
+    <updated>2017-03-05T14:50:09.000Z</updated>
     
-    <content type="html">&lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
 &lt;h2 id=&quot;u8D2D_u4E70&quot;&gt;&lt;a href=&quot;#u8D2D_u4E70&quot; class=&quot;headerlink&quot; title=&quot;购买&quot;&gt;&lt;/a&gt;购买&lt;/h2&gt;&lt;p&gt;1.打开阿里云&lt;a href=&quot;https://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://wanwang.aliyun.com/&lt;/a&gt;, 输入你想搜索的域名, 点击&lt;code&gt;查域名&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;2.选好域名, 域名的后缀, 加入清单, 确认信息, 然后去结算.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -54,20 +54,24 @@
     
     <summary type="html">
     
-      &lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
-&lt;h2 id=&quot;u8D2D_u4E70&quot;&gt;&lt;a href=&quot;#u8D2D_u4E70&quot; class=&quot;headerlink&quot; title=&quot;购买&quot;&gt;&lt;/a&gt;购买&lt;/h2&gt;&lt;p&gt;1.打开阿里云&lt;a hr
+      &lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
+&lt;h2 id=&quot;u8D2D_u
     
     </summary>
     
+      <category term="Hexo" scheme="https://www.cxp.im/categories/Hexo/"/>
+    
+    
+      <category term="配置Hexo域名" scheme="https://www.cxp.im/tags/%E9%85%8D%E7%BD%AEHexo%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
   <entry>
-    <title></title>
+    <title>图片并茂教你搭建hexo博客,部署github,更换主题</title>
     <link href="https://www.cxp.im/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
     <id>https://www.cxp.im/2017/03/05/图片并茂教你搭建hexo博客,部署github,更换主题/</id>
-    <published>2017-03-05T14:47:04.000Z</published>
-    <updated>2017-03-05T14:40:32.000Z</updated>
+    <published>2017-03-05T14:48:33.000Z</published>
+    <updated>2017-03-05T14:49:54.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;u5FC5_u5907_u73AF_u5883&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;必备环境&quot;&gt;&lt;/a&gt;必备环境&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Git(安装了Xcode就会自带, 所以不再赘述)&lt;/p&gt;
@@ -174,6 +178,14 @@
     
     </summary>
     
+      <category term="Hexo" scheme="https://www.cxp.im/categories/Hexo/"/>
+    
+    
+      <category term="搭建Hexo" scheme="https://www.cxp.im/tags/%E6%90%AD%E5%BB%BAHexo/"/>
+    
+      <category term="更换Hexo主题" scheme="https://www.cxp.im/tags/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98/"/>
+    
+      <category term="部署Hexo" scheme="https://www.cxp.im/tags/%E9%83%A8%E7%BD%B2Hexo/"/>
     
   </entry>
   
