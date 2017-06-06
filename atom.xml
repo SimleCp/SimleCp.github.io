@@ -22,40 +22,40 @@
     <published>2017-03-05T14:49:43.000Z</published>
     <updated>2017-03-05T14:50:09.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
-&lt;h2 id=&quot;u8D2D_u4E70&quot;&gt;&lt;a href=&quot;#u8D2D_u4E70&quot; class=&quot;headerlink&quot; title=&quot;购买&quot;&gt;&lt;/a&gt;购买&lt;/h2&gt;&lt;p&gt;1.打开阿里云&lt;a href=&quot;https://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://wanwang.aliyun.com/&lt;/a&gt;, 输入你想搜索的域名, 点击&lt;code&gt;查域名&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;2.选好域名, 域名的后缀, 加入清单, 确认信息, 然后去结算.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;3.确定域名, 年限, 持有者为个人, 创建信息模板. 立即购买.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;4.结算完成后, 点击右上角的控制台, 为域名进行解析.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u89E3_u6790&quot;&gt;&lt;a href=&quot;#u89E3_u6790&quot; class=&quot;headerlink&quot; title=&quot;解析&quot;&gt;&lt;/a&gt;解析&lt;/h2&gt;&lt;p&gt;1.点击域名, 域名列表, 找到域名进行解析.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.添加&lt;code&gt;3条&lt;/code&gt;解析记录.初次解析可能会有点慢.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;记录类型, 主机记录, 记录值, 是需要我们填写的, 其他的不要管.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;按我下面的指示填写, 除了&lt;code&gt;pengpengtest.github.io&lt;/code&gt;中的&lt;code&gt;pengpengtest&lt;/code&gt;需要换成你的&lt;code&gt;github用户名&lt;/code&gt;, 其他的照着填.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;记录类型 	主机记录 	记录值&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;CNAME      www       你的github用户名.github.io&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;A          @         192.30.252.153&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;A          @         192.30.252.154&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u672C_u5730_u914D_u7F6E&quot;&gt;&lt;a href=&quot;#u672C_u5730_u914D_u7F6E&quot; class=&quot;headerlink&quot; title=&quot;本地配置&quot;&gt;&lt;/a&gt;本地配置&lt;/h2&gt;&lt;p&gt;1.先进入桌面, &lt;code&gt;cd 你的hexo本地目录&lt;/code&gt;, &lt;code&gt;cd source&lt;/code&gt;, &lt;code&gt;touch CNAME&lt;/code&gt;创建CNAME文件, &lt;code&gt;open CNAME&lt;/code&gt;打开并编辑.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.填入域名, 不用加任何&lt;a href=&quot;http://或者www&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://或者www&lt;/a&gt;, 填写完成后保存退出.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;3.输入&lt;code&gt;../&lt;/code&gt;回到你的hexo本地目录. &lt;code&gt;hexo g -d&lt;/code&gt;重新生成部署.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;4.然后访问域名, 比如我的, &lt;code&gt;swift520.com&lt;/code&gt;, 成功!~&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/com/10.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.</p>
+<h2 id="购买"><a href="#购买" class="headerlink" title="购买"></a>购买</h2><p>1.打开阿里云<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">https://wanwang.aliyun.com/</a>, 输入你想搜索的域名, 点击<code>查域名</code>.</p>
+<p>2.选好域名, 域名的后缀, 加入清单, 确认信息, 然后去结算.</p>
+<p><img src="http://cxp.im/images/com/1.png" alt=""></p>
+<p>3.确定域名, 年限, 持有者为个人, 创建信息模板. 立即购买.</p>
+<p><img src="http://cxp.im/images/com/2.png" alt=""></p>
+<p><img src="http://cxp.im/images/com/3.png" alt=""></p>
+<p>4.结算完成后, 点击右上角的控制台, 为域名进行解析.</p>
+<p><img src="http://cxp.im/images/com/4.png" alt=""></p>
+<h2 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h2><p>1.点击域名, 域名列表, 找到域名进行解析.</p>
+<p><img src="http://cxp.im/images/com/5.png" alt=""></p>
+<p>2.添加<code>3条</code>解析记录.初次解析可能会有点慢.</p>
+<ul>
+<li><p>记录类型, 主机记录, 记录值, 是需要我们填写的, 其他的不要管.</p>
+</li>
+<li><p>按我下面的指示填写, 除了<code>pengpengtest.github.io</code>中的<code>pengpengtest</code>需要换成你的<code>github用户名</code>, 其他的照着填.</p>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">记录类型 	主机记录 	记录值</div><div class="line">CNAME      www       你的github用户名.github.io</div><div class="line">A          @         192.30.252.153</div><div class="line">A          @         192.30.252.154</div></pre></td></tr></table></figure>
+<p><img src="http://cxp.im/images/com/6.png" alt=""></p>
+<h2 id="本地配置"><a href="#本地配置" class="headerlink" title="本地配置"></a>本地配置</h2><p>1.先进入桌面, <code>cd 你的hexo本地目录</code>, <code>cd source</code>, <code>touch CNAME</code>创建CNAME文件, <code>open CNAME</code>打开并编辑.</p>
+<p><img src="http://cxp.im/images/com/7.png" alt=""></p>
+<p>2.填入域名, 不用加任何<a href="http://或者www" target="_blank" rel="external">http://或者www</a>, 填写完成后保存退出.</p>
+<p><img src="http://cxp.im/images/com/8.png" alt=""></p>
+<p>3.输入<code>../</code>回到你的hexo本地目录. <code>hexo g -d</code>重新生成部署.</p>
+<p><img src="http://cxp.im/images/com/9.png" alt=""></p>
+<p>4.然后访问域名, 比如我的, <code>swift520.com</code>, 成功!~</p>
+<p><img src="http://cxp.im/images/com/10.png" alt=""></p>
+]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
-&lt;h2 id=&quot;u8D2D_u
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名.&lt;/p&gt;
+&lt;h2 id=&quot;购买&quot;&gt;&lt;a href=&quot;#购买&quot; class=&quot;
     
     </summary>
     
@@ -73,108 +73,110 @@
     <published>2017-03-05T14:48:33.000Z</published>
     <updated>2017-03-05T14:52:21.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;u5FC5_u5907_u73AF_u5883&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;必备环境&quot;&gt;&lt;/a&gt;必备环境&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Git(安装了Xcode就会自带, 所以不再赘述)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Node.js&lt;br&gt;可以用很多种方式安装Node.js, 但是为了必免因缺少各种环境而安装失败, 这里推荐直接下载安装包安装.&lt;br&gt;&lt;a href=&quot;https://nodejs.org/zh-cn/download/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://nodejs.org/zh-cn/download/&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hexo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;打开终端, 输入&lt;code&gt;npm install -g hexo-cli&lt;/code&gt;进行安装.&lt;/p&gt;
-&lt;h2 id=&quot;u642D_u5EFA_u672C_u5730Hexo&quot;&gt;&lt;a href=&quot;#u642D_u5EFA_u672C_u5730Hexo&quot; class=&quot;headerlink&quot; title=&quot;搭建本地Hexo&quot;&gt;&lt;/a&gt;搭建本地Hexo&lt;/h2&gt;&lt;p&gt;Hexo只是帮你生成静态网页博客的工具, 你可以在本地进行调试. 如果你想让别人也能看到. 你必须上传到github或者自己的vps服务器. 别急, 接下来我都会为你讲解如何操作.&lt;/p&gt;
-&lt;p&gt;1.为了测试方便, 我把我的本地环境搭建在桌面的某个文件夹. 你也可以存放到你想存放的文件夹去.&lt;/p&gt;
-&lt;p&gt;注: 如果你想存放到别的地方, 那么你需要打开想存放的地方, 并且cd进去, 拖拽目标文件夹到终端, 既可获取目标路径, 拷贝路径, 然后cd进去既可.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/2.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/3.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.打开终端, 输入&lt;code&gt;cd Desktop&lt;/code&gt;到桌面.&lt;/p&gt;
-&lt;p&gt;3.我准备把环境搭建在桌面的&lt;code&gt;peng&lt;/code&gt;文件夹中, 所以我继续在终端输入&lt;code&gt;mkdir peng&lt;/code&gt;创建名叫peng的文件夹.&lt;/p&gt;
-&lt;p&gt;4.&lt;code&gt;cd peng&lt;/code&gt;进入叫&lt;code&gt;peng&lt;/code&gt;的文件夹中.&lt;/p&gt;
-&lt;p&gt;5.输入&lt;code&gt;hexo init&lt;/code&gt;进行初始化.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;6.输入&lt;code&gt;npm install&lt;/code&gt;进行安装, 过一会儿会卡在&lt;code&gt;&amp;gt; node scripts/install.js&lt;/code&gt;这里, 你继续等待既可, 当出现如下图片, 安装成功.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;7.输入&lt;code&gt;npm install hexo-deployer-git --save&lt;/code&gt;安装简化命令的插件.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;8.输入&lt;code&gt;hexo s&lt;/code&gt;, 并且拷贝地址&lt;code&gt;http://0.0.0.0:4000/&lt;/code&gt;到浏览器, 进行本地预览.  &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;9.对, 就是这么简单, 本地环境搭建成功. 按&lt;code&gt;control + c&lt;/code&gt;退出预览.&lt;code&gt;不要关掉终端, 待会所有的操作, 都要在这个叫peng的文件夹中操作&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;10.接下来我们需要让本地环境生成静态网页, 并且上传到github中.&lt;/p&gt;
-&lt;h2 id=&quot;u90E8_u7F72_u535A_u5BA2_u5230github_pages&quot;&gt;&lt;a href=&quot;#u90E8_u7F72_u535A_u5BA2_u5230github_pages&quot; class=&quot;headerlink&quot; title=&quot;部署博客到github pages&quot;&gt;&lt;/a&gt;部署博客到github pages&lt;/h2&gt;&lt;p&gt;1.打开github.com并且登录你的账号, 账号必须已经通过了邮箱认证&lt;code&gt;点击 Verify email address 链接验证邮箱&lt;/code&gt;, 否则可能导致部署失败出现404. 在你注册账号的时候, github就会发送邮件到你的邮箱.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/13.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.登录账号后, 点击右上角的github头像, 点击Your profile.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/14.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;3.然后将浏览器地址栏,红框框起来的&lt;code&gt;github用户名&lt;/code&gt;记录下来.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/15.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;4.点击右上角的&lt;code&gt;+&lt;/code&gt;号按钮, 创建新的仓库.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/16.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;5.仓库名必须是你的&lt;code&gt;用户名.github.io&lt;/code&gt;组成, 其他的都可以不用管, 填完仓库名后, 直接Create repository既可.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/17.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;6.点击按钮复制并且记录&lt;code&gt;仓库地址&lt;/code&gt;, 待会要用到.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/18.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;7.在终端输入&lt;code&gt;open _config.yml&lt;/code&gt;, 打开hexo配置文件, 滑动到最下面, 找到&lt;code&gt;deploy&lt;/code&gt;, &lt;code&gt;repository&lt;/code&gt;和&lt;code&gt;branch&lt;/code&gt;这两个默认没有, 你按我的格式粘贴既可.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;type后面写git, repository后面是你刚刚复制并记录的仓库地址, branch直接写master既可, 然后保存并关闭&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    type: git &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    repository: https://github.com/pengpengtest/pengpengtest.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/19.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;8.输入&lt;code&gt;hexo g -d&lt;/code&gt;, 重新生成并部署网页到github仓库.期间会让你输入账号和密码.账号和密码每输入完一项回车既可.密码是不会显式出现的.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/20.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/21.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;9.出现下图,表示部署博客到github仓库成功.打开github仓库, 里面已经有了文件了. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/22.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/23.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;10.接下来在浏览器输入&lt;code&gt;你的用户名.github.io&lt;/code&gt;打开.博客已成功部署到github仓库!别人也可以通过这个地址&lt;code&gt;你的用户名.github.io&lt;/code&gt;来访问你的博客了!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/24.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u53D1_u5E03_u65B0_u6587_u7AE0&quot;&gt;&lt;a href=&quot;#u53D1_u5E03_u65B0_u6587_u7AE0&quot; class=&quot;headerlink&quot; title=&quot;发布新文章&quot;&gt;&lt;/a&gt;发布新文章&lt;/h2&gt;&lt;p&gt;1.在终端输入&lt;code&gt;hexo n &amp;quot;文章名&amp;quot;&lt;/code&gt;, 创建文章.并且用&lt;code&gt;open xxxxx&lt;/code&gt;打开它. 写入文章内容.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/25.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/26.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.分别输入&lt;code&gt;hexo g&lt;/code&gt;(生成)和&lt;code&gt;hexo d&lt;/code&gt;(部署)后, 或者直接&lt;code&gt;hexo g -d&lt;/code&gt;后, 再打开&lt;code&gt;你的用户名.github.io&lt;/code&gt;. 新的文章也发布成功了.(有时候可能需要清除一下浏览器缓存才行)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;分别输入&lt;code&gt;hexo g&lt;/code&gt;和&lt;code&gt;hexo d&lt;/code&gt;等效于&lt;code&gt;hexo g -d&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/27.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u66F4_u6362hexo_u4E3B_u9898&quot;&gt;&lt;a href=&quot;#u66F4_u6362hexo_u4E3B_u9898&quot; class=&quot;headerlink&quot; title=&quot;更换hexo主题&quot;&gt;&lt;/a&gt;更换hexo主题&lt;/h2&gt;&lt;p&gt;1.在搜索引擎搜索 &lt;code&gt;hexo theme&lt;/code&gt; 既可.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/28.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.在这里, 我们用&lt;code&gt;iissnan/hexo-theme-next&lt;/code&gt;主题来演示.首先进入你想用的主题github仓库, 拷贝仓库地址.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/29.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;3.在终端输入&lt;code&gt;git clone 主题仓库地址 theme/主题名字&lt;/code&gt;.接下来一顿下载.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git clone https://github.com/iissnan/hexo-theme-next.git themes/iissnan&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/30.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;4.下载完成后, 输入&lt;code&gt;open _config.yml&lt;/code&gt;找到&lt;code&gt;theme&lt;/code&gt;,修改hexo配置, 告诉hexo你想用的主题名字.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/31.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;5.接下来&lt;code&gt;hexo clean&lt;/code&gt;清理缓存, &lt;code&gt;hexo g -d&lt;/code&gt;重新生成博客并且部署. 打开&lt;code&gt;你的用户名.github.io&lt;/code&gt;, 更换主题成功!(有时候可能需要清除一下浏览器缓存才行, 浏览器缓存就是这么麻烦, 你懂的)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/32.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/33.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;6.以后想更换主题, 按这个步骤来就行了.清理缓存并不会删除你的文章, 可以放心操作.&lt;/p&gt;
-&lt;h2 id=&quot;u7528github_u5F53_u56FE_u5E8A&quot;&gt;&lt;a href=&quot;#u7528github_u5F53_u56FE_u5E8A&quot; class=&quot;headerlink&quot; title=&quot;用github当图床&quot;&gt;&lt;/a&gt;用github当图床&lt;/h2&gt;&lt;p&gt;如果需要用github当图床, 可以把图片放到&lt;code&gt;本地hexo目录/source/&lt;/code&gt;文件夹里面, 我是新建了一个&lt;code&gt;images&lt;/code&gt;来存放的. 需要先部署和生成, 把图片放到github上, 才能通过链接找到.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/35.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;如果是直接放在&lt;code&gt;source&lt;/code&gt;目录下, 那么你的图片链接地址就是&lt;code&gt;http://域名/图片名.图片后缀&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;比如:&lt;code&gt;http://cxp.im/favicon.ico&lt;/code&gt;这个小图标, 我是做了https转发, 所以实际浏览器上显示的链接不一样(你可以直接拷贝我给的链接查看)&lt;/p&gt;
-&lt;p&gt;如果是放在二级目录下, 就需要加上目录名称, 比如我放在&lt;code&gt;images&lt;/code&gt;下的这个头像, 那么就是&lt;code&gt;http://cxp.im/images/icon.jpg&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/36.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/37.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u79D1_u666E_u65F6_u95F4&quot;&gt;&lt;a href=&quot;#u79D1_u666E_u65F6_u95F4&quot; class=&quot;headerlink&quot; title=&quot;科普时间&quot;&gt;&lt;/a&gt;科普时间&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;重点: 所有&lt;code&gt;hexo xxx&lt;/code&gt;的操作, 必须用终端&lt;code&gt;cd 你本地环境目录&lt;/code&gt;下, 然后才能用&lt;code&gt;hexo xxx&lt;/code&gt;操作.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;有时候明明已经新建, 修改了文章, 或者改变了博客或主题的各种配置, 并且生成部署了, 还是不能显示, 可能是github还没缓存好, 稍微等半分钟的样子, 再看看. 不行就清理浏览器缓存. 还是不行, 就&lt;code&gt;hexo clean&lt;/code&gt;清理本地缓存. 再重新生成和部署.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;hexo_u672C_u5730_u73AF_u5883_u4ECB_u7ECD&quot;&gt;&lt;a href=&quot;#hexo_u672C_u5730_u73AF_u5883_u4ECB_u7ECD&quot; class=&quot;headerlink&quot; title=&quot;hexo本地环境介绍&quot;&gt;&lt;/a&gt;hexo本地环境介绍&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/hexoblog/34.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;_config.yml 用来存放hexo博客的个人描述, 博客小图标地址, 头像地址等等.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;source下的_posts 存放你所有的博文.md文件 你可以通过 hexo n &quot;xxx&quot; 创建博客文章, 也可以直接把xxx.md 格式的文件直接拖入进去&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;themes 存放你的所有主题文件&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;u5404_u79CDhexo_xxx_u64CD_u4F5C&quot;&gt;&lt;a href=&quot;#u5404_u79CDhexo_xxx_u64CD_u4F5C&quot; class=&quot;headerlink&quot; title=&quot;各种hexo xxx操作&quot;&gt;&lt;/a&gt;各种hexo xxx操作&lt;/h3&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo clean 清理缓存, 一般是在配置不能生效, 或者文章发布了不显示, 等等异常情况下使用的. 当然有时候清除浏览器缓存也是必须的操作.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo g 重新生成静态网页, 所有发布文章, 修改文章, 修改hexo配置, 修改主题配置等等操作, 都需要.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo d 让你的静态网页从本地部署到github&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo s 你可以边写文章, 边使用这个命令在本地预览, 包括修改各种配置, 都可以预览.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;u5FC5_u5907_u8BED_u6CD5_u548C_u5DE5_u5177&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u8BED_u6CD5_u548C_u5DE5_u5177&quot; class=&quot;headerlink&quot; title=&quot;必备语法和工具&quot;&gt;&lt;/a&gt;必备语法和工具&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;使用hexo博客, 你需要会&lt;code&gt;markdown&lt;/code&gt;语法, 才能编写更漂亮排版的文章.自行搜索&lt;code&gt;markdown 语法&lt;/code&gt;关键字查找. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;并且你需要一个能识别并编写&lt;code&gt;markdown&lt;/code&gt;语法的编辑器. 自行搜索&lt;code&gt;markdown 编辑器&lt;/code&gt;关键字查找. 各种免费的, 收费的.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="必备环境"><a href="#必备环境" class="headerlink" title="必备环境"></a>必备环境</h2><ul>
+<li><p>Git(安装了Xcode就会自带, 所以不再赘述)</p>
+</li>
+<li><p>Node.js<br>可以用很多种方式安装Node.js, 但是为了必免因缺少各种环境而安装失败, 这里推荐直接下载安装包安装.<br><a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="external">https://nodejs.org/zh-cn/download/</a></p>
+</li>
+</ul>
+<p><img src="http://cxp.im/images/hexoblog/1.png" alt=""></p>
+<ul>
+<li>Hexo</li>
+</ul>
+<p>打开终端, 输入<code>npm install -g hexo-cli</code>进行安装.</p>
+<h2 id="搭建本地Hexo"><a href="#搭建本地Hexo" class="headerlink" title="搭建本地Hexo"></a>搭建本地Hexo</h2><p>Hexo只是帮你生成静态网页博客的工具, 你可以在本地进行调试. 如果你想让别人也能看到. 你必须上传到github或者自己的vps服务器. 别急, 接下来我都会为你讲解如何操作.</p>
+<p>1.为了测试方便, 我把我的本地环境搭建在桌面的某个文件夹. 你也可以存放到你想存放的文件夹去.</p>
+<p>注: 如果你想存放到别的地方, 那么你需要打开想存放的地方, 并且cd进去, 拖拽目标文件夹到终端, 既可获取目标路径, 拷贝路径, 然后cd进去既可.</p>
+<p><img src="http://cxp.im/images/hexoblog/2.png" alt=""><br><img src="http://cxp.im/images/hexoblog/3.png" alt=""><br><img src="http://cxp.im/images/hexoblog/4.png" alt=""></p>
+<p>2.打开终端, 输入<code>cd Desktop</code>到桌面.</p>
+<p>3.我准备把环境搭建在桌面的<code>peng</code>文件夹中, 所以我继续在终端输入<code>mkdir peng</code>创建名叫peng的文件夹.</p>
+<p>4.<code>cd peng</code>进入叫<code>peng</code>的文件夹中.</p>
+<p>5.输入<code>hexo init</code>进行初始化.</p>
+<p><img src="http://cxp.im/images/hexoblog/5.png" alt=""></p>
+<p>6.输入<code>npm install</code>进行安装, 过一会儿会卡在<code>&gt; node scripts/install.js</code>这里, 你继续等待既可, 当出现如下图片, 安装成功.</p>
+<p><img src="http://cxp.im/images/hexoblog/6.png" alt=""></p>
+<p>7.输入<code>npm install hexo-deployer-git --save</code>安装简化命令的插件.</p>
+<p><img src="http://cxp.im/images/hexoblog/7.png" alt=""></p>
+<p>8.输入<code>hexo s</code>, 并且拷贝地址<code>http://0.0.0.0:4000/</code>到浏览器, 进行本地预览.  </p>
+<p><img src="http://cxp.im/images/hexoblog/8.png" alt=""></p>
+<p><img src="http://cxp.im/images/hexoblog/9.png" alt=""></p>
+<p>9.对, 就是这么简单, 本地环境搭建成功. 按<code>control + c</code>退出预览.<code>不要关掉终端, 待会所有的操作, 都要在这个叫peng的文件夹中操作</code></p>
+<p>10.接下来我们需要让本地环境生成静态网页, 并且上传到github中.</p>
+<h2 id="部署博客到github-pages"><a href="#部署博客到github-pages" class="headerlink" title="部署博客到github pages"></a>部署博客到github pages</h2><p>1.打开github.com并且登录你的账号, 账号必须已经通过了邮箱认证<code>点击 Verify email address 链接验证邮箱</code>, 否则可能导致部署失败出现404. 在你注册账号的时候, github就会发送邮件到你的邮箱.</p>
+<p><img src="http://cxp.im/images/hexoblog/13.png" alt=""></p>
+<p>2.登录账号后, 点击右上角的github头像, 点击Your profile.</p>
+<p><img src="http://cxp.im/images/hexoblog/14.png" alt=""></p>
+<p>3.然后将浏览器地址栏,红框框起来的<code>github用户名</code>记录下来.</p>
+<p><img src="http://cxp.im/images/hexoblog/15.png" alt=""></p>
+<p>4.点击右上角的<code>+</code>号按钮, 创建新的仓库.</p>
+<p><img src="http://cxp.im/images/hexoblog/16.png" alt=""></p>
+<p>5.仓库名必须是你的<code>用户名.github.io</code>组成, 其他的都可以不用管, 填完仓库名后, 直接Create repository既可.</p>
+<p><img src="http://cxp.im/images/hexoblog/17.png" alt=""></p>
+<p>6.点击按钮复制并且记录<code>仓库地址</code>, 待会要用到.</p>
+<p><img src="http://cxp.im/images/hexoblog/18.png" alt=""></p>
+<p>7.在终端输入<code>open _config.yml</code>, 打开hexo配置文件, 滑动到最下面, 找到<code>deploy</code>, <code>repository</code>和<code>branch</code>这两个默认没有, 你按我的格式粘贴既可.</p>
+<p><code>type后面写git, repository后面是你刚刚复制并记录的仓库地址, branch直接写master既可, 然后保存并关闭</code></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    type: git </div><div class="line">    repository: https://github.com/pengpengtest/pengpengtest.github.io.git</div><div class="line">    branch: master</div></pre></td></tr></table></figure>
+<p><img src="http://cxp.im/images/hexoblog/19.png" alt=""></p>
+<p>8.输入<code>hexo g -d</code>, 重新生成并部署网页到github仓库.期间会让你输入账号和密码.账号和密码每输入完一项回车既可.密码是不会显式出现的.</p>
+<p><img src="http://cxp.im/images/hexoblog/20.png" alt=""></p>
+<p><img src="http://cxp.im/images/hexoblog/21.png" alt=""></p>
+<p>9.出现下图,表示部署博客到github仓库成功.打开github仓库, 里面已经有了文件了. </p>
+<p><img src="http://cxp.im/images/hexoblog/22.png" alt=""></p>
+<p><img src="http://cxp.im/images/hexoblog/23.png" alt=""></p>
+<p>10.接下来在浏览器输入<code>你的用户名.github.io</code>打开.博客已成功部署到github仓库!别人也可以通过这个地址<code>你的用户名.github.io</code>来访问你的博客了!</p>
+<p><img src="http://cxp.im/images/hexoblog/24.png" alt=""></p>
+<h2 id="发布新文章"><a href="#发布新文章" class="headerlink" title="发布新文章"></a>发布新文章</h2><p>1.在终端输入<code>hexo n &quot;文章名&quot;</code>, 创建文章.并且用<code>open xxxxx</code>打开它. 写入文章内容.</p>
+<p><img src="http://cxp.im/images/hexoblog/25.png" alt=""></p>
+<p><img src="http://cxp.im/images/hexoblog/26.png" alt=""></p>
+<p>2.分别输入<code>hexo g</code>(生成)和<code>hexo d</code>(部署)后, 或者直接<code>hexo g -d</code>后, 再打开<code>你的用户名.github.io</code>. 新的文章也发布成功了.(有时候可能需要清除一下浏览器缓存才行)</p>
+<ul>
+<li>分别输入<code>hexo g</code>和<code>hexo d</code>等效于<code>hexo g -d</code>.</li>
+</ul>
+<p><img src="http://cxp.im/images/hexoblog/27.png" alt=""></p>
+<h2 id="更换hexo主题"><a href="#更换hexo主题" class="headerlink" title="更换hexo主题"></a>更换hexo主题</h2><p>1.在搜索引擎搜索 <code>hexo theme</code> 既可.</p>
+<p><img src="http://cxp.im/images/hexoblog/28.png" alt=""></p>
+<p>2.在这里, 我们用<code>iissnan/hexo-theme-next</code>主题来演示.首先进入你想用的主题github仓库, 拷贝仓库地址.</p>
+<p><img src="http://cxp.im/images/hexoblog/29.png" alt=""></p>
+<p>3.在终端输入<code>git clone 主题仓库地址 theme/主题名字</code>.接下来一顿下载.</p>
+<p><code>git clone https://github.com/iissnan/hexo-theme-next.git themes/iissnan</code></p>
+<p><img src="http://cxp.im/images/hexoblog/30.png" alt=""></p>
+<p>4.下载完成后, 输入<code>open _config.yml</code>找到<code>theme</code>,修改hexo配置, 告诉hexo你想用的主题名字.</p>
+<p><img src="http://cxp.im/images/hexoblog/31.png" alt=""></p>
+<p>5.接下来<code>hexo clean</code>清理缓存, <code>hexo g -d</code>重新生成博客并且部署. 打开<code>你的用户名.github.io</code>, 更换主题成功!(有时候可能需要清除一下浏览器缓存才行, 浏览器缓存就是这么麻烦, 你懂的)</p>
+<p><img src="http://cxp.im/images/hexoblog/32.png" alt=""></p>
+<p><img src="http://cxp.im/images/hexoblog/33.png" alt=""></p>
+<p>6.以后想更换主题, 按这个步骤来就行了.清理缓存并不会删除你的文章, 可以放心操作.</p>
+<h2 id="用github当图床"><a href="#用github当图床" class="headerlink" title="用github当图床"></a>用github当图床</h2><p>如果需要用github当图床, 可以把图片放到<code>本地hexo目录/source/</code>文件夹里面, 我是新建了一个<code>images</code>来存放的. 需要先部署和生成, 把图片放到github上, 才能通过链接找到.</p>
+<p><img src="http://cxp.im/images/hexoblog/35.png" alt=""></p>
+<p>如果是直接放在<code>source</code>目录下, 那么你的图片链接地址就是<code>http://域名/图片名.图片后缀</code>.</p>
+<p>比如:<code>http://cxp.im/favicon.ico</code>这个小图标, 我是做了https转发, 所以实际浏览器上显示的链接不一样(你可以直接拷贝我给的链接查看)</p>
+<p>如果是放在二级目录下, 就需要加上目录名称, 比如我放在<code>images</code>下的这个头像, 那么就是<code>http://cxp.im/images/icon.jpg</code></p>
+<p><img src="http://cxp.im/images/hexoblog/36.png" alt=""></p>
+<p><img src="http://cxp.im/images/hexoblog/37.png" alt=""></p>
+<h2 id="科普时间"><a href="#科普时间" class="headerlink" title="科普时间"></a>科普时间</h2><ul>
+<li><p>重点: 所有<code>hexo xxx</code>的操作, 必须用终端<code>cd 你本地环境目录</code>下, 然后才能用<code>hexo xxx</code>操作.</p>
+</li>
+<li><p>有时候明明已经新建, 修改了文章, 或者改变了博客或主题的各种配置, 并且生成部署了, 还是不能显示, 可能是github还没缓存好, 稍微等半分钟的样子, 再看看. 不行就清理浏览器缓存. 还是不行, 就<code>hexo clean</code>清理本地缓存. 再重新生成和部署.</p>
+</li>
+</ul>
+<h3 id="hexo本地环境介绍"><a href="#hexo本地环境介绍" class="headerlink" title="hexo本地环境介绍"></a>hexo本地环境介绍</h3><p><img src="http://cxp.im/images/hexoblog/34.png" alt=""></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">_config.yml 用来存放hexo博客的个人描述, 博客小图标地址, 头像地址等等.</div><div class="line">source下的_posts 存放你所有的博文.md文件 你可以通过 hexo n "xxx" 创建博客文章, 也可以直接把xxx.md 格式的文件直接拖入进去</div><div class="line">themes 存放你的所有主题文件</div></pre></td></tr></table></figure>
+<h3 id="各种hexo-xxx操作"><a href="#各种hexo-xxx操作" class="headerlink" title="各种hexo xxx操作"></a>各种hexo xxx操作</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo clean 清理缓存, 一般是在配置不能生效, 或者文章发布了不显示, 等等异常情况下使用的. 当然有时候清除浏览器缓存也是必须的操作.</div><div class="line">hexo g 重新生成静态网页, 所有发布文章, 修改文章, 修改hexo配置, 修改主题配置等等操作, 都需要.</div><div class="line">hexo d 让你的静态网页从本地部署到github</div><div class="line">hexo s 你可以边写文章, 边使用这个命令在本地预览, 包括修改各种配置, 都可以预览.</div></pre></td></tr></table></figure>
+<h3 id="必备语法和工具"><a href="#必备语法和工具" class="headerlink" title="必备语法和工具"></a>必备语法和工具</h3><ul>
+<li><p>使用hexo博客, 你需要会<code>markdown</code>语法, 才能编写更漂亮排版的文章.自行搜索<code>markdown 语法</code>关键字查找. </p>
+</li>
+<li><p>并且你需要一个能识别并编写<code>markdown</code>语法的编辑器. 自行搜索<code>markdown 编辑器</code>关键字查找. 各种免费的, 收费的.</p>
+</li>
+</ul>
+]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;u5FC5_u5907_u73AF_u5883&quot;&gt;&lt;a href=&quot;#u5FC5_u5907_u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;必备环境&quot;&gt;&lt;/a&gt;必备环境&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Git(安装了Xcode就会自
+      &lt;h2 id=&quot;必备环境&quot;&gt;&lt;a href=&quot;#必备环境&quot; class=&quot;headerlink&quot; title=&quot;必备环境&quot;&gt;&lt;/a&gt;必备环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Git(安装了Xcode就会自带, 所以不再赘述)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Node.js&lt;br
     
     </summary>
     
@@ -183,9 +185,9 @@
     
       <category term="搭建Hexo" scheme="https://cxp.im/tags/%E6%90%AD%E5%BB%BAHexo/"/>
     
-      <category term="更换Hexo主题" scheme="https://cxp.im/tags/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98/"/>
-    
       <category term="部署Hexo" scheme="https://cxp.im/tags/%E9%83%A8%E7%BD%B2Hexo/"/>
+    
+      <category term="更换Hexo主题" scheme="https://cxp.im/tags/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -196,126 +198,127 @@
     <published>2017-02-25T14:34:53.000Z</published>
     <updated>2017-03-05T14:58:26.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;从教程中, 你可以收获什么?&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;如何购买搬瓦工vps&lt;/li&gt;
-&lt;li&gt;如何使用搬瓦工vps后台&lt;/li&gt;
-&lt;li&gt;如何搭建Shadowsocks Sever来实现多终端翻墙.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cxp.im/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/&quot;&gt;如何搭建个人hexo博客, 如何用github当博客图床, 更换hexo主题&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cxp.im/2017/03/05/%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D/&quot;&gt;如何为博客配置个性域名&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;如何使用vps存放个人博客&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;如何使用vps当图床&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;如何为博客配置https&lt;/del&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;以上内容都是我全部亲测过, 中横线部分, 会在下来的日子更新, 请持续关注.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;搭建一个翻墙工具, 上google找文章, 存放个人博客, 把vps当图床, 都还是比较值得的.毕竟入门款的vps, 算上优惠码, 一年也仅仅只需要19美刀左右.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;文章收集了从购买vps, 搭建Shadowsocks, 搭建Ipsec等一系列文章. 并结合自己使用时碰到的问题, 一一分享给大家. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;文章内容, 假设阅读者是没有任何购买和搭建vps的经验, 所以会尽量讲解的比较仔细. 文章内容均以搬瓦工vps来讲解.&lt;/li&gt;
-&lt;li&gt;以下购买和登录后台的教程来自&lt;a href=&quot;http://banwagong.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://banwagong.cn/&lt;/a&gt;, 实际操作均在搬瓦工官网.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;u73AF_u5883&quot;&gt;&lt;a href=&quot;#u73AF_u5883&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h2&gt;&lt;p&gt;vps: 搬瓦工&lt;br&gt;工具: Mac终端&lt;/p&gt;
-&lt;h2 id=&quot;u8D2D_u4E70_u548C_u4F7F_u7528&quot;&gt;&lt;a href=&quot;#u8D2D_u4E70_u548C_u4F7F_u7528&quot; class=&quot;headerlink&quot; title=&quot;购买和使用&quot;&gt;&lt;/a&gt;购买和使用&lt;/h2&gt;&lt;p&gt;注: 搬瓦工vps支付方式支持&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PayPal&lt;/li&gt;
-&lt;li&gt;AliPay&lt;/li&gt;
-&lt;li&gt;Credit Card(Stripe)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://bwh1.net&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工官网&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工购买方案&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/gonglue.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;图文并茂购买指导教程&lt;/a&gt;  注: 购买时长分月付, 季度付, 半年付, 年付&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/jichu.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;选择登录已购VPS方案面板&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;注: 不知道你自己的服务器ip和密码, 用此方式登录&lt;br&gt;已知你的服务器ip和密码, 可以直接进入&lt;a href=&quot;https://kiwivm.64clouds.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工面板登录&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;u6559_u7A0B_u4E2D_u7684vps_u7CFB_u7EDF_u90FD_u662Fcentos-6-x86_u7684-_u8BF7_u5B89_u88C5_u4E00_u81F4&quot;&gt;&lt;a href=&quot;#u6559_u7A0B_u4E2D_u7684vps_u7CFB_u7EDF_u90FD_u662Fcentos-6-x86_u7684-_u8BF7_u5B89_u88C5_u4E00_u81F4&quot; class=&quot;headerlink&quot; title=&quot;教程中的vps系统都是centos-6-x86的.请安装一致.&quot;&gt;&lt;/a&gt;教程中的vps系统都是centos-6-x86的.请安装一致.&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880213549019.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/genghuan.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;自主任意更换机房实现换IP&lt;/a&gt; (无此需求可略过)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://banwagong.cn/anzhuang.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;重新安装Linux系统过程及注意事项&lt;/a&gt; (无此需求可略过)&lt;/p&gt;
-&lt;p&gt;注: 切换机房ip和重装系统, 请先stop服务器&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880199458363.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;u63D2_u66F2&quot;&gt;&lt;a href=&quot;#u63D2_u66F2&quot; class=&quot;headerlink&quot; title=&quot;插曲&quot;&gt;&lt;/a&gt;插曲&lt;/h2&gt;&lt;p&gt;建议大家购买搬瓦工vps后, 从官网的已购列表进入kiwivm面板, 记录自己的ip地址, 并更改kiwivm面板的密码. 避免每次进入kiwivm面板都要从官网操作好几步才能进.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://kiwivm.64clouds.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kiwivm搬瓦工面板登录入口&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;ip_u5730_u5740_u67E5_u770B_28_u6559_u7A0B_u4E2D_u7684ip_u5730_u5740_u90FD_u662F_u8FD9_u4E2A_29&quot;&gt;&lt;a href=&quot;#ip_u5730_u5740_u67E5_u770B_28_u6559_u7A0B_u4E2D_u7684ip_u5730_u5740_u90FD_u662F_u8FD9_u4E2A_29&quot; class=&quot;headerlink&quot; title=&quot;ip地址查看(教程中的ip地址都是这个)&quot;&gt;&lt;/a&gt;ip地址查看(教程中的ip地址都是这个)&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880208219830.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;u4FEE_u6539kiwivm_u9762_u677F_u5BC6_u7801&quot;&gt;&lt;a href=&quot;#u4FEE_u6539kiwivm_u9762_u677F_u5BC6_u7801&quot; class=&quot;headerlink&quot; title=&quot;修改kiwivm面板密码&quot;&gt;&lt;/a&gt;修改kiwivm面板密码&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880208634025.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u4E00_u952E_u642D_u5EFAShadowsocks&quot;&gt;&lt;a href=&quot;#u4E00_u952E_u642D_u5EFAShadowsocks&quot; class=&quot;headerlink&quot; title=&quot;一键搭建Shadowsocks&quot;&gt;&lt;/a&gt;一键搭建Shadowsocks&lt;/h2&gt;&lt;h3 id=&quot;u4E0B_u8F7D&quot;&gt;&lt;a href=&quot;#u4E0B_u8F7D&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h3&gt;&lt;p&gt;Shadowsocks可以在Windows/Mac/iPhone系统上使用.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;windows下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;mac下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iphoneApp下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;u5B89_u88C5Shadowsocks_Sever&quot;&gt;&lt;a href=&quot;#u5B89_u88C5Shadowsocks_Sever&quot; class=&quot;headerlink&quot; title=&quot;安装Shadowsocks Sever&quot;&gt;&lt;/a&gt;安装Shadowsocks Sever&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;在左边部分菜单栏滑动到底部, 点击shadowsocks sever之后, 如果没有安装过shadowsocks sever, 就需要点击install来一键安装shadowsocks sever.&lt;/li&gt;
-&lt;li&gt;请记录页面上的port和password.后面设置会用到.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880211240769.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Windows/Mac/iPhone上的shadowsocks软件设置都差不多, 所以这里只讲一种, 以mac为例&lt;/p&gt;
-&lt;p&gt;为方便讲解, 后面会统一叫Shadowsocks为小飞机!&lt;/p&gt;
-&lt;h3 id=&quot;u914D_u7F6EShadowsocks_u8F6F_u4EF6&quot;&gt;&lt;a href=&quot;#u914D_u7F6EShadowsocks_u8F6F_u4EF6&quot; class=&quot;headerlink&quot; title=&quot;配置Shadowsocks软件&quot;&gt;&lt;/a&gt;配置Shadowsocks软件&lt;/h3&gt;&lt;p&gt;下载并打开软件后在状态栏找到软件, 对! 就是一个飞机的样子=. =&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880222141646.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;红色框住的部分是我们可能会使用到.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;自动代理模式: 需要翻墙的会自动翻墙, 不需要的就不翻墙.&lt;/li&gt;
-&lt;li&gt;全局模式: 所有的都会翻墙.&lt;/li&gt;
-&lt;li&gt;服务器: 选择, 增加, 减少, 编辑服务器设定.&lt;/li&gt;
-&lt;li&gt;编辑自动模式的PAC: 如果你需要指定某个网站强制翻墙, 那么你需要点击它, 并且编辑gfwlist.js文件, 照着葫芦画瓢, 加上网站地址既可, 如果用mac自带的文本编辑来编辑文件, 请务必注意双引号的区别!!!否则可能导致无法使用小飞机.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880228934002.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;生成二维码和扫描二维码: 在iPhone上或者mac上, 为了快速的分享你的小飞机的服务器配置, 可能会使用到. 扫描一下生成的二维码, 既可添加配置. 不用你在多设备的时候输入N遍.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;帮助: 当你想下载最新的小飞机版本, 或者找不到小飞机下载地址, 可以点它.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880224043452.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;在图中填入服务器ip地址, 填入刚刚在shadowsocks sever中的prot端口号和密码, 加密方式不动它. 备注随便填~然后点击确定既可.接下来就是打开浏览器, 输入google.com来测试你的成果~&lt;/p&gt;
-&lt;p&gt;iPhone/iPad实现VPN翻墙, 有两种方式.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一种是使用&lt;a href=&quot;https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wingy - Http(s),Socks5 Proxy Utility&lt;/a&gt;这个app软件+之前配置的Shadowsocks Sever来实现, 并且软件支持Widget一键翻墙.&lt;/li&gt;
-&lt;li&gt;一种是需要在vps服务器安装ipsec, 稍微比较麻烦点. 并且需要在设置-&amp;gt;通用-&amp;gt;VPN中配置一次. 但是不需要下载任何软件. 以后使用, 直接打开设置&amp;gt;打开VPN既可.(我个人是比较喜欢这种方式, 不想安装软件)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果你选择了第二种方式, 那么, 请接着往下看.&lt;/p&gt;
-&lt;h2 id=&quot;u5728VPS_u4E0A_u914D_u7F6EiPsec&quot;&gt;&lt;a href=&quot;#u5728VPS_u4E0A_u914D_u7F6EiPsec&quot; class=&quot;headerlink&quot; title=&quot;在VPS上配置iPsec&quot;&gt;&lt;/a&gt;在VPS上配置iPsec&lt;/h2&gt;&lt;p&gt;以下内容均来自&lt;a href=&quot;https://quericy.me/blog/699/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://quericy.me/blog/699/&lt;/a&gt;, 我只是在他的教程基础上进行了重新整理, 并补充了一些说明, 让你更快的配置iPsec, 所以你直接按照我的步骤来既可.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;接下来会使用vim编辑内容, 如果你不会vim, 那么请点开查看&lt;a href=&quot;http://www.jianshu.com/p/c03ee7b6e1e8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;vim的简单使用&lt;/a&gt;.如果你会vim的使用, 那么请继续往下看.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;1.打开root shell - interactive, 点击launch&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880262928954.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.界面会跳转并变大变小几次来进行加载, 然后输入passwd, 修改服务器密码, 服务器密码和kiwivm后台是两个互不干扰的密码, 但是建议改成一样.输入新密码, 回车, 再次输入, 回车, 出现下图最后一句话, 表示密码修改成功.&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880263846376.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;3.打开kiwivm首页, 找到ip地址和ssh port端口地址并记录下来&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880266281824.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;4.打开mac终端, 输入&lt;code&gt;ssh root@你的ip地址 -p SSH Port端口号&lt;/code&gt;&lt;br&gt;如: &lt;code&gt;ssh root@192.192.192.192 -p 28400&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;5.会提示你输入密码, 输入刚刚修改的服务器密码.出现&lt;code&gt;[root@localhost ~]#&lt;/code&gt;表示连接成功.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880268233754.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;6.输入 &lt;code&gt;wget --no-check-certificate https://raw.githubusercontent.com/quericy/one-key-ikev2-vpn/master/one-key-ikev2.sh&lt;/code&gt;&lt;br&gt;7.等进度走完了, 继续输入&lt;code&gt;chmod +x one-key-ikev2.sh&lt;/code&gt;&lt;br&gt;8.输入&lt;code&gt;bash one-key-ikev2.sh&lt;/code&gt;&lt;br&gt;9.出现这个时, 请输入&lt;code&gt;2&lt;/code&gt;并回车&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880255324341.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880257032609.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;10.接下来只要有停顿, 也是直接回车既可.&lt;br&gt;11.当出现&lt;code&gt;install complete&lt;/code&gt;, 说明安装成功了.&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880259925620.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;12.打开sysctl文件, 输入&lt;code&gt;vim /etc/sysctl.conf&lt;/code&gt;&lt;br&gt;修改&lt;code&gt;net.ipv4.ip_forward = 1&lt;/code&gt;, 把&lt;code&gt;0&lt;/code&gt;改成&lt;code&gt;1&lt;/code&gt;&lt;br&gt;找到以下四个, 分别在每句最前面加上#把当前行注释掉.&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;net.bridge.bridge-nf-call-ip6tables&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net.bridge.bridge-nf-call-iptables&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net.bridge.bridge-nf-call-arptables&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;net.nf_conntrack_max&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;如: &lt;code&gt;#net.bridge.bridge-nf-call-ip6tables......&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;13.使用以下指令刷新sysctl, 输入：&lt;code&gt;sysctl -p&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;14.输入&lt;code&gt;vim /usr/local/etc/ipsec.secrets&lt;/code&gt;并编辑, 编辑完后保存并退出编辑.&lt;/p&gt;
-&lt;p&gt;账号格式: &lt;code&gt;账号 %any : EAP &amp;quot;密码&amp;quot;&lt;/code&gt;, 密码用&lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;双引号包起来, 如果你只需要一个, 就添加一个, 如果需要多个, 换行添加.&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;: RSA server.pem&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;: PSK &quot;myPSKkey&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;: XAUTH &quot;myXAUTHPass&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;peng %any : EAP &quot;123456&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;peng2 %any : EAP &quot;123456&quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;15.输入&lt;code&gt;ipsec start&lt;/code&gt;启动ipsec&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ipsec常用指令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec start   #启动服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec stop    #关闭服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec restart #重启服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec reload  #重新读取&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec status  #查看状态&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ipsec --help  #查看帮助&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;16.服务器重启后, ipsec是不会自动启动的, 所以我们需要把它添加到自启动.在终端输入&lt;code&gt;vim /etc/rc.local&lt;/code&gt;,添加&lt;code&gt;/usr/local/sbin/ipsec start&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;添加后如图:&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880276182551.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;17.然后打开手机, 设置-&amp;gt;通用-&amp;gt;VPN-&amp;gt;添加VPN配置&lt;/p&gt;
-&lt;p&gt;下图中的PSK是有用的&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880278856543.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880280151318.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;18.点击完成后, 回到VPN页面点连接既可.&lt;/p&gt;
-&lt;p&gt;19.如果你的手机上没有装任何小飞机的软件, 你后续使用, 就直接点这个就可以了.否则你需要进到 设置-&amp;gt;通用-&amp;gt;VPN-&amp;gt;连接.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cxp.im/images/20170225213251/14880281376766.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u672A_u5B8C_u5F85_u7EED_2C__u8BF7_u5173_u6CE8_u6211_21_7E&quot;&gt;&lt;a href=&quot;#u672A_u5B8C_u5F85_u7EED_2C__u8BF7_u5173_u6CE8_u6211_21_7E&quot; class=&quot;headerlink&quot; title=&quot;未完待续, 请关注我!~&quot;&gt;&lt;/a&gt;未完待续, 请关注我!~&lt;/h2&gt;</content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>从教程中, 你可以收获什么?</p>
+<ol>
+<li>如何购买搬瓦工vps</li>
+<li>如何使用搬瓦工vps后台</li>
+<li>如何搭建Shadowsocks Sever来实现多终端翻墙.</li>
+<li><a href="http://cxp.im/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/">如何搭建个人hexo博客, 如何用github当博客图床, 更换hexo主题</a></li>
+<li><a href="http://cxp.im/2017/03/05/%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D/">如何为博客配置个性域名</a></li>
+<li><del>如何使用vps存放个人博客</del></li>
+<li><del>如何使用vps当图床</del></li>
+<li><del>如何为博客配置https</del></li>
+</ol>
+<p>以上内容都是我全部亲测过, 中横线部分, 会在下来的日子更新, 请持续关注.</p>
+<ul>
+<li><p>搭建一个翻墙工具, 上google找文章, 存放个人博客, 把vps当图床, 都还是比较值得的.毕竟入门款的vps, 算上优惠码, 一年也仅仅只需要19美刀左右.</p>
+</li>
+<li><p>文章收集了从购买vps, 搭建Shadowsocks, 搭建Ipsec等一系列文章. 并结合自己使用时碰到的问题, 一一分享给大家. </p>
+</li>
+<li>文章内容, 假设阅读者是没有任何购买和搭建vps的经验, 所以会尽量讲解的比较仔细. 文章内容均以搬瓦工vps来讲解.</li>
+<li>以下购买和登录后台的教程来自<a href="http://banwagong.cn/" target="_blank" rel="external">http://banwagong.cn/</a>, 实际操作均在搬瓦工官网.</li>
+</ul>
+<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>vps: 搬瓦工<br>工具: Mac终端</p>
+<h2 id="购买和使用"><a href="#购买和使用" class="headerlink" title="购买和使用"></a>购买和使用</h2><p>注: 搬瓦工vps支付方式支持</p>
+<ul>
+<li>PayPal</li>
+<li>AliPay</li>
+<li>Credit Card(Stripe)</li>
+</ul>
+<ol>
+<li><p><a href="https://bwh1.net" target="_blank" rel="external">搬瓦工官网</a></p>
+</li>
+<li><p><a href="http://banwagong.cn/" target="_blank" rel="external">搬瓦工购买方案</a></p>
+</li>
+<li><p><a href="http://banwagong.cn/gonglue.html" target="_blank" rel="external">图文并茂购买指导教程</a>  注: 购买时长分月付, 季度付, 半年付, 年付</p>
+</li>
+<li><p><a href="http://banwagong.cn/jichu.html" target="_blank" rel="external">选择登录已购VPS方案面板</a></p>
+</li>
+</ol>
+<p>注: 不知道你自己的服务器ip和密码, 用此方式登录<br>已知你的服务器ip和密码, 可以直接进入<a href="https://kiwivm.64clouds.com/" target="_blank" rel="external">搬瓦工面板登录</a></p>
+<h4 id="教程中的vps系统都是centos-6-x86的-请安装一致"><a href="#教程中的vps系统都是centos-6-x86的-请安装一致" class="headerlink" title="教程中的vps系统都是centos-6-x86的.请安装一致."></a>教程中的vps系统都是centos-6-x86的.请安装一致.</h4><p><img src="http://cxp.im/images/20170225213251/14880213549019.jpg" alt=""></p>
+<hr>
+<p><a href="http://banwagong.cn/genghuan.html" target="_blank" rel="external">自主任意更换机房实现换IP</a> (无此需求可略过)</p>
+<p><a href="http://banwagong.cn/anzhuang.html" target="_blank" rel="external">重新安装Linux系统过程及注意事项</a> (无此需求可略过)</p>
+<p>注: 切换机房ip和重装系统, 请先stop服务器<br><img src="http://cxp.im/images/20170225213251/14880199458363.jpg" alt=""></p>
+<hr>
+<h2 id="插曲"><a href="#插曲" class="headerlink" title="插曲"></a>插曲</h2><p>建议大家购买搬瓦工vps后, 从官网的已购列表进入kiwivm面板, 记录自己的ip地址, 并更改kiwivm面板的密码. 避免每次进入kiwivm面板都要从官网操作好几步才能进.</p>
+<p><a href="https://kiwivm.64clouds.com/" target="_blank" rel="external">kiwivm搬瓦工面板登录入口</a></p>
+<h3 id="ip地址查看-教程中的ip地址都是这个"><a href="#ip地址查看-教程中的ip地址都是这个" class="headerlink" title="ip地址查看(教程中的ip地址都是这个)"></a>ip地址查看(教程中的ip地址都是这个)</h3><p><img src="http://cxp.im/images/20170225213251/14880208219830.jpg" alt=""></p>
+<h3 id="修改kiwivm面板密码"><a href="#修改kiwivm面板密码" class="headerlink" title="修改kiwivm面板密码"></a>修改kiwivm面板密码</h3><p><img src="http://cxp.im/images/20170225213251/14880208634025.jpg" alt=""></p>
+<h2 id="一键搭建Shadowsocks"><a href="#一键搭建Shadowsocks" class="headerlink" title="一键搭建Shadowsocks"></a>一键搭建Shadowsocks</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>Shadowsocks可以在Windows/Mac/iPhone系统上使用.</p>
+<p><a href="https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E" target="_blank" rel="external">windows下载地址</a></p>
+<p><a href="https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9" target="_blank" rel="external">mac下载地址</a></p>
+<p><a href="https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8" target="_blank" rel="external">iphoneApp下载地址</a></p>
+<h3 id="安装Shadowsocks-Sever"><a href="#安装Shadowsocks-Sever" class="headerlink" title="安装Shadowsocks Sever"></a>安装Shadowsocks Sever</h3><ul>
+<li>在左边部分菜单栏滑动到底部, 点击shadowsocks sever之后, 如果没有安装过shadowsocks sever, 就需要点击install来一键安装shadowsocks sever.</li>
+<li>请记录页面上的port和password.后面设置会用到.</li>
+</ul>
+<p><img src="http://cxp.im/images/20170225213251/14880211240769.jpg" alt=""></p>
+<p>Windows/Mac/iPhone上的shadowsocks软件设置都差不多, 所以这里只讲一种, 以mac为例</p>
+<p>为方便讲解, 后面会统一叫Shadowsocks为小飞机!</p>
+<h3 id="配置Shadowsocks软件"><a href="#配置Shadowsocks软件" class="headerlink" title="配置Shadowsocks软件"></a>配置Shadowsocks软件</h3><p>下载并打开软件后在状态栏找到软件, 对! 就是一个飞机的样子=. =</p>
+<p><img src="http://cxp.im/images/20170225213251/14880222141646.jpg" alt=""></p>
+<p>红色框住的部分是我们可能会使用到.</p>
+<ul>
+<li>自动代理模式: 需要翻墙的会自动翻墙, 不需要的就不翻墙.</li>
+<li>全局模式: 所有的都会翻墙.</li>
+<li>服务器: 选择, 增加, 减少, 编辑服务器设定.</li>
+<li>编辑自动模式的PAC: 如果你需要指定某个网站强制翻墙, 那么你需要点击它, 并且编辑gfwlist.js文件, 照着葫芦画瓢, 加上网站地址既可, 如果用mac自带的文本编辑来编辑文件, 请务必注意双引号的区别!!!否则可能导致无法使用小飞机.</li>
+</ul>
+<p><img src="http://cxp.im/images/20170225213251/14880228934002.jpg" alt=""></p>
+<ul>
+<li><p>生成二维码和扫描二维码: 在iPhone上或者mac上, 为了快速的分享你的小飞机的服务器配置, 可能会使用到. 扫描一下生成的二维码, 既可添加配置. 不用你在多设备的时候输入N遍.</p>
+</li>
+<li><p>帮助: 当你想下载最新的小飞机版本, 或者找不到小飞机下载地址, 可以点它.</p>
+</li>
+</ul>
+<p><img src="http://cxp.im/images/20170225213251/14880224043452.jpg" alt=""></p>
+<p>在图中填入服务器ip地址, 填入刚刚在shadowsocks sever中的prot端口号和密码, 加密方式不动它. 备注随便填~然后点击确定既可.接下来就是打开浏览器, 输入google.com来测试你的成果~</p>
+<p>iPhone/iPad实现VPN翻墙, 有两种方式.</p>
+<ul>
+<li>一种是使用<a href="https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8" target="_blank" rel="external">Wingy - Http(s),Socks5 Proxy Utility</a>这个app软件+之前配置的Shadowsocks Sever来实现, 并且软件支持Widget一键翻墙.</li>
+<li>一种是需要在vps服务器安装ipsec, 稍微比较麻烦点. 并且需要在设置-&gt;通用-&gt;VPN中配置一次. 但是不需要下载任何软件. 以后使用, 直接打开设置&gt;打开VPN既可.(我个人是比较喜欢这种方式, 不想安装软件)</li>
+</ul>
+<p>如果你选择了第二种方式, 那么, 请接着往下看.</p>
+<h2 id="在VPS上配置iPsec"><a href="#在VPS上配置iPsec" class="headerlink" title="在VPS上配置iPsec"></a>在VPS上配置iPsec</h2><p>以下内容均来自<a href="https://quericy.me/blog/699/" target="_blank" rel="external">https://quericy.me/blog/699/</a>, 我只是在他的教程基础上进行了重新整理, 并补充了一些说明, 让你更快的配置iPsec, 所以你直接按照我的步骤来既可.</p>
+<ul>
+<li>接下来会使用vim编辑内容, 如果你不会vim, 那么请点开查看<a href="http://www.jianshu.com/p/c03ee7b6e1e8" target="_blank" rel="external">vim的简单使用</a>.如果你会vim的使用, 那么请继续往下看.</li>
+</ul>
+<p>1.打开root shell - interactive, 点击launch<br><img src="http://cxp.im/images/20170225213251/14880262928954.jpg" alt=""></p>
+<p>2.界面会跳转并变大变小几次来进行加载, 然后输入passwd, 修改服务器密码, 服务器密码和kiwivm后台是两个互不干扰的密码, 但是建议改成一样.输入新密码, 回车, 再次输入, 回车, 出现下图最后一句话, 表示密码修改成功.<br><img src="http://cxp.im/images/20170225213251/14880263846376.jpg" alt=""></p>
+<p>3.打开kiwivm首页, 找到ip地址和ssh port端口地址并记录下来<br><img src="http://cxp.im/images/20170225213251/14880266281824.jpg" alt=""></p>
+<p>4.打开mac终端, 输入<code>ssh root@你的ip地址 -p SSH Port端口号</code><br>如: <code>ssh root@192.192.192.192 -p 28400</code></p>
+<p>5.会提示你输入密码, 输入刚刚修改的服务器密码.出现<code>[root@localhost ~]#</code>表示连接成功.</p>
+<p><img src="http://cxp.im/images/20170225213251/14880268233754.jpg" alt=""></p>
+<p>6.输入 <code>wget --no-check-certificate https://raw.githubusercontent.com/quericy/one-key-ikev2-vpn/master/one-key-ikev2.sh</code><br>7.等进度走完了, 继续输入<code>chmod +x one-key-ikev2.sh</code><br>8.输入<code>bash one-key-ikev2.sh</code><br>9.出现这个时, 请输入<code>2</code>并回车<br><img src="http://cxp.im/images/20170225213251/14880255324341.jpg" alt=""></p>
+<p><img src="http://cxp.im/images/20170225213251/14880257032609.jpg" alt=""></p>
+<p>10.接下来只要有停顿, 也是直接回车既可.<br>11.当出现<code>install complete</code>, 说明安装成功了.<br><img src="http://cxp.im/images/20170225213251/14880259925620.jpg" alt=""></p>
+<p>12.打开sysctl文件, 输入<code>vim /etc/sysctl.conf</code><br>修改<code>net.ipv4.ip_forward = 1</code>, 把<code>0</code>改成<code>1</code><br>找到以下四个, 分别在每句最前面加上#把当前行注释掉.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">net.bridge.bridge-nf-call-ip6tables</div><div class="line">net.bridge.bridge-nf-call-iptables</div><div class="line">net.bridge.bridge-nf-call-arptables</div><div class="line">net.nf_conntrack_max</div></pre></td></tr></table></figure>
+<p>如: <code>#net.bridge.bridge-nf-call-ip6tables......</code></p>
+<p>13.使用以下指令刷新sysctl, 输入：<code>sysctl -p</code></p>
+<p>14.输入<code>vim /usr/local/etc/ipsec.secrets</code>并编辑, 编辑完后保存并退出编辑.</p>
+<p>账号格式: <code>账号 %any : EAP &quot;密码&quot;</code>, 密码用<code>&quot;&quot;</code>双引号包起来, 如果你只需要一个, 就添加一个, 如果需要多个, 换行添加.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">: RSA server.pem</div><div class="line">: PSK "myPSKkey"</div><div class="line">: XAUTH "myXAUTHPass"</div><div class="line">peng %any : EAP "123456"</div><div class="line">peng2 %any : EAP "123456"</div></pre></td></tr></table></figure>
+<p>15.输入<code>ipsec start</code>启动ipsec</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">ipsec常用指令</div><div class="line">ipsec start   #启动服务</div><div class="line">ipsec stop    #关闭服务</div><div class="line">ipsec restart #重启服务</div><div class="line">ipsec reload  #重新读取</div><div class="line">ipsec status  #查看状态</div><div class="line">ipsec --help  #查看帮助</div></pre></td></tr></table></figure>
+<p>16.服务器重启后, ipsec是不会自动启动的, 所以我们需要把它添加到自启动.在终端输入<code>vim /etc/rc.local</code>,添加<code>/usr/local/sbin/ipsec start</code></p>
+<p>添加后如图:<br><img src="http://cxp.im/images/20170225213251/14880276182551.jpg" alt=""></p>
+<p>17.然后打开手机, 设置-&gt;通用-&gt;VPN-&gt;添加VPN配置</p>
+<p>下图中的PSK是有用的<br><img src="http://cxp.im/images/20170225213251/14880278856543.jpg" alt=""><br><img src="http://cxp.im/images/20170225213251/14880280151318.jpg" alt=""></p>
+<p>18.点击完成后, 回到VPN页面点连接既可.</p>
+<p>19.如果你的手机上没有装任何小飞机的软件, 你后续使用, 就直接点这个就可以了.否则你需要进到 设置-&gt;通用-&gt;VPN-&gt;连接.</p>
+<p><img src="http://cxp.im/images/20170225213251/14880281376766.jpg" alt=""></p>
+<h2 id="未完待续-请关注我"><a href="#未完待续-请关注我" class="headerlink" title="未完待续, 请关注我!~"></a>未完待续, 请关注我!~</h2>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;u524D_u8A00&quot;&gt;&lt;a href=&quot;#u524D_u8A00&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;从教程中, 你可以收获什么?&lt;/p&gt;
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;从教程中, 你可以收获什么?&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;如何购买搬瓦工vps&lt;/li&gt;
-&lt;li&gt;如何使用
+&lt;li&gt;如何使用搬瓦工vps后台&lt;/li&gt;
+&lt;li&gt;
     
     </summary>
     
@@ -333,14 +336,14 @@
     <published>2017-02-25T14:34:07.000Z</published>
     <updated>2017-02-25T14:37:13.000Z</updated>
     
-    <content type="html">&lt;p&gt;为配合教程, 所以简单的介绍下vim的基础使用.&lt;/p&gt;
-&lt;p&gt;当你在终端输入&lt;code&gt;vi xxx&lt;/code&gt;或者&lt;code&gt;vim xxx&lt;/code&gt;的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化.&lt;/p&gt;
-&lt;p&gt;1.未编辑状态&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.按键盘上的&lt;code&gt;i&lt;/code&gt;进入编辑状态, 然后输入内容&lt;br&gt;输入前&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;输入后&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;3.按&lt;code&gt;esc&lt;/code&gt;退出编辑状态&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221401@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;4.输入&lt;code&gt;:wq&lt;/code&gt;保存并退出&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221412@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;5.保存并退出后&lt;br&gt;&lt;img src=&quot;http://cxp.im/images/20170225221630/QQ20170225-221420@2x.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>为配合教程, 所以简单的介绍下vim的基础使用.</p>
+<p>当你在终端输入<code>vi xxx</code>或者<code>vim xxx</code>的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化.</p>
+<p>1.未编辑状态<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png" alt=""></p>
+<p>2.按键盘上的<code>i</code>进入编辑状态, 然后输入内容<br>输入前<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png" alt=""><br>输入后<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png" alt=""></p>
+<p>3.按<code>esc</code>退出编辑状态<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221401@2x.png" alt=""></p>
+<p>4.输入<code>:wq</code>保存并退出<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221412@2x.png" alt=""></p>
+<p>5.保存并退出后<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221420@2x.png" alt=""></p>
+]]></content>
     
     <summary type="html">
     
@@ -353,9 +356,9 @@
       <category term="Vim" scheme="https://cxp.im/categories/Vim/"/>
     
     
-      <category term="VPS" scheme="https://cxp.im/tags/VPS/"/>
-    
       <category term="Vim使用" scheme="https://cxp.im/tags/Vim%E4%BD%BF%E7%94%A8/"/>
+    
+      <category term="VPS" scheme="https://cxp.im/tags/VPS/"/>
     
   </entry>
   
@@ -366,134 +369,134 @@
     <published>2016-05-08T08:22:53.000Z</published>
     <updated>2016-05-08T08:22:53.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Quartz2D_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Quartz2D_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Quartz2D简介&quot;&gt;&lt;/a&gt;Quartz2D简介&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Quartz 2D是一个二维图形绘制引擎，支持iOS环境和Mac OS X环境。&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;Quartz 2D以PDF的规范为基础的图形库，用来绘制二维文字和图形，允许相同的绘图指令在任何装置上，使用可以得到的最佳分辨率，产生相同的输出。&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;Quartz 2D API可以实现许多功能，如基于路径的绘图、透明度、阴影、颜色管理、反锯齿、PDF文档生成和PDF元数据访问等。 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Quartz 2D API是Core Graphics框架的一部分，因此其中的很多数据类型和方法都是以CG开头的。会经常见到Quartz 2D（Quartz）和Core Graphics两个术语交互使用。&lt;/li&gt;
-&lt;li&gt;Quartz 2D与分辨率和设备无关，因此在使用Quartz 2D绘图时，无需考虑最终绘图的目标设备。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h6 id=&quot;u6CE8_3A&quot;&gt;&lt;a href=&quot;#u6CE8_3A&quot; class=&quot;headerlink&quot; title=&quot;注:&quot;&gt;&lt;/a&gt;注:&lt;/h6&gt;&lt;p&gt;本文内容均来自, 我自己学习过程中的整理, Quartz2D介绍部分来自 &lt;a href=&quot;http://www.cnblogs.com/monicaios/p/3516733.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Rynn的博客&lt;/a&gt; 具体更详细的Quartz2D介绍可以点击链接查看, 本博文主要以实战代码为主.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&quot;u5B66_u4E60Quartz2D_u5FC5_u987B_u4E86_u89E3_u7684_u65B9_u6CD5_-__28void_29drawRect_3A_28CGRect_29rect&quot;&gt;&lt;a href=&quot;#u5B66_u4E60Quartz2D_u5FC5_u987B_u4E86_u89E3_u7684_u65B9_u6CD5_-__28void_29drawRect_3A_28CGRect_29rect&quot; class=&quot;headerlink&quot; title=&quot;学习Quartz2D必须了解的方法   - (void)drawRect:(CGRect)rect&quot;&gt;&lt;/a&gt;学习Quartz2D必须了解的方法   - (void)drawRect:(CGRect)rect&lt;/h3&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;comment&quot;&gt;// Drawing code&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;对View进行绘制, 必须在这个方法内进行codeing.&lt;/li&gt;
-&lt;li&gt;因为只有在这个方法中才能获取到跟View相关联的上下文.(系统内部会创建好上下文, 我们只需要直接get获取就好)&lt;/li&gt;
-&lt;li&gt;当View即将显示的时候, 会自动调用这个方法.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;- (void)drawRect:(CGRect)rect&lt;/code&gt; 中的rect参数, 可以获取到当前View的CGRect&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&quot;u51C6_u5907&quot;&gt;&lt;a href=&quot;#u51C6_u5907&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;新建项目, 在项目里面创建一个UIView.&lt;/li&gt;
-&lt;li&gt;自定义一个继承UIView的类, 并且让创建出来的UIView的类型, 继承自你刚刚自定义的那个类. &lt;/li&gt;
-&lt;li&gt;接下来我们就可以在刚刚自定义的类, &lt;code&gt;- (void)drawRect:(CGRect)rect&lt;/code&gt;的方法中愉快的玩耍了.&lt;/li&gt;
-&lt;li&gt;一般新建一个继承自UIView的类, 在.m中会自动帮我们生成好&lt;code&gt;- (void)drawRect:(CGRect)rect&lt;/code&gt;方法, 我们只需要打开就好.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#import &lt;span class=&quot;title&quot;&gt;&quot;DrawView.h&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@implementation&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;DrawView&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// Only override drawRect: if you perform custom drawing.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// An empty implementation adversely affects performance during animation.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- (void)drawRect:(CGRect)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    // Drawing code&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@end&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;hr&gt;
-&lt;h3 id=&quot;u753B_u7EBF&quot;&gt;&lt;a href=&quot;#u753B_u7EBF&quot; class=&quot;headerlink&quot; title=&quot;画线&quot;&gt;&lt;/a&gt;画线&lt;/h3&gt;&lt;h4 id=&quot;u753B_u4E00_u6761_u76F4_u7EBF&quot;&gt;&lt;a href=&quot;#u753B_u4E00_u6761_u76F4_u7EBF&quot; class=&quot;headerlink&quot; title=&quot;画一条直线&quot;&gt;&lt;/a&gt;画一条直线&lt;/h4&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取图形上下文(在 drawRect: 方法中, 系统已经帮我们创建好了图形上下文)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextRef&lt;/span&gt; ctx = &lt;span class=&quot;built_in&quot;&gt;UIGraphicsGetCurrentContext&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 创建路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置起点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path moveToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加一条线到某个点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加路径到图形上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextAddPath&lt;/span&gt;(ctx, path&lt;span class=&quot;variable&quot;&gt;.CGPath&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 绘制&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextStrokePath&lt;/span&gt;(ctx);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0001.png&quot; alt=&quot;&quot;&gt; &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;两点成一线, 所以我们设置起点, 设置终点, 就可以画线&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;CGContextAddPath(ctx, path.CGPath);&lt;/code&gt; 因为这个函数需要接收的参数是&lt;code&gt;CGPathRef&lt;/code&gt;, 而我们创建的并不是, 所以我们需要调用&lt;code&gt;UIBezierPath&lt;/code&gt;类的&lt;code&gt;- (CGPathRef)CGPath&lt;/code&gt;方法, 把 &lt;code&gt;UIBezierPath&lt;/code&gt;类型转换成&lt;code&gt;CGPathRef&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;u753B_u4E24_u6761_u76F4_u7EBF&quot;&gt;&lt;a href=&quot;#u753B_u4E24_u6761_u76F4_u7EBF&quot; class=&quot;headerlink&quot; title=&quot;画两条直线&quot;&gt;&lt;/a&gt;画两条直线&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;想要实现画两条或多条直线的方法, 有两种方式.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第一种&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取图形上下文(在 drawRect: 方法中, 系统已经帮我们创建好了图形上下文)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextRef&lt;/span&gt; ctx = &lt;span class=&quot;built_in&quot;&gt;UIGraphicsGetCurrentContext&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 创建路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置起点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path moveToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置终点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 一个路径对象可以包含很多线段, 所以我们可以继续设置起点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path moveToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置终点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加路径到图形上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextAddPath&lt;/span&gt;(ctx, path&lt;span class=&quot;variable&quot;&gt;.CGPath&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 绘制&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextStrokePath&lt;/span&gt;(ctx);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0002.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;第二种&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取图形上下文(在 drawRect: 方法中, 系统已经帮我们创建好了图形上下文)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextRef&lt;/span&gt; ctx = &lt;span class=&quot;built_in&quot;&gt;UIGraphicsGetCurrentContext&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 创建路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置起点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path moveToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置终点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加路径到图形上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextAddPath&lt;/span&gt;(ctx, path&lt;span class=&quot;variable&quot;&gt;.CGPath&lt;/span&gt;); &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 因为上一个路径已经添加到了图形上下文中了, 所以我们可以重新创建一个UIBezierPath对象, &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 来改变path的指针指向.&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置起点,移动到某个位置&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path moveToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;30&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置终点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加路径到图形上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextAddPath&lt;/span&gt;(ctx, path&lt;span class=&quot;variable&quot;&gt;.CGPath&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 绘制&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextStrokePath&lt;/span&gt;(ctx);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0003.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;对比完两种方法, 第二种方法比第一种方法多了几个步骤, 1.重新创建新的路径 2.设置起点, 终点 3.添加路径到上下文.&lt;/li&gt;
-&lt;li&gt;从实用角度来讲, 我个人更倾向于第二种, &lt;code&gt;自己的路径, 自己的路径对象进行管理&lt;/code&gt;, 从代码行数角度来讲, 当然是第一种好.&lt;/li&gt;
-&lt;li&gt;上面所讲的方法是用来绘制&lt;code&gt;平行或无连接关系&lt;/code&gt;的线段.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;u753B_u6709__u8FDE_u63A5_u5173_u7CFB__u7684_u7EBF_u6BB5_u548C_u8BBE_u7F6E_u7EBF_u6BB5_u7684_u5C5E_u6027&quot;&gt;&lt;a href=&quot;#u753B_u6709__u8FDE_u63A5_u5173_u7CFB__u7684_u7EBF_u6BB5_u548C_u8BBE_u7F6E_u7EBF_u6BB5_u7684_u5C5E_u6027&quot; class=&quot;headerlink&quot; title=&quot;画有 连接关系 的线段和设置线段的属性&quot;&gt;&lt;/a&gt;画有 连接关系 的线段和设置线段的属性&lt;/h4&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	 &lt;span class=&quot;comment&quot;&gt;// 获取图形上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextRef&lt;/span&gt; ctx = &lt;span class=&quot;built_in&quot;&gt;UIGraphicsGetCurrentContext&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 创建路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置起点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path moveToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;30&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置终点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置第二根线的终点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加路径到图形上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextAddPath&lt;/span&gt;(ctx, path&lt;span class=&quot;variable&quot;&gt;.CGPath&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置线宽&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextSetLineWidth&lt;/span&gt;(ctx, &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置线条两端的样式为圆角&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextSetLineCap&lt;/span&gt;(ctx, k&lt;span class=&quot;built_in&quot;&gt;CGLineCapRound&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置线条连接处的样式为圆角&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextSetLineJoin&lt;/span&gt;(ctx, k&lt;span class=&quot;built_in&quot;&gt;CGLineJoinRound&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	 &lt;span class=&quot;comment&quot;&gt;// 绘制&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextStrokePath&lt;/span&gt;(ctx);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0004.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果画的线段是连接在一起的, 可以直接设置第二根线的终点, 不必重现设置起点.&lt;/li&gt;
-&lt;li&gt;设置线条&lt;code&gt;两端的样式&lt;/code&gt;和&lt;code&gt;连接处的样式&lt;/code&gt;的参数是枚举, 剩下的样式请自行尝试.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;UIBezierPath&quot;&gt;&lt;a href=&quot;#UIBezierPath&quot; class=&quot;headerlink&quot; title=&quot;UIBezierPath&quot;&gt;&lt;/a&gt;UIBezierPath&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;因为UIBezierPath类里面已经帮我们封装好了很多东西, 所以绘制线段有更快捷的方法.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path moveToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:&lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0005.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h5 id=&quot;u603B_u7ED3&quot;&gt;&lt;a href=&quot;#u603B_u7ED3&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h5&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;绘制步骤可以分成四个大的步骤&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;1.&lt;/span&gt; 获取当前View的图形上下文&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;2.&lt;/span&gt; 创建路径&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;number&quot;&gt;2.1&lt;/span&gt; 设置起点&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;number&quot;&gt;2.2&lt;/span&gt; 设置终点&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;number&quot;&gt;2.3&lt;/span&gt; ....&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;3.&lt;/span&gt; 添加路径到图形上下文&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;4.&lt;/span&gt; 绘制&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;hr&gt;
-&lt;h3 id=&quot;u7ED8_u5236_u57FA_u672C_u56FE_u5F62&quot;&gt;&lt;a href=&quot;#u7ED8_u5236_u57FA_u672C_u56FE_u5F62&quot; class=&quot;headerlink&quot; title=&quot;绘制基本图形&quot;&gt;&lt;/a&gt;绘制基本图形&lt;/h3&gt;&lt;h4 id=&quot;u77E9_u5F62_u548C_u6B63_u65B9_u5F62&quot;&gt;&lt;a href=&quot;#u77E9_u5F62_u548C_u6B63_u65B9_u5F62&quot; class=&quot;headerlink&quot; title=&quot;矩形和正方形&quot;&gt;&lt;/a&gt;矩形和正方形&lt;/h4&gt;&lt;h5 id=&quot;u6B63_u65B9_u5F62&quot;&gt;&lt;a href=&quot;#u6B63_u65B9_u5F62&quot; class=&quot;headerlink&quot; title=&quot;正方形&quot;&gt;&lt;/a&gt;正方形&lt;/h5&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 第一个参数表示需要绘制图形的frame, 第二个参数表示半径(可以通过修改这个参数来达到绘制带圆角的图形和绘制圆形)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithRoundedRect:&lt;span class=&quot;built_in&quot;&gt;CGRectMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;160&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;160&lt;/span&gt;) cornerRadius:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0006.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;u5706_u89D2_u77E9_u5F62&quot;&gt;&lt;a href=&quot;#u5706_u89D2_u77E9_u5F62&quot; class=&quot;headerlink&quot; title=&quot;圆角矩形&quot;&gt;&lt;/a&gt;圆角矩形&lt;/h5&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithRoundedRect:&lt;span class=&quot;built_in&quot;&gt;CGRectMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;160&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;) cornerRadius:&lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0007.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;u5706_u578B&quot;&gt;&lt;a href=&quot;#u5706_u578B&quot; class=&quot;headerlink&quot; title=&quot;圆型&quot;&gt;&lt;/a&gt;圆型&lt;/h5&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithRoundedRect:&lt;span class=&quot;built_in&quot;&gt;CGRectMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;50&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;150&lt;/span&gt;) cornerRadius:&lt;span class=&quot;number&quot;&gt;75&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0008.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;这里只放置3种样式的代码, 其他样式可以修改参数, 通过这个方法来绘制正方形, 矩形, 圆角正方形, 圆角矩形, 圆形,等…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;u692D_u5706&quot;&gt;&lt;a href=&quot;#u692D_u5706&quot; class=&quot;headerlink&quot; title=&quot;椭圆&quot;&gt;&lt;/a&gt;椭圆&lt;/h4&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithOvalInRect:&lt;span class=&quot;built_in&quot;&gt;CGRectMake&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;30&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;30&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;)];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0009.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;用以上方法同样也可以绘制圆形&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;u5706_u5F27&quot;&gt;&lt;a href=&quot;#u5706_u5F27&quot; class=&quot;headerlink&quot; title=&quot;圆弧&quot;&gt;&lt;/a&gt;圆弧&lt;/h4&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取当前控件的圆心&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGPoint&lt;/span&gt; center = &lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.width&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;, rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.height&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取半径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGFloat&lt;/span&gt; radius = rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.width&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;/*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    参数一 需要绘制圆弧的圆心在哪, &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    参数二 圆弧到圆心的半径, &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    参数三 圆弧开始角度, &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    参数四 圆弧结束角度, &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    参数五 传入YES表示顺时针, 传入NO表示逆时针&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithArcCenter:center radius:radius startAngle:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; endAngle:M_PI clockwise:&lt;span class=&quot;literal&quot;&gt;YES&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0010.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;从以上图片可以看出, 开始角度并不是从12点钟方向开始的, 而是从3点钟方向开始的. 所以在绘制圆弧的时候需要注意, 如果需要从12点钟方向开始, 那么开始角度应该是-90度开始&lt;/li&gt;
-&lt;li&gt;在OC中, 已经定义好了一些常用的宏, &lt;code&gt;M_PI&lt;/code&gt;表示180°, &lt;code&gt;M_PI_2&lt;/code&gt;表示90°, &lt;code&gt;M_PI_4&lt;/code&gt;表示45°.(具体可以跳到头文件进行查看)&lt;/li&gt;
-&lt;li&gt;具体角度与弧度互转, 引用至&lt;code&gt;百度知道&lt;/code&gt;的答案&lt;blockquote&gt;
-&lt;p&gt;弧度 ＝ (角度 / 180) &lt;em&gt; PI&lt;br&gt;PI就是“派”&lt;br&gt;比如180度角，转换之后的弧度就是PI，45度的话是四分之一PI。&lt;br&gt;反过来也一样，角度 = 弧度 / PI &lt;/em&gt; 180&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&quot;u6247_u5F62&quot;&gt;&lt;a href=&quot;#u6247_u5F62&quot; class=&quot;headerlink&quot; title=&quot;扇形&quot;&gt;&lt;/a&gt;扇形&lt;/h4&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取圆心&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGPoint&lt;/span&gt; center = &lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.width&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;, rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.height&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 创建路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithArcCenter:center radius:&lt;span class=&quot;number&quot;&gt;100&lt;/span&gt; startAngle:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; endAngle:M_PI_2 clockwise:&lt;span class=&quot;literal&quot;&gt;YES&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加一根线到圆心&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:center];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 从圆心添加线到圆弧的起始点&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// [path addLineToPoint:CGPointMake(center.x + 100, center.y)];&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 关闭路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path closePath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 绘制&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0011.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;从上述代码可以看出, 绘制扇形, 其实就是先绘制圆弧, 然后添加一根线到圆心, 再添加一根线到圆弧的起始点位置, 就组成了一个扇形.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;UIBezierPath&lt;/code&gt;类为我们提供了更加便捷的方法, 所以在添加第二根线, &lt;code&gt;圆心到圆弧起始点位置&lt;/code&gt;, 我们可以直接调用&lt;code&gt;[path closePath]&lt;/code&gt;的对象方法, 这样也减少了位置的计算.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h5 id=&quot;u6247_u5F62_u7684_u63CF_u8FB9_u548C_u586B_u5145&quot;&gt;&lt;a href=&quot;#u6247_u5F62_u7684_u63CF_u8FB9_u548C_u586B_u5145&quot; class=&quot;headerlink&quot; title=&quot;扇形的描边和填充&quot;&gt;&lt;/a&gt;扇形的描边和填充&lt;/h5&gt;&lt;h6 id=&quot;u4FEE_u6539_u63CF_u8FB9_u989C_u8272&quot;&gt;&lt;a href=&quot;#u4FEE_u6539_u63CF_u8FB9_u989C_u8272&quot; class=&quot;headerlink&quot; title=&quot;修改描边颜色&quot;&gt;&lt;/a&gt;修改描边颜色&lt;/h6&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 此处省略创建路径等代码, 重点讲解如何描边&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 关闭路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path closePath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置描边颜色&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [[&lt;span class=&quot;built_in&quot;&gt;UIColor&lt;/span&gt; greenColor] setStroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 绘制&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path stroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0012.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在关闭路径后, 绘制之前, 如果我们需要设置扇形的线条颜色, 可以通过&lt;code&gt;setStroke&lt;/code&gt;方法来设置颜色.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h6 id=&quot;u586B_u5145&quot;&gt;&lt;a href=&quot;#u586B_u5145&quot; class=&quot;headerlink&quot; title=&quot;填充&quot;&gt;&lt;/a&gt;填充&lt;/h6&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取圆心&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGPoint&lt;/span&gt; center = &lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.width&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;, rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.height&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 创建路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithArcCenter:center radius:&lt;span class=&quot;number&quot;&gt;100&lt;/span&gt; startAngle:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; endAngle:M_PI_2 clockwise:&lt;span class=&quot;literal&quot;&gt;YES&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加一根线到圆心&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:center];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置填充颜色&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [[&lt;span class=&quot;built_in&quot;&gt;UIColor&lt;/span&gt; blueColor] setFill];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 填充&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path fill];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0013.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果你是需要填充扇形, 那么可以省略关闭路径这一步骤&lt;code&gt;closePath&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;并且不再是调用&lt;code&gt;stroke&lt;/code&gt;方法, 而是调用&lt;code&gt;fill&lt;/code&gt;方法&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h6 id=&quot;u540C_u65F6_u586B_u5145_u548C_u63CF_u8FB9&quot;&gt;&lt;a href=&quot;#u540C_u65F6_u586B_u5145_u548C_u63CF_u8FB9&quot; class=&quot;headerlink&quot; title=&quot;同时填充和描边&quot;&gt;&lt;/a&gt;同时填充和描边&lt;/h6&gt;&lt;ul&gt;
-&lt;li&gt;如果你需要同时填充和描边扇形, 那么&lt;code&gt;UIBezierPath&lt;/code&gt;并没有帮我们封装类似的方法, 所以我们还是需要使用&lt;code&gt;CoreGraphics&lt;/code&gt;框架中的C语言函数来实现.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;)drawRect:(&lt;span class=&quot;built_in&quot;&gt;CGRect&lt;/span&gt;)rect &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取圆心&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGPoint&lt;/span&gt; center = &lt;span class=&quot;built_in&quot;&gt;CGPointMake&lt;/span&gt;(rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.width&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;, rect&lt;span class=&quot;variable&quot;&gt;.size&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.height&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 获取上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextRef&lt;/span&gt; ctx = &lt;span class=&quot;built_in&quot;&gt;UIGraphicsGetCurrentContext&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 创建路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; *path = [&lt;span class=&quot;built_in&quot;&gt;UIBezierPath&lt;/span&gt; bezierPathWithArcCenter:center radius:&lt;span class=&quot;number&quot;&gt;100&lt;/span&gt; startAngle:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; endAngle:M_PI_2 clockwise:&lt;span class=&quot;literal&quot;&gt;YES&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 添加一根线到圆心&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path addLineToPoint:center];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 关闭路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [path closePath];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 把路径添加到上下文&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextAddPath&lt;/span&gt;(ctx, path&lt;span class=&quot;variable&quot;&gt;.CGPath&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置填充颜色&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [[&lt;span class=&quot;built_in&quot;&gt;UIColor&lt;/span&gt; blueColor] setFill];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置描边颜色&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [[&lt;span class=&quot;built_in&quot;&gt;UIColor&lt;/span&gt; greenColor] setStroke];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 设置线宽&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextSetLineWidth&lt;/span&gt;(ctx, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;// 渲染 (第二个形参表示绘画模式是填充和描边都需要, 这个参数是枚举)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;CGContextDrawPath&lt;/span&gt;(ctx, k&lt;span class=&quot;built_in&quot;&gt;CGPathFillStroke&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Quartz2D/0014.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;这里是需要关闭路径的, 不关闭会有问题. 你可以试试注释掉关闭路径的代码.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Quartz2D简介"><a href="#Quartz2D简介" class="headerlink" title="Quartz2D简介"></a>Quartz2D简介</h2><ul>
+<li>Quartz 2D是一个二维图形绘制引擎，支持iOS环境和Mac OS X环境。<br></li>
+<li>Quartz 2D以PDF的规范为基础的图形库，用来绘制二维文字和图形，允许相同的绘图指令在任何装置上，使用可以得到的最佳分辨率，产生相同的输出。<br></li>
+<li>Quartz 2D API可以实现许多功能，如基于路径的绘图、透明度、阴影、颜色管理、反锯齿、PDF文档生成和PDF元数据访问等。 <a id="more"></a></li>
+<li>Quartz 2D API是Core Graphics框架的一部分，因此其中的很多数据类型和方法都是以CG开头的。会经常见到Quartz 2D（Quartz）和Core Graphics两个术语交互使用。</li>
+<li>Quartz 2D与分辨率和设备无关，因此在使用Quartz 2D绘图时，无需考虑最终绘图的目标设备。</li>
+</ul>
+<h6 id="注"><a href="#注" class="headerlink" title="注:"></a>注:</h6><p>本文内容均来自, 我自己学习过程中的整理, Quartz2D介绍部分来自 <a href="http://www.cnblogs.com/monicaios/p/3516733.html" target="_blank" rel="external">Rynn的博客</a> 具体更详细的Quartz2D介绍可以点击链接查看, 本博文主要以实战代码为主.</p>
+<hr>
+<h3 id="学习Quartz2D必须了解的方法-void-drawRect-CGRect-rect"><a href="#学习Quartz2D必须了解的方法-void-drawRect-CGRect-rect" class="headerlink" title="学习Quartz2D必须了解的方法   - (void)drawRect:(CGRect)rect"></a>学习Quartz2D必须了解的方法   - (void)drawRect:(CGRect)rect</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">	<span class="comment">// Drawing code</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>对View进行绘制, 必须在这个方法内进行codeing.</li>
+<li>因为只有在这个方法中才能获取到跟View相关联的上下文.(系统内部会创建好上下文, 我们只需要直接get获取就好)</li>
+<li>当View即将显示的时候, 会自动调用这个方法.</li>
+<li><code>- (void)drawRect:(CGRect)rect</code> 中的rect参数, 可以获取到当前View的CGRect</li>
+</ul>
+<hr>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ol>
+<li>新建项目, 在项目里面创建一个UIView.</li>
+<li>自定义一个继承UIView的类, 并且让创建出来的UIView的类型, 继承自你刚刚自定义的那个类. </li>
+<li>接下来我们就可以在刚刚自定义的类, <code>- (void)drawRect:(CGRect)rect</code>的方法中愉快的玩耍了.</li>
+<li>一般新建一个继承自UIView的类, 在.m中会自动帮我们生成好<code>- (void)drawRect:(CGRect)rect</code>方法, 我们只需要打开就好.</li>
+</ol>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#import <span class="meta-string">"DrawView.h"</span></span></div><div class="line"></div><div class="line"><span class="class"><span class="keyword">@implementation</span> <span class="title">DrawView</span></span></div><div class="line"></div><div class="line"><span class="comment">/*</span></div><div class="line">// Only override drawRect: if you perform custom drawing.</div><div class="line">// An empty implementation adversely affects performance during animation.</div><div class="line">- (void)drawRect:(CGRect)rect &#123;</div><div class="line">    // Drawing code</div><div class="line">&#125;</div><div class="line">*/</div><div class="line"></div><div class="line"><span class="keyword">@end</span></div></pre></td></tr></table></figure>
+<hr>
+<h3 id="画线"><a href="#画线" class="headerlink" title="画线"></a>画线</h3><h4 id="画一条直线"><a href="#画一条直线" class="headerlink" title="画一条直线"></a>画一条直线</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 获取图形上下文(在 drawRect: 方法中, 系统已经帮我们创建好了图形上下文)</span></div><div class="line">    <span class="built_in">CGContextRef</span> ctx = <span class="built_in">UIGraphicsGetCurrentContext</span>();</div><div class="line">    </div><div class="line">    <span class="comment">// 创建路径</span></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPath];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置起点</span></div><div class="line">    [path moveToPoint:<span class="built_in">CGPointMake</span>(<span class="number">50</span>, <span class="number">100</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加一条线到某个点</span></div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">200</span>, <span class="number">200</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加路径到图形上下文</span></div><div class="line">    <span class="built_in">CGContextAddPath</span>(ctx, path.CGPath);</div><div class="line">    </div><div class="line">    <span class="comment">// 绘制</span></div><div class="line">    <span class="built_in">CGContextStrokePath</span>(ctx);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0001.png" alt=""> </p>
+<ul>
+<li>两点成一线, 所以我们设置起点, 设置终点, 就可以画线</li>
+<li><code>CGContextAddPath(ctx, path.CGPath);</code> 因为这个函数需要接收的参数是<code>CGPathRef</code>, 而我们创建的并不是, 所以我们需要调用<code>UIBezierPath</code>类的<code>- (CGPathRef)CGPath</code>方法, 把 <code>UIBezierPath</code>类型转换成<code>CGPathRef</code>.</li>
+</ul>
+<hr>
+<h4 id="画两条直线"><a href="#画两条直线" class="headerlink" title="画两条直线"></a>画两条直线</h4><ul>
+<li><p>想要实现画两条或多条直线的方法, 有两种方式.</p>
+</li>
+<li><p>第一种</p>
+</li>
+</ul>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 获取图形上下文(在 drawRect: 方法中, 系统已经帮我们创建好了图形上下文)</span></div><div class="line">    <span class="built_in">CGContextRef</span> ctx = <span class="built_in">UIGraphicsGetCurrentContext</span>();</div><div class="line">    </div><div class="line">    <span class="comment">// 创建路径</span></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPath];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置起点</span></div><div class="line">    [path moveToPoint:<span class="built_in">CGPointMake</span>(<span class="number">50</span>, <span class="number">100</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置终点</span></div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">200</span>, <span class="number">200</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 一个路径对象可以包含很多线段, 所以我们可以继续设置起点</span></div><div class="line">    [path moveToPoint:<span class="built_in">CGPointMake</span>(<span class="number">50</span>, <span class="number">200</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置终点</span></div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">100</span>, <span class="number">200</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加路径到图形上下文</span></div><div class="line">    <span class="built_in">CGContextAddPath</span>(ctx, path.CGPath);</div><div class="line">    </div><div class="line">    <span class="comment">// 绘制</span></div><div class="line">    <span class="built_in">CGContextStrokePath</span>(ctx);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0002.png" alt=""></p>
+<ul>
+<li>第二种</li>
+</ul>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 获取图形上下文(在 drawRect: 方法中, 系统已经帮我们创建好了图形上下文)</span></div><div class="line">    <span class="built_in">CGContextRef</span> ctx = <span class="built_in">UIGraphicsGetCurrentContext</span>();</div><div class="line">    </div><div class="line">    <span class="comment">// 创建路径</span></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPath];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置起点</span></div><div class="line">    [path moveToPoint:<span class="built_in">CGPointMake</span>(<span class="number">200</span>, <span class="number">100</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置终点</span></div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">200</span>, <span class="number">200</span>)];</div><div class="line">   </div><div class="line">    <span class="comment">// 添加路径到图形上下文</span></div><div class="line">    <span class="built_in">CGContextAddPath</span>(ctx, path.CGPath); </div><div class="line">    </div><div class="line">    <span class="comment">// 因为上一个路径已经添加到了图形上下文中了, 所以我们可以重新创建一个UIBezierPath对象, </span></div><div class="line">    <span class="comment">// 来改变path的指针指向.</span></div><div class="line">    path = [<span class="built_in">UIBezierPath</span> bezierPath];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置起点,移动到某个位置</span></div><div class="line">    [path moveToPoint:<span class="built_in">CGPointMake</span>(<span class="number">30</span>, <span class="number">200</span>)];</div><div class="line"></div><div class="line">    <span class="comment">// 设置终点</span></div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">100</span>, <span class="number">200</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加路径到图形上下文</span></div><div class="line">    <span class="built_in">CGContextAddPath</span>(ctx, path.CGPath);</div><div class="line">    </div><div class="line">    <span class="comment">// 绘制</span></div><div class="line">    <span class="built_in">CGContextStrokePath</span>(ctx);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0003.png" alt=""></p>
+<ul>
+<li>对比完两种方法, 第二种方法比第一种方法多了几个步骤, 1.重新创建新的路径 2.设置起点, 终点 3.添加路径到上下文.</li>
+<li>从实用角度来讲, 我个人更倾向于第二种, <code>自己的路径, 自己的路径对象进行管理</code>, 从代码行数角度来讲, 当然是第一种好.</li>
+<li>上面所讲的方法是用来绘制<code>平行或无连接关系</code>的线段.</li>
+</ul>
+<hr>
+<h4 id="画有-连接关系-的线段和设置线段的属性"><a href="#画有-连接关系-的线段和设置线段的属性" class="headerlink" title="画有 连接关系 的线段和设置线段的属性"></a>画有 连接关系 的线段和设置线段的属性</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">	 <span class="comment">// 获取图形上下文</span></div><div class="line">    <span class="built_in">CGContextRef</span> ctx = <span class="built_in">UIGraphicsGetCurrentContext</span>();</div><div class="line">    </div><div class="line">    <span class="comment">// 创建路径</span></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPath];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置起点</span></div><div class="line">    [path moveToPoint:<span class="built_in">CGPointMake</span>(<span class="number">30</span>, <span class="number">100</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置终点</span></div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">200</span>, <span class="number">200</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置第二根线的终点</span></div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">100</span>, <span class="number">100</span>)];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加路径到图形上下文</span></div><div class="line">    <span class="built_in">CGContextAddPath</span>(ctx, path.CGPath);</div><div class="line">    </div><div class="line">    <span class="comment">// 设置线宽</span></div><div class="line">    <span class="built_in">CGContextSetLineWidth</span>(ctx, <span class="number">10</span>);</div><div class="line">    </div><div class="line">    <span class="comment">// 设置线条两端的样式为圆角</span></div><div class="line">    <span class="built_in">CGContextSetLineCap</span>(ctx, kCGLineCapRound);</div><div class="line"></div><div class="line">    <span class="comment">// 设置线条连接处的样式为圆角</span></div><div class="line">    <span class="built_in">CGContextSetLineJoin</span>(ctx, kCGLineJoinRound);</div><div class="line">    </div><div class="line">	 <span class="comment">// 绘制</span></div><div class="line">    <span class="built_in">CGContextStrokePath</span>(ctx);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0004.png" alt=""></p>
+<ul>
+<li>如果画的线段是连接在一起的, 可以直接设置第二根线的终点, 不必重现设置起点.</li>
+<li>设置线条<code>两端的样式</code>和<code>连接处的样式</code>的参数是枚举, 剩下的样式请自行尝试.</li>
+</ul>
+<hr>
+<h4 id="UIBezierPath"><a href="#UIBezierPath" class="headerlink" title="UIBezierPath"></a>UIBezierPath</h4><ul>
+<li>因为UIBezierPath类里面已经帮我们封装好了很多东西, 所以绘制线段有更快捷的方法.</li>
+</ul>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line"></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPath];</div><div class="line">    </div><div class="line">    [path moveToPoint:<span class="built_in">CGPointMake</span>(<span class="number">50</span>, <span class="number">50</span>)];</div><div class="line">    </div><div class="line">    [path addLineToPoint:<span class="built_in">CGPointMake</span>(<span class="number">200</span>, <span class="number">200</span>)];</div><div class="line">    </div><div class="line">    [path stroke];</div><div class="line">    </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0005.png" alt=""></p>
+<hr>
+<h5 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">绘制步骤可以分成四个大的步骤</div><div class="line"></div><div class="line">1. 获取当前View的图形上下文</div><div class="line">2. 创建路径</div><div class="line">	2.1 设置起点</div><div class="line">	2.2 设置终点</div><div class="line">	2.3 ....</div><div class="line">3. 添加路径到图形上下文</div><div class="line">4. 绘制</div></pre></td></tr></table></figure>
+<hr>
+<h3 id="绘制基本图形"><a href="#绘制基本图形" class="headerlink" title="绘制基本图形"></a>绘制基本图形</h3><h4 id="矩形和正方形"><a href="#矩形和正方形" class="headerlink" title="矩形和正方形"></a>矩形和正方形</h4><h5 id="正方形"><a href="#正方形" class="headerlink" title="正方形"></a>正方形</h5><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 第一个参数表示需要绘制图形的frame, 第二个参数表示半径(可以通过修改这个参数来达到绘制带圆角的图形和绘制圆形)</span></div><div class="line">   <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithRoundedRect:<span class="built_in">CGRectMake</span>(<span class="number">50</span>, <span class="number">50</span>, <span class="number">160</span>, <span class="number">160</span>) cornerRadius:<span class="number">0</span>];</div><div class="line"></div><div class="line">    [path stroke];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0006.png" alt=""></p>
+<h5 id="圆角矩形"><a href="#圆角矩形" class="headerlink" title="圆角矩形"></a>圆角矩形</h5><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    </div><div class="line">   <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithRoundedRect:<span class="built_in">CGRectMake</span>(<span class="number">50</span>, <span class="number">50</span>, <span class="number">160</span>, <span class="number">100</span>) cornerRadius:<span class="number">20</span>];</div><div class="line"></div><div class="line">    [path stroke];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0007.png" alt=""></p>
+<h5 id="圆型"><a href="#圆型" class="headerlink" title="圆型"></a>圆型</h5><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    </div><div class="line">   <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithRoundedRect:<span class="built_in">CGRectMake</span>(<span class="number">50</span>, <span class="number">50</span>, <span class="number">150</span>, <span class="number">150</span>) cornerRadius:<span class="number">75</span>];</div><div class="line"></div><div class="line">    [path stroke];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0008.png" alt=""></p>
+<ul>
+<li>这里只放置3种样式的代码, 其他样式可以修改参数, 通过这个方法来绘制正方形, 矩形, 圆角正方形, 圆角矩形, 圆形,等…</li>
+</ul>
+<hr>
+<h4 id="椭圆"><a href="#椭圆" class="headerlink" title="椭圆"></a>椭圆</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithOvalInRect:<span class="built_in">CGRectMake</span>(<span class="number">30</span>, <span class="number">30</span>, <span class="number">200</span>, <span class="number">100</span>)];</div><div class="line">    [path stroke];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0009.png" alt=""></p>
+<ul>
+<li>用以上方法同样也可以绘制圆形</li>
+</ul>
+<hr>
+<h4 id="圆弧"><a href="#圆弧" class="headerlink" title="圆弧"></a>圆弧</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 获取当前控件的圆心</span></div><div class="line">    <span class="built_in">CGPoint</span> center = <span class="built_in">CGPointMake</span>(rect.size.width * <span class="number">0.5</span>, rect.size.height * <span class="number">0.5</span>);</div><div class="line">    <span class="comment">// 获取半径</span></div><div class="line">    <span class="built_in">CGFloat</span> radius = rect.size.width * <span class="number">0.5</span> * <span class="number">0.5</span>;</div><div class="line">    <span class="comment">/*</span></div><div class="line">    参数一 需要绘制圆弧的圆心在哪, </div><div class="line">    参数二 圆弧到圆心的半径, </div><div class="line">    参数三 圆弧开始角度, </div><div class="line">    参数四 圆弧结束角度, </div><div class="line">    参数五 传入YES表示顺时针, 传入NO表示逆时针</div><div class="line">    */</div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithArcCenter:center radius:radius startAngle:<span class="number">0</span> endAngle:M_PI clockwise:<span class="literal">YES</span>];</div><div class="line">    [path stroke];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0010.png" alt=""></p>
+<ul>
+<li>从以上图片可以看出, 开始角度并不是从12点钟方向开始的, 而是从3点钟方向开始的. 所以在绘制圆弧的时候需要注意, 如果需要从12点钟方向开始, 那么开始角度应该是-90度开始</li>
+<li>在OC中, 已经定义好了一些常用的宏, <code>M_PI</code>表示180°, <code>M_PI_2</code>表示90°, <code>M_PI_4</code>表示45°.(具体可以跳到头文件进行查看)</li>
+<li>具体角度与弧度互转, 引用至<code>百度知道</code>的答案<blockquote>
+<p>弧度 ＝ (角度 / 180) <em> PI<br>PI就是“派”<br>比如180度角，转换之后的弧度就是PI，45度的话是四分之一PI。<br>反过来也一样，角度 = 弧度 / PI </em> 180</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h4 id="扇形"><a href="#扇形" class="headerlink" title="扇形"></a>扇形</h4><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 获取圆心</span></div><div class="line">    <span class="built_in">CGPoint</span> center = <span class="built_in">CGPointMake</span>(rect.size.width * <span class="number">0.5</span>, rect.size.height * <span class="number">0.5</span>);</div><div class="line">    <span class="comment">// 创建路径</span></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithArcCenter:center radius:<span class="number">100</span> startAngle:<span class="number">0</span> endAngle:M_PI_2 clockwise:<span class="literal">YES</span>];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加一根线到圆心</span></div><div class="line">    [path addLineToPoint:center];</div><div class="line">    </div><div class="line">    <span class="comment">// 从圆心添加线到圆弧的起始点</span></div><div class="line">    <span class="comment">// [path addLineToPoint:CGPointMake(center.x + 100, center.y)];</span></div><div class="line">    </div><div class="line">    <span class="comment">// 关闭路径</span></div><div class="line">    [path closePath];</div><div class="line">       </div><div class="line">    <span class="comment">// 绘制</span></div><div class="line">    [path stroke];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0011.png" alt=""></p>
+<ul>
+<li>从上述代码可以看出, 绘制扇形, 其实就是先绘制圆弧, 然后添加一根线到圆心, 再添加一根线到圆弧的起始点位置, 就组成了一个扇形.</li>
+<li><code>UIBezierPath</code>类为我们提供了更加便捷的方法, 所以在添加第二根线, <code>圆心到圆弧起始点位置</code>, 我们可以直接调用<code>[path closePath]</code>的对象方法, 这样也减少了位置的计算.</li>
+</ul>
+<hr>
+<h5 id="扇形的描边和填充"><a href="#扇形的描边和填充" class="headerlink" title="扇形的描边和填充"></a>扇形的描边和填充</h5><h6 id="修改描边颜色"><a href="#修改描边颜色" class="headerlink" title="修改描边颜色"></a>修改描边颜色</h6><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line"></div><div class="line">    <span class="comment">// 此处省略创建路径等代码, 重点讲解如何描边</span></div><div class="line">    <span class="comment">// 关闭路径</span></div><div class="line">    [path closePath];</div><div class="line"></div><div class="line">    <span class="comment">// 设置描边颜色</span></div><div class="line">    [[<span class="built_in">UIColor</span> greenColor] setStroke];</div><div class="line"></div><div class="line">    <span class="comment">// 绘制</span></div><div class="line">    [path stroke];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0012.png" alt=""></p>
+<ul>
+<li>在关闭路径后, 绘制之前, 如果我们需要设置扇形的线条颜色, 可以通过<code>setStroke</code>方法来设置颜色.</li>
+</ul>
+<hr>
+<h6 id="填充"><a href="#填充" class="headerlink" title="填充"></a>填充</h6><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 获取圆心</span></div><div class="line">    <span class="built_in">CGPoint</span> center = <span class="built_in">CGPointMake</span>(rect.size.width * <span class="number">0.5</span>, rect.size.height * <span class="number">0.5</span>);</div><div class="line">    <span class="comment">// 创建路径</span></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithArcCenter:center radius:<span class="number">100</span> startAngle:<span class="number">0</span> endAngle:M_PI_2 clockwise:<span class="literal">YES</span>];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加一根线到圆心</span></div><div class="line">    [path addLineToPoint:center];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置填充颜色</span></div><div class="line">    [[<span class="built_in">UIColor</span> blueColor] setFill];</div><div class="line">    </div><div class="line">    <span class="comment">// 填充</span></div><div class="line">    [path fill];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0013.png" alt=""></p>
+<ul>
+<li>如果你是需要填充扇形, 那么可以省略关闭路径这一步骤<code>closePath</code></li>
+<li>并且不再是调用<code>stroke</code>方法, 而是调用<code>fill</code>方法</li>
+</ul>
+<hr>
+<h6 id="同时填充和描边"><a href="#同时填充和描边" class="headerlink" title="同时填充和描边"></a>同时填充和描边</h6><ul>
+<li>如果你需要同时填充和描边扇形, 那么<code>UIBezierPath</code>并没有帮我们封装类似的方法, 所以我们还是需要使用<code>CoreGraphics</code>框架中的C语言函数来实现.</li>
+</ul>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">void</span>)drawRect:(<span class="built_in">CGRect</span>)rect &#123;</div><div class="line">    <span class="comment">// 获取圆心</span></div><div class="line">    <span class="built_in">CGPoint</span> center = <span class="built_in">CGPointMake</span>(rect.size.width * <span class="number">0.5</span>, rect.size.height * <span class="number">0.5</span>);</div><div class="line">    </div><div class="line">    <span class="comment">// 获取上下文</span></div><div class="line">    <span class="built_in">CGContextRef</span> ctx = <span class="built_in">UIGraphicsGetCurrentContext</span>();</div><div class="line">    </div><div class="line">    <span class="comment">// 创建路径</span></div><div class="line">    <span class="built_in">UIBezierPath</span> *path = [<span class="built_in">UIBezierPath</span> bezierPathWithArcCenter:center radius:<span class="number">100</span> startAngle:<span class="number">0</span> endAngle:M_PI_2 clockwise:<span class="literal">YES</span>];</div><div class="line">    </div><div class="line">    <span class="comment">// 添加一根线到圆心</span></div><div class="line">    [path addLineToPoint:center];</div><div class="line">    </div><div class="line">    <span class="comment">// 关闭路径</span></div><div class="line">    [path closePath];</div><div class="line">    </div><div class="line">    <span class="comment">// 把路径添加到上下文</span></div><div class="line">    <span class="built_in">CGContextAddPath</span>(ctx, path.CGPath);</div><div class="line">    </div><div class="line">    <span class="comment">// 设置填充颜色</span></div><div class="line">    [[<span class="built_in">UIColor</span> blueColor] setFill];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置描边颜色</span></div><div class="line">    [[<span class="built_in">UIColor</span> greenColor] setStroke];</div><div class="line">    </div><div class="line">    <span class="comment">// 设置线宽</span></div><div class="line">    <span class="built_in">CGContextSetLineWidth</span>(ctx, <span class="number">5</span>);</div><div class="line">    </div><div class="line">    <span class="comment">// 渲染 (第二个形参表示绘画模式是填充和描边都需要, 这个参数是枚举)</span></div><div class="line">    <span class="built_in">CGContextDrawPath</span>(ctx, kCGPathFillStroke);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/Quartz2D/0014.png" alt=""></p>
+<ul>
+<li>这里是需要关闭路径的, 不关闭会有问题. 你可以试试注释掉关闭路径的代码.</li>
+</ul>
+]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Quartz2D_u7B80_u4ECB&quot;&gt;&lt;a href=&quot;#Quartz2D_u7B80_u4ECB&quot; class=&quot;headerlink&quot; title=&quot;Quartz2D简介&quot;&gt;&lt;/a&gt;Quartz2D简介&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Quartz 2D是一个二维图形绘制引擎，支持iOS环境和Mac OS X环境。&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Quartz 2D以PDF的规范为基础的图形库，用来绘制二维文字和图形，允许相同的绘图指令在任何装置上，使用可以得到的最佳分辨率，产生相同的输出。&lt;br /&gt;&lt;/li&gt;
+      &lt;h2 id=&quot;Quartz2D简介&quot;&gt;&lt;a href=&quot;#Quartz2D简介&quot; class=&quot;headerlink&quot; title=&quot;Quartz2D简介&quot;&gt;&lt;/a&gt;Quartz2D简介&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Quartz 2D是一个二维图形绘制引擎，支持iOS环境和Mac OS X环境。&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Quartz 2D以PDF的规范为基础的图形库，用来绘制二维文字和图形，允许相同的绘图指令在任何装置上，使用可以得到的最佳分辨率，产生相同的输出。&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;Quartz 2D API可以实现许多功能，如基于路径的绘图、透明度、阴影、颜色管理、反锯齿、PDF文档生成和PDF元数据访问等。
     
     </summary>
@@ -512,24 +515,24 @@
     <published>2016-04-14T02:25:08.000Z</published>
     <updated>2017-02-22T11:09:01.000Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-0@2x.png&quot; alt=&quot;QQ20160414-0@2x.png&quot;&gt; &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-2@2x.png&quot; alt=&quot;QQ20160414-2@2x.png&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u6865_u63A5_u6587_u4EF6&quot;&gt;&lt;a href=&quot;#u6865_u63A5_u6587_u4EF6&quot; class=&quot;headerlink&quot; title=&quot;桥接文件&quot;&gt;&lt;/a&gt;桥接文件&lt;/h2&gt;&lt;p&gt;导入成功后, 新建一个Header File文件进行桥接&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-6@2x.png&quot; alt=&quot;QQ20160414-6@2x.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;如果没有提示, 就按图中头文件名手动敲入&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-7@2x.png&quot; alt=&quot;QQ20160414-7@2x.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;打开Build Settings, 输入bri关键字进行搜索, 找到图中我选中的 &lt;code&gt;Objective-C Bridging Header&lt;/code&gt; 这一行, 点击此行右边空白的地方, 弹出输入框, 从左边的文件栏选中文件你的桥接文件拽入输入框, 然后删除前面多余的路径地址&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-8@2x.png&quot; alt=&quot;QQ20160414-8@2x.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;然后编译一下, 成功就表示路径地址设置对了&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-9@2x.png&quot; alt=&quot;QQ20160414-9@2x.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;随便回到哪个控制器, 能够敲出sqlite的方法, 并且编译成功, 就表示导入成功了&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-10@2x.png&quot; alt=&quot;QQ20160414-10@2x.png&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;u6CE8_u610F_u70B9_3A&quot;&gt;&lt;a href=&quot;#u6CE8_u610F_u70B9_3A&quot; class=&quot;headerlink&quot; title=&quot;注意点:&quot;&gt;&lt;/a&gt;注意点:&lt;/h2&gt;&lt;p&gt;移除sqlite库文件的时候, 千万不要选择移除到废纸篓, 不然不小心清空废纸篓了, 那么你的库文件也被删掉了, 点击图中箭头指示的移除引用即可&lt;br&gt;&lt;img src=&quot;/images/Swift_SQLite_images/QQ20160414-11@2x.png&quot; alt=&quot;QQ20160414-11@2x.png&quot;&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p><code>注: 图中所用的Xcode版本为Xcode7.3</code></p>
+<h2 id="导入库"><a href="#导入库" class="headerlink" title="导入库"></a>导入库</h2><p>按下图顺序进行导入SQLite库</p>
+<a id="more"></a>
+<p><img src="/images/Swift_SQLite_images/QQ20160414-0@2x.png" alt="QQ20160414-0@2x.png"> </p>
+<p><img src="/images/Swift_SQLite_images/QQ20160414-2@2x.png" alt="QQ20160414-2@2x.png"></p>
+<h2 id="桥接文件"><a href="#桥接文件" class="headerlink" title="桥接文件"></a>桥接文件</h2><p>导入成功后, 新建一个Header File文件进行桥接<br><img src="/images/Swift_SQLite_images/QQ20160414-6@2x.png" alt="QQ20160414-6@2x.png"></p>
+<p>如果没有提示, 就按图中头文件名手动敲入<br><img src="/images/Swift_SQLite_images/QQ20160414-7@2x.png" alt="QQ20160414-7@2x.png"></p>
+<p>打开Build Settings, 输入bri关键字进行搜索, 找到图中我选中的 <code>Objective-C Bridging Header</code> 这一行, 点击此行右边空白的地方, 弹出输入框, 从左边的文件栏选中文件你的桥接文件拽入输入框, 然后删除前面多余的路径地址<br><img src="/images/Swift_SQLite_images/QQ20160414-8@2x.png" alt="QQ20160414-8@2x.png"></p>
+<p>然后编译一下, 成功就表示路径地址设置对了<br><img src="/images/Swift_SQLite_images/QQ20160414-9@2x.png" alt="QQ20160414-9@2x.png"></p>
+<p>随便回到哪个控制器, 能够敲出sqlite的方法, 并且编译成功, 就表示导入成功了<br><img src="/images/Swift_SQLite_images/QQ20160414-10@2x.png" alt="QQ20160414-10@2x.png"></p>
+<hr>
+<h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点:"></a>注意点:</h2><p>移除sqlite库文件的时候, 千万不要选择移除到废纸篓, 不然不小心清空废纸篓了, 那么你的库文件也被删掉了, 点击图中箭头指示的移除引用即可<br><img src="/images/Swift_SQLite_images/QQ20160414-11@2x.png" alt="QQ20160414-11@2x.png"></p>
+]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;code&gt;注: 图中所用的Xcode版本为Xcode7.3&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&quot;u5BFC_u5165_u5E93&quot;&gt;&lt;a href=&quot;#u5BFC_u5165_u5E93&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
+&lt;h2 id=&quot;导入库&quot;&gt;&lt;a href=&quot;#导入库&quot; class=&quot;headerlink&quot; title=&quot;导入库&quot;&gt;&lt;/a&gt;导入库&lt;/h2&gt;&lt;p&gt;按下图顺序进行导入SQLite库&lt;/p&gt;
     
     </summary>
     
