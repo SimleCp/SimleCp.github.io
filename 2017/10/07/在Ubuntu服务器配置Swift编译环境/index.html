@@ -95,19 +95,32 @@
 
 
 
-<meta name="description" content="Perfect框架中文文档地址: http://perfect.org/docs/index_zh_CN.html 开启本地服务器首先, 根据Perfect框架的官网文档, 快速开启本地服务器 http://perfect.org/docs/gettingStarted_zh_CN.html 数据库选择后端开发, 必不可少的便是数据库, Perfect框架支持好几种数据库, 我自己选用的是MySq">
+<meta name="description" content="安装Ubuntu购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.  Ubuntu 14.04, 16.04 or 16.10 (64-bit)  配置Swift编译环境终端连接vps打开终端, 输入 ssh root@vps的ip地址, 输入vps的密码(vps自动生成的), 比如 ssh roo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Swift Perfect Mac本地环境配置">
-<meta property="og:url" content="https://cxp.im/2017/10/07/Swift Perfect Mac本地环境配置/index.html">
+<meta property="og:title" content="在Ubuntu服务器配置Swift编译环境">
+<meta property="og:url" content="https://cxp.im/2017/10/07/在Ubuntu服务器配置Swift编译环境/index.html">
 <meta property="og:site_name" content="cxp-blog">
-<meta property="og:description" content="Perfect框架中文文档地址: http://perfect.org/docs/index_zh_CN.html 开启本地服务器首先, 根据Perfect框架的官网文档, 快速开启本地服务器 http://perfect.org/docs/gettingStarted_zh_CN.html 数据库选择后端开发, 必不可少的便是数据库, Perfect框架支持好几种数据库, 我自己选用的是MySq">
-<meta property="og:image" content="http://cxp.im/images/Perfect/15073473949127.jpg">
-<meta property="og:image" content="http://cxp.im/images/Perfect/15073483710624.jpg">
-<meta property="og:updated_time" content="2017-10-07T12:10:39.281Z">
+<meta property="og:description" content="安装Ubuntu购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.  Ubuntu 14.04, 16.04 or 16.10 (64-bit)  配置Swift编译环境终端连接vps打开终端, 输入 ssh root@vps的ip地址, 输入vps的密码(vps自动生成的), 比如 ssh roo">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-094122.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-094244.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-094907.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-094921.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-095254.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-095749.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-095335.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-100114.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-100400.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-100516.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-100913.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-101022.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-101104.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-101220.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-101826.png">
+<meta property="og:updated_time" content="2017-10-07T12:15:47.382Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Swift Perfect Mac本地环境配置">
-<meta name="twitter:description" content="Perfect框架中文文档地址: http://perfect.org/docs/index_zh_CN.html 开启本地服务器首先, 根据Perfect框架的官网文档, 快速开启本地服务器 http://perfect.org/docs/gettingStarted_zh_CN.html 数据库选择后端开发, 必不可少的便是数据库, Perfect框架支持好几种数据库, 我自己选用的是MySq">
-<meta name="twitter:image" content="http://cxp.im/images/Perfect/15073473949127.jpg">
+<meta name="twitter:title" content="在Ubuntu服务器配置Swift编译环境">
+<meta name="twitter:description" content="安装Ubuntu购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.  Ubuntu 14.04, 16.04 or 16.10 (64-bit)  配置Swift编译环境终端连接vps打开终端, 输入 ssh root@vps的ip地址, 输入vps的密码(vps自动生成的), 比如 ssh roo">
+<meta name="twitter:image" content="http://cxp.im/images/Perfect/QQ20171007-094122.png">
 
 
 
@@ -135,13 +148,13 @@
 
 
 
-  <link rel="canonical" href="https://cxp.im/2017/10/07/Swift Perfect Mac本地环境配置/"/>
+  <link rel="canonical" href="https://cxp.im/2017/10/07/在Ubuntu服务器配置Swift编译环境/"/>
 
 
 
 
 
-  <title>Swift Perfect Mac本地环境配置 | cxp-blog</title>
+  <title>在Ubuntu服务器配置Swift编译环境 | cxp-blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -311,7 +324,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://cxp.im/2017/10/07/Swift Perfect Mac本地环境配置/">
+    <link itemprop="mainEntityOfPage" href="https://cxp.im/2017/10/07/在Ubuntu服务器配置Swift编译环境/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="cxp">
@@ -328,7 +341,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Swift Perfect Mac本地环境配置</h1>
+          <h1 class="post-title" itemprop="name headline">在Ubuntu服务器配置Swift编译环境</h1>
         
 
         <div class="post-meta">
@@ -380,7 +393,7 @@
 
           
           
-             <span id="/2017/10/07/Swift Perfect Mac本地环境配置/" class="leancloud_visitors" data-flag-title="Swift Perfect Mac本地环境配置">
+             <span id="/2017/10/07/在Ubuntu服务器配置Swift编译环境/" class="leancloud_visitors" data-flag-title="在Ubuntu服务器配置Swift编译环境">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -408,46 +421,55 @@
       
 
       
-        <p>Perfect框架中文文档地址: <a href="http://perfect.org/docs/index_zh_CN.html" target="_blank" rel="external">http://perfect.org/docs/index_zh_CN.html</a></p>
-<h2 id="开启本地服务器"><a href="#开启本地服务器" class="headerlink" title="开启本地服务器"></a>开启本地服务器</h2><p>首先, 根据Perfect框架的官网文档, 快速开启本地服务器 <a href="http://perfect.org/docs/gettingStarted_zh_CN.html" target="_blank" rel="external">http://perfect.org/docs/gettingStarted_zh_CN.html</a></p>
-<h2 id="数据库选择"><a href="#数据库选择" class="headerlink" title="数据库选择"></a>数据库选择</h2><p>后端开发, 必不可少的便是数据库, Perfect框架支持好几种数据库, 我自己选用的是MySql数据库, 以下所有教程都是基于MySql数据库进行展开的.</p>
-<p><img src="http://cxp.im/images/Perfect/15073473949127.jpg" alt=""></p>
-<p><code>教程所有内容主要是以在本地和服务器部署各种环境为主, 避免浪费不必要的时间在部署环境上.</code></p>
-<h2 id="在Mac上安装MySql"><a href="#在Mac上安装MySql" class="headerlink" title="在Mac上安装MySql"></a>在Mac上安装MySql</h2><p>打开终端, 安装mysql(请勿使用dmg的方式安装mysql, 经我测试, 发现会碰到一些麻烦的问题)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install mysql</div></pre></td></tr></table></figure>
+        <h2 id="安装Ubuntu"><a href="#安装Ubuntu" class="headerlink" title="安装Ubuntu"></a>安装Ubuntu</h2><p>购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.</p>
 <ul>
-<li>在Mac OS 10.12 上面, 直接安装即可.</li>
-<li>在Mac OS 10.13 上面, 可能需要更新Homebrew, 更新Homebrew又需要Ruby, 更新Ruby又需要Rvm等等. 在这个版本的操作系统上面, Homebrew拿不到/usr/local文件夹的读写权限, 按照官方给出的解决方法(<a href="https://github.com/Homebrew/brew/issues/3228" target="_blank" rel="external">https://github.com/Homebrew/brew/issues/3228</a>), 在我自己的mac电脑上并不行, 来回折腾了1个多小时还是不行, 我决定采取暴力方法.直接卸载重装Homebrew, 重新安装后, 顺利的在mac上安装好了mysql.</li>
+<li>Ubuntu 14.04, 16.04 or 16.10 (64-bit)</li>
 </ul>
-<p><code>如果你也需要采用这种暴力方法, 请继续看, 如果你已经顺利安装了, 直接跳过卸载重装的部分.</code></p>
-<h3 id="卸载Homebrew"><a href="#卸载Homebrew" class="headerlink" title="卸载Homebrew"></a>卸载Homebrew</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> `brew --prefix` </div><div class="line">$ rm -rf Cellar$ brew prune </div><div class="line">$ rm -rf Library .git .gitignore bin/brew README.md share/man/man1/brew </div><div class="line">$ rm -rf ~/Library/Caches/Homebrew</div></pre></td></tr></table></figure>
-<ul>
-<li>参考 (<a href="http://www.jianshu.com/p/18772092ee6b" target="_blank" rel="external">http://www.jianshu.com/p/18772092ee6b</a>)</li>
-</ul>
-<h3 id="重新安装Homebrew"><a href="#重新安装Homebrew" class="headerlink" title="重新安装Homebrew"></a>重新安装Homebrew</h3><p>进入Homebrew官网 <a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="external">https://brew.sh/index_zh-cn.html</a>, 复制这里的命令到终端安装即可(安装命令可能会变, 所以请自行前往复制)</p>
-<p><img src="http://cxp.im/images/Perfect/15073483710624.jpg" alt=""></p>
-<h2 id="MySql启动与配置"><a href="#MySql启动与配置" class="headerlink" title="MySql启动与配置"></a>MySql启动与配置</h2><p>安装完成后, 手动启动mysql</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">mysql.server start    # 启动</div><div class="line">mysql.server stop     # 停止</div><div class="line">mysql.server restart  # 重启</div></pre></td></tr></table></figure>
-<p>打开数据库</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -u root -p</div></pre></td></tr></table></figure>
-<p>设置mysql密码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UPDATE user SET authentication_string=PASSWORD(&apos;newpassword&apos;) where USER=&apos;root&apos;;</div></pre></td></tr></table></figure>
-<p><code>更新用户名和密码, 用户名建议用root, 后面的教程都会以此为例子.</code></p>
-<p>设置完密码后刷新权限</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">FLUSH PRIVILEGES</div></pre></td></tr></table></figure>
-<p>输入 <code>\q</code> 退出数据库</p>
-<p>重新登录数据库, 尝试用新密码进入, 如果成功, 退出数据库, 进行接下来的步骤.</p>
-<p><code>建议在网上找一个数据库软件, 更加直观的查看数据和调试.</code></p>
-<h3 id="代码连接数据库"><a href="#代码连接数据库" class="headerlink" title="代码连接数据库"></a>代码连接数据库</h3><p>接下来回到本地服务器项目代码这边.</p>
-<p>打开<code>Package.swift</code>导入<code>.Package(url:&quot;https://github.com/PerfectlySoft/Perfect-MySQL.git&quot;, majorVersion: 3),</code> 注意最后面有个逗号.</p>
-<p>在终端执行<code>swift build</code>和<code>swift package generate-xcodeproj</code>, 用xcode打开项目.打开<code>main.swift</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">import PerfectMySQL // 导入</div><div class="line"></div><div class="line">// 配置数据库信息</div><div class="line">let testHost = &quot;127.0.0.1&quot;</div><div class="line">let testUser = &quot;root&quot;</div><div class="line">let testPassword = &quot;数据库密码&quot;</div><div class="line">let testDB = &quot;mysql&quot;</div></pre></td></tr></table></figure>
-<p><code>除了密码需要改成你自己设置的密码, 其他的照搬</code></p>
-<p>加入以下函数并调用, 在这个函数声明之后, 随处调用即可</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">fetchData</span><span class="params">()</span></span> &#123;</div><div class="line">    <span class="keyword">let</span> mysql = <span class="type">MySQL</span>() <span class="comment">// 创建一个MySQL连接实例</span></div><div class="line">    <span class="keyword">let</span> connected = mysql.connect(host: testHost, user: testUser, password: testPassword)</div><div class="line">    <span class="keyword">guard</span> connected <span class="keyword">else</span> &#123;</div><div class="line">        <span class="comment">// 验证一下连接是否成功</span></div><div class="line">        <span class="built_in">print</span>(mysql.errorMessage())</div><div class="line">        <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="built_in">print</span>(<span class="string">"\(mysql.listDatabases())"</span>)</div><div class="line">    </div><div class="line">    <span class="keyword">defer</span> &#123;</div><div class="line">        mysql.close() <span class="comment">//这个延后操作能够保证在程序结束时无论什么结果都会自动关闭数据库连接</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>运行项目, 控制台打印</p>
-<pre><code>[&quot;information_schema&quot;, &quot;mysql&quot;, &quot;performance_schema&quot;, &quot;sys&quot;]
-</code></pre><p>表示数据库已经用代码连接成功.</p>
+<h2 id="配置Swift编译环境"><a href="#配置Swift编译环境" class="headerlink" title="配置Swift编译环境"></a>配置Swift编译环境</h2><h3 id="终端连接vps"><a href="#终端连接vps" class="headerlink" title="终端连接vps"></a>终端连接vps</h3><p>打开终端, 输入 <code>ssh root@vps的ip地址</code>, 输入vps的密码(vps自动生成的), 比如 <code>ssh root@133.84.12.61</code></p>
+<p>第一次连接会出现一个输入yes和no的询问, 输入yes回车继续</p>
+<p>当终端的开头变的和之前不一样的时候, 就是连接成功了, 比如我的, <code>root@swift:~#</code></p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-094122.png" alt="QQ20171007-094122"></p>
+<h3 id="配置必要环境"><a href="#配置必要环境" class="headerlink" title="配置必要环境"></a>配置必要环境</h3><p>现在, 你已经用终端和vps连接成功了, 接下来创建两个文件夹, 分别存放你的swift代码和swift工具的编译环境</p>
+<p>查看当前文件夹</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ls 查看当前目录下的文件夹, 不显示隐藏文件</div><div class="line">ls -a 查看当前目录下的文件夹, 显示隐藏文件</div></pre></td></tr></table></figure>
+<p>分别输入以下命令, 创建Code文件夹和Swift文件夹, 前者用来存放代码, 后者用来存放swift的编译环境(文件夹名字你可以自己取)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir Code</div><div class="line">mkdri Swift</div></pre></td></tr></table></figure>
+<p>输入 <code>ls -a</code> 继续查看文件夹</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-094244.png" alt="QQ20171007-094244"></p>
+<p><code>cd Swfit</code> 进入文件夹, 输入 <code>sudo apt-get install clang libicu-dev</code> 安装必要的工具, 出现问你是否继续的, 直接输入 <code>y</code> 继续</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-094907.png" alt="QQ20171007-094907"></p>
+<p>安装完成</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-094921.png" alt="QQ20171007-094921"></p>
+<h3 id="配置swift编译工具"><a href="#配置swift编译工具" class="headerlink" title="配置swift编译工具"></a>配置swift编译工具</h3><p>进入swift官方网站, 获取下载地址, <a href="https://swift.org/download/" target="_blank" rel="external">https://swift.org/download/</a></p>
+<p>我选择的是Releases版本, Swift 4.0, Ubuntu 16.04版本, 版本和你的vps系统版本对应即可. 选中<code>Ubuntu 16.04</code>, 右键获取链接地址, <code>https://swift.org/builds/swift-4.0-release/ubuntu1604/swift-4.0-RELEASE/swift-4.0-RELEASE-ubuntu16.04.tar.gz</code> 记录下来.</p>
+<p>在对应的<code>Ubuntu 16.04</code>下面, 选中<code>Signature</code>, 继续获取<code>Signature</code>的地址, 继续记录下来.</p>
+<p><code>第一个获取的是swift编译环境的地址, 第二个获取的是对应编译环境的签名地址.</code></p>
+<p>在终端中输入 <code>wget 刚刚获取的swift编译环境的地址</code></p>
+<p><code>wget https://swift.org/builds/swift-4.0-release/ubuntu1604/swift-4.0-RELEASE/swift-4.0-RELEASE-ubuntu16.04.tar.gz</code></p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-095254.png" alt="QQ20171007-095254"></p>
+<p>在终端中输入 <code>wget 签名地址</code></p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-095749.png" alt="QQ20171007-095749"></p>
+<p>等文件都下载完成后, 继续输入, </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">gpg --keyserver hkp://pool.sks-keyservers.net \</div><div class="line">      --recv-keys \</div><div class="line">      &apos;7463 A81A 4B2E EA1B 551F  FBCF D441 C977 412B 37AD&apos; \</div><div class="line">      &apos;1BE1 E29A 084C B305 F397  D62A 9F59 7F4D 21A5 6D5F&apos; \</div><div class="line">      &apos;A3BA FD35 56A5 9079 C068  94BD 63BC 1CFE 91D3 06C6&apos; \</div><div class="line">      &apos;5E4D F843 FB06 5D7F 7E24  FBA2 EF54 30F0 71E1 B235&apos;</div></pre></td></tr></table></figure>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-095335.png" alt="QQ20171007-095335"></p>
+<p>输入<code>ls</code>查看当前文件夹, 文件夹中有两个, 一个是swift编译工具的压缩包状态, 一个是签名文件.</p>
+<p>从终端中复制签名文件的名字, <code>swift-4.0-RELEASE-ubuntu16.04.tar.gz.sig</code> 在前面加上 <code>gpg --verify</code>, 变成 <code>gpg --verify swift-4.0-RELEASE-ubuntu16.04.tar.gz.sig</code>, 进行验证, 出现和图上一样的, 表示没问题.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-100114.png" alt="QQ20171007-100114"></p>
+<p>输入 <code>tar xzf 包名</code>, 进行解压.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-100400.png" alt="QQ20171007-100400"></p>
+<p>再次输入<code>ls</code>, 会发现多了一个文件夹.</p>
+<p>进入刚刚解压出来的文件夹里面, 再进入<code>usr</code>, 进入<code>bin</code>, 输入<code>pwd</code>, 获取全路径, 记录下来.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-100516.png" alt="QQ20171007-100516"></p>
+<p>输入<code>cd ~</code>进入根目录, 输入<code>ls -a</code>, 输入<code>vi .profile</code>打开文件</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-100913.png" alt="QQ20171007-100913"></p>
+<p>在当前文件中加入<code>export PATH=刚刚获取的全路径:&quot;${PATH}&quot;</code>, 不要加到最后面一句命令的后面了. 否则就不能正常生效.把刚刚加入进去的那句命令复制(后面要用)</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-101022.png" alt="QQ20171007-101022"></p>
+<p>退出并保存<code>.profile</code>文件, 粘贴刚刚赋值的命令, 执行.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-101104.png" alt="QQ20171007-101104"></p>
+<p>输入<code>swift --version</code>, 出现正确版本号, swift编译环境搭建完毕.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-101220.png" alt="QQ20171007-101220"></p>
+<h3 id="在vps上编译项目"><a href="#在vps上编译项目" class="headerlink" title="在vps上编译项目"></a>在vps上编译项目</h3><p>继续查看当前文件夹, 进入<code>Code</code>文件夹, 按照之前在本地快速搭建服务器的方法, 再克隆并运行一次.<br><code>swift build</code>的时候, 如果出现和图中一样的error, <code>error while loading shared libraries: libcurl.so.4: cannot open shared object file: No such file or directory</code>, 输入<code>sudo apt-get install libcurl3</code>, 安装<code>libcurl3</code>, 继续后续步骤, 编译成功后, 使用<code>服务器地址:8181</code>访问, 网页中出现<code>Hello, world!</code>, 也就美滋滋了~</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-101826.png" alt="QQ20171007-101826"></p>
 
       
     </div>
@@ -484,8 +506,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/03/05/为你的hexo博客配置个性域名/" rel="next" title="为你的hexo博客配置个性域名">
-                <i class="fa fa-chevron-left"></i> 为你的hexo博客配置个性域名
+              <a href="/2017/10/07/在Ubuntu安装MySql/" rel="next" title="在Ubuntu安装MySql">
+                <i class="fa fa-chevron-left"></i> 在Ubuntu安装MySql
               </a>
             
           </div>
@@ -494,8 +516,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/" rel="prev" title="使用Supervisor让你的Swift服务器项目后台运行">
-                使用Supervisor让你的Swift服务器项目后台运行 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/10/07/开启你的Swift服务器之旅-Perfect框架/" rel="prev" title="开启你的Swift服务器之旅-Perfect框架">
+                开启你的Swift服务器之旅-Perfect框架 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -643,7 +665,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#开启本地服务器"><span class="nav-number">1.</span> <span class="nav-text">开启本地服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库选择"><span class="nav-number">2.</span> <span class="nav-text">数据库选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在Mac上安装MySql"><span class="nav-number">3.</span> <span class="nav-text">在Mac上安装MySql</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#卸载Homebrew"><span class="nav-number">3.1.</span> <span class="nav-text">卸载Homebrew</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重新安装Homebrew"><span class="nav-number">3.2.</span> <span class="nav-text">重新安装Homebrew</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MySql启动与配置"><span class="nav-number">4.</span> <span class="nav-text">MySql启动与配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#代码连接数据库"><span class="nav-number">4.1.</span> <span class="nav-text">代码连接数据库</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Ubuntu"><span class="nav-number">1.</span> <span class="nav-text">安装Ubuntu</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置Swift编译环境"><span class="nav-number">2.</span> <span class="nav-text">配置Swift编译环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#终端连接vps"><span class="nav-number">2.1.</span> <span class="nav-text">终端连接vps</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置必要环境"><span class="nav-number">2.2.</span> <span class="nav-text">配置必要环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置swift编译工具"><span class="nav-number">2.3.</span> <span class="nav-text">配置swift编译工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在vps上编译项目"><span class="nav-number">2.4.</span> <span class="nav-text">在vps上编译项目</span></a></li></ol></li></ol></div>
             
 
           </div>
