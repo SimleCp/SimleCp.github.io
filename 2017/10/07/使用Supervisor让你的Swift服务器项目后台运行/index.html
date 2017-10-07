@@ -77,7 +77,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Vim使用,VPS," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -95,24 +95,16 @@
 
 
 
-<meta name="description" content="为配合教程, 所以简单的介绍下vim的基础使用. 当你在终端输入vi xxx或者vim xxx的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化. 1.未编辑状态 2.按键盘上的i进入编辑状态, 然后输入内容输入前输入后 3.按esc退出编辑状态 4.输入:wq保存并退出 5.保存并退出后">
-<meta name="keywords" content="Vim使用,VPS">
+<meta name="description" content="需求当你按control + c退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了. 这个时候就需要用supervisor来让项目一直在后台运行, 这样, 你编写的api才能一直能访问. 基本配置和说明打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在Code文件夹, 并且创建了一个文件, 名字叫script.sh的文件. /r">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vim的简单使用">
-<meta property="og:url" content="https://cxp.im/2017/02/25/Vim的简单使用/index.html">
+<meta property="og:title" content="使用Supervisor让你的Swift服务器项目后台运行">
+<meta property="og:url" content="https://cxp.im/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/index.html">
 <meta property="og:site_name" content="cxp-blog">
-<meta property="og:description" content="为配合教程, 所以简单的介绍下vim的基础使用. 当你在终端输入vi xxx或者vim xxx的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化. 1.未编辑状态 2.按键盘上的i进入编辑状态, 然后输入内容输入前输入后 3.按esc退出编辑状态 4.输入:wq保存并退出 5.保存并退出后">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221401@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221412@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221420@2x.png">
-<meta property="og:updated_time" content="2017-02-25T14:37:13.000Z">
+<meta property="og:description" content="需求当你按control + c退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了. 这个时候就需要用supervisor来让项目一直在后台运行, 这样, 你编写的api才能一直能访问. 基本配置和说明打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在Code文件夹, 并且创建了一个文件, 名字叫script.sh的文件. /r">
+<meta property="og:updated_time" content="2017-10-07T12:05:29.883Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vim的简单使用">
-<meta name="twitter:description" content="为配合教程, 所以简单的介绍下vim的基础使用. 当你在终端输入vi xxx或者vim xxx的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化. 1.未编辑状态 2.按键盘上的i进入编辑状态, 然后输入内容输入前输入后 3.按esc退出编辑状态 4.输入:wq保存并退出 5.保存并退出后">
-<meta name="twitter:image" content="http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png">
+<meta name="twitter:title" content="使用Supervisor让你的Swift服务器项目后台运行">
+<meta name="twitter:description" content="需求当你按control + c退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了. 这个时候就需要用supervisor来让项目一直在后台运行, 这样, 你编写的api才能一直能访问. 基本配置和说明打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在Code文件夹, 并且创建了一个文件, 名字叫script.sh的文件. /r">
 
 
 
@@ -140,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="https://cxp.im/2017/02/25/Vim的简单使用/"/>
+  <link rel="canonical" href="https://cxp.im/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/"/>
 
 
 
 
 
-  <title>Vim的简单使用 | cxp-blog</title>
+  <title>使用Supervisor让你的Swift服务器项目后台运行 | cxp-blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -316,7 +308,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://cxp.im/2017/02/25/Vim的简单使用/">
+    <link itemprop="mainEntityOfPage" href="https://cxp.im/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="cxp">
@@ -333,7 +325,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Vim的简单使用</h1>
+          <h1 class="post-title" itemprop="name headline">使用Supervisor让你的Swift服务器项目后台运行</h1>
         
 
         <div class="post-meta">
@@ -345,8 +337,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-25T22:34:07+08:00">
-                2017-02-25
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-07T19:46:57+08:00">
+                2017-10-07
               </time>
             
 
@@ -368,8 +360,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Vim/" itemprop="url" rel="index">
-                    <span itemprop="name">Vim</span>
+                  <a href="/categories/Swift-Perfect/" itemprop="url" rel="index">
+                    <span itemprop="name">Swift-Perfect</span>
                   </a>
                 </span>
 
@@ -385,7 +377,7 @@
 
           
           
-             <span id="/2017/02/25/Vim的简单使用/" class="leancloud_visitors" data-flag-title="Vim的简单使用">
+             <span id="/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/" class="leancloud_visitors" data-flag-title="使用Supervisor让你的Swift服务器项目后台运行">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -413,13 +405,20 @@
       
 
       
-        <p>为配合教程, 所以简单的介绍下vim的基础使用.</p>
-<p>当你在终端输入<code>vi xxx</code>或者<code>vim xxx</code>的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化.</p>
-<p>1.未编辑状态<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png" alt=""></p>
-<p>2.按键盘上的<code>i</code>进入编辑状态, 然后输入内容<br>输入前<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png" alt=""><br>输入后<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png" alt=""></p>
-<p>3.按<code>esc</code>退出编辑状态<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221401@2x.png" alt=""></p>
-<p>4.输入<code>:wq</code>保存并退出<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221412@2x.png" alt=""></p>
-<p>5.保存并退出后<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221420@2x.png" alt=""></p>
+        <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>当你按<code>control + c</code>退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了.</p>
+<p>这个时候就需要用<code>supervisor</code>来让项目一直在后台运行, 这样, 你编写的api才能一直能访问.</p>
+<h2 id="基本配置和说明"><a href="#基本配置和说明" class="headerlink" title="基本配置和说明"></a>基本配置和说明</h2><p>打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在<code>Code</code>文件夹, 并且创建了一个文件, 名字叫<code>script.sh</code>的文件.</p>
+<p><code>/root/Code/script.sh</code>, 也就是你需要supervisor帮你执行这个脚本.并且一直后台运行.</p>
+<p><code>/root/Code</code>的<code>script.sh</code>里面, 编写着路径地址和执行命令.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /root/Code/PerfectTemplate</div><div class="line">.build/debug/PerfectTemplate</div></pre></td></tr></table></figure>
+<h2 id="安装并配置"><a href="#安装并配置" class="headerlink" title="安装并配置"></a>安装并配置</h2><p>输入<code>sudo apt-get install supervisor</code>安装supervisor.</p>
+<p>安装完成后, 进入<code>cd /etc/supervisor/conf.d</code>, 创建并编辑 <code>vim swiftServer.conf</code>, <code>swiftServer</code>是我的文件名和program名, 你也可以用你喜欢的.</p>
+<p>在文件中粘贴以下代码, </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[program:swiftServer] // swiftServer 刚刚取的program名</div><div class="line"></div><div class="line">command=sh script.sh // 执行的脚本名称</div><div class="line"></div><div class="line">process_name=%(program_name)s</div><div class="line"></div><div class="line">directory=/root/Code // 执行的脚本路径</div><div class="line"></div><div class="line">autorestart=true</div><div class="line"></div><div class="line">user=root // 用户名</div></pre></td></tr></table></figure>
+<p><code>更多的supervisor配置信息请自行查阅, 这里只保证项目能正常启动起来.</code></p>
+<p>输入<code>supervisorctl reload</code>让你刚刚的配置生效.</p>
+<p>输入<code>supervisorctl start swiftServer</code>启动并后台运行</p>
+<p>再次在网页中打开<code>服务器ip:8181</code>, <code>Hello, world!</code>时刻与你同在.  ^.^</p>
 
       
     </div>
@@ -447,14 +446,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Vim使用/" rel="tag"># Vim使用</a>
-          
-            <a href="/tags/VPS/" rel="tag"># VPS</a>
-          
-        </div>
-      
 
       
       
@@ -464,8 +455,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/05/08/Quartz2D/" rel="next" title="Quartz2D">
-                <i class="fa fa-chevron-left"></i> Quartz2D
+              <a href="/2017/03/05/为你的hexo博客配置个性域名/" rel="next" title="为你的hexo博客配置个性域名">
+                <i class="fa fa-chevron-left"></i> 为你的hexo博客配置个性域名
               </a>
             
           </div>
@@ -474,8 +465,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/25/利用VPS搭建科学上网工具和个人博客(教程合集)/" rel="prev" title="利用VPS搭建科学上网工具和个人博客(教程合集)">
-                利用VPS搭建科学上网工具和个人博客(教程合集) <i class="fa fa-chevron-right"></i>
+              <a href="/2017/10/07/开启你的Swift服务器之旅-Perfect框架/" rel="prev" title="开启你的Swift服务器之旅-Perfect框架">
+                开启你的Swift服务器之旅-Perfect框架 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -523,8 +514,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://cxp.im/images/icon.jpg"
@@ -604,6 +604,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#需求"><span class="nav-number">1.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基本配置和说明"><span class="nav-number">2.</span> <span class="nav-text">基本配置和说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装并配置"><span class="nav-number">3.</span> <span class="nav-text">安装并配置</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

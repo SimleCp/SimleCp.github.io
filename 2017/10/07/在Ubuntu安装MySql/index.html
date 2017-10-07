@@ -77,7 +77,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Vim使用,VPS," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -95,24 +95,22 @@
 
 
 
-<meta name="description" content="为配合教程, 所以简单的介绍下vim的基础使用. 当你在终端输入vi xxx或者vim xxx的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化. 1.未编辑状态 2.按键盘上的i进入编辑状态, 然后输入内容输入前输入后 3.按esc退出编辑状态 4.输入:wq保存并退出 5.保存并退出后">
-<meta name="keywords" content="Vim使用,VPS">
+<meta name="description" content="安装数据库打开终端, 链接服务器, 输入sudo apt-get install mysql-server mysql-client安装MySql数据库. 安装过程中会叫你输入两次密码,   安装完成后, 输入mysql -u root -p, 输入刚刚的密码, 进入数据库.  配置数据库的远程访问有时候需要远程管理服务器上的数据库, 就要配置远程访问. 输入\q退出数据库.cd /etc/mys">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vim的简单使用">
-<meta property="og:url" content="https://cxp.im/2017/02/25/Vim的简单使用/index.html">
+<meta property="og:title" content="在Ubuntu安装MySql">
+<meta property="og:url" content="https://cxp.im/2017/10/07/在Ubuntu安装MySql/index.html">
 <meta property="og:site_name" content="cxp-blog">
-<meta property="og:description" content="为配合教程, 所以简单的介绍下vim的基础使用. 当你在终端输入vi xxx或者vim xxx的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化. 1.未编辑状态 2.按键盘上的i进入编辑状态, 然后输入内容输入前输入后 3.按esc退出编辑状态 4.输入:wq保存并退出 5.保存并退出后">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221401@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221412@2x.png">
-<meta property="og:image" content="http://cxp.im/images/20170225221630/QQ20170225-221420@2x.png">
-<meta property="og:updated_time" content="2017-02-25T14:37:13.000Z">
+<meta property="og:description" content="安装数据库打开终端, 链接服务器, 输入sudo apt-get install mysql-server mysql-client安装MySql数据库. 安装过程中会叫你输入两次密码,   安装完成后, 输入mysql -u root -p, 输入刚刚的密码, 进入数据库.  配置数据库的远程访问有时候需要远程管理服务器上的数据库, 就要配置远程访问. 输入\q退出数据库.cd /etc/mys">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-102429.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-102447.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-102903.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-104911.png">
+<meta property="og:image" content="http://cxp.im/images/Perfect/QQ20171007-103629.png">
+<meta property="og:updated_time" content="2017-10-07T12:06:11.341Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vim的简单使用">
-<meta name="twitter:description" content="为配合教程, 所以简单的介绍下vim的基础使用. 当你在终端输入vi xxx或者vim xxx的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化. 1.未编辑状态 2.按键盘上的i进入编辑状态, 然后输入内容输入前输入后 3.按esc退出编辑状态 4.输入:wq保存并退出 5.保存并退出后">
-<meta name="twitter:image" content="http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png">
+<meta name="twitter:title" content="在Ubuntu安装MySql">
+<meta name="twitter:description" content="安装数据库打开终端, 链接服务器, 输入sudo apt-get install mysql-server mysql-client安装MySql数据库. 安装过程中会叫你输入两次密码,   安装完成后, 输入mysql -u root -p, 输入刚刚的密码, 进入数据库.  配置数据库的远程访问有时候需要远程管理服务器上的数据库, 就要配置远程访问. 输入\q退出数据库.cd /etc/mys">
+<meta name="twitter:image" content="http://cxp.im/images/Perfect/QQ20171007-102429.png">
 
 
 
@@ -140,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="https://cxp.im/2017/02/25/Vim的简单使用/"/>
+  <link rel="canonical" href="https://cxp.im/2017/10/07/在Ubuntu安装MySql/"/>
 
 
 
 
 
-  <title>Vim的简单使用 | cxp-blog</title>
+  <title>在Ubuntu安装MySql | cxp-blog</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -316,7 +314,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://cxp.im/2017/02/25/Vim的简单使用/">
+    <link itemprop="mainEntityOfPage" href="https://cxp.im/2017/10/07/在Ubuntu安装MySql/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="cxp">
@@ -333,7 +331,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Vim的简单使用</h1>
+          <h1 class="post-title" itemprop="name headline">在Ubuntu安装MySql</h1>
         
 
         <div class="post-meta">
@@ -345,8 +343,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-25T22:34:07+08:00">
-                2017-02-25
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-07T19:46:57+08:00">
+                2017-10-07
               </time>
             
 
@@ -368,8 +366,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Vim/" itemprop="url" rel="index">
-                    <span itemprop="name">Vim</span>
+                  <a href="/categories/Swift-Perfect/" itemprop="url" rel="index">
+                    <span itemprop="name">Swift-Perfect</span>
                   </a>
                 </span>
 
@@ -385,7 +383,7 @@
 
           
           
-             <span id="/2017/02/25/Vim的简单使用/" class="leancloud_visitors" data-flag-title="Vim的简单使用">
+             <span id="/2017/10/07/在Ubuntu安装MySql/" class="leancloud_visitors" data-flag-title="在Ubuntu安装MySql">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -413,13 +411,19 @@
       
 
       
-        <p>为配合教程, 所以简单的介绍下vim的基础使用.</p>
-<p>当你在终端输入<code>vi xxx</code>或者<code>vim xxx</code>的后.会进入下图的状态, 请多注意左下角, 每一个步骤左下角都会有变化.</p>
-<p>1.未编辑状态<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221338@2x.png" alt=""></p>
-<p>2.按键盘上的<code>i</code>进入编辑状态, 然后输入内容<br>输入前<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221348@2x.png" alt=""><br>输入后<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221354@2x.png" alt=""></p>
-<p>3.按<code>esc</code>退出编辑状态<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221401@2x.png" alt=""></p>
-<p>4.输入<code>:wq</code>保存并退出<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221412@2x.png" alt=""></p>
-<p>5.保存并退出后<br><img src="http://cxp.im/images/20170225221630/QQ20170225-221420@2x.png" alt=""></p>
+        <h2 id="安装数据库"><a href="#安装数据库" class="headerlink" title="安装数据库"></a>安装数据库</h2><p>打开终端, 链接服务器, 输入<code>sudo apt-get install mysql-server mysql-client</code>安装MySql数据库. 安装过程中会叫你输入两次密码, </p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-102429.png" alt="QQ20171007-102429"><br><img src="http://cxp.im/images/Perfect/QQ20171007-102447.png" alt="QQ20171007-102447"></p>
+<p>安装完成后, 输入<code>mysql -u root -p</code>, 输入刚刚的密码, 进入数据库.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-102903.png" alt="QQ20171007-102903"></p>
+<h2 id="配置数据库的远程访问"><a href="#配置数据库的远程访问" class="headerlink" title="配置数据库的远程访问"></a>配置数据库的远程访问</h2><p>有时候需要远程管理服务器上的数据库, 就要配置远程访问.</p>
+<p>输入<code>\q</code>退出数据库.<code>cd /etc/mysql/mysql.conf.d/</code>进入文件夹, <code>vi mysqld.cnf</code>打开配置文件, 把<code>bind-address = 127.0.0.1</code>前面加个<code>#</code>给注释了.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-104911.png" alt="QQ20171007-104911"></p>
+<p>然后重新<code>mysql -u root -p</code>进入数据库, 执行<code>GRANT ALL PRIVILEGES ON *.* TO &lt;user&gt;@&quot;%&quot; IDENTIFIED BY &#39;&lt;password&gt;&#39; WITH GRANT OPTION;</code>, <code>&lt;user&gt;</code>换成你想设置的用户名, <code>&lt;password&gt;</code>换成密码, 然后再执行<code>FLUSH PRIVILEGES</code>刷新权限. 最后重启一下数据库.</p>
+<p>mac和ubuntu的数据库命令是不一样的</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo service mysql start 开启</div><div class="line">sudo service mysql stop 停止</div><div class="line">sudo service mysql restart 重启</div></pre></td></tr></table></figure>
+<p>打开电脑上的的数据库软件, 输入你的服务器ip地址, 端口号默认3306, 输入刚刚设置的用户名和密码.连接.</p>
+<p>现在, 你已经用本地数据库软件成功连接服务器上的数据库了.</p>
+<p><img src="http://cxp.im/images/Perfect/QQ20171007-103629.png" alt="QQ20171007-103629"></p>
 
       
     </div>
@@ -447,14 +451,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Vim使用/" rel="tag"># Vim使用</a>
-          
-            <a href="/tags/VPS/" rel="tag"># VPS</a>
-          
-        </div>
-      
 
       
       
@@ -464,8 +460,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/05/08/Quartz2D/" rel="next" title="Quartz2D">
-                <i class="fa fa-chevron-left"></i> Quartz2D
+              <a href="/2017/10/07/Swift Perfect Ubuntu服务器配置Swift编译环境/" rel="next" title="Swift Perfect Ubuntu服务器配置Swift编译环境">
+                <i class="fa fa-chevron-left"></i> Swift Perfect Ubuntu服务器配置Swift编译环境
               </a>
             
           </div>
@@ -474,8 +470,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/25/利用VPS搭建科学上网工具和个人博客(教程合集)/" rel="prev" title="利用VPS搭建科学上网工具和个人博客(教程合集)">
-                利用VPS搭建科学上网工具和个人博客(教程合集) <i class="fa fa-chevron-right"></i>
+              <a href="/2017/10/07/Swift Perfect Mac本地环境配置/" rel="prev" title="Swift Perfect Mac本地环境配置">
+                Swift Perfect Mac本地环境配置 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -523,8 +519,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://cxp.im/images/icon.jpg"
@@ -604,6 +609,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装数据库"><span class="nav-number">1.</span> <span class="nav-text">安装数据库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置数据库的远程访问"><span class="nav-number">2.</span> <span class="nav-text">配置数据库的远程访问</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
