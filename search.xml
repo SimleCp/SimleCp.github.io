@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[开启你的Swift服务器之旅-Perfect框架]]></title>
+    <url>%2F2017%2F10%2F07%2F%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6%2F</url>
+    <content type="text"><![CDATA[前言一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. 最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了. 为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好. https://github.com/perfectlySoft/Perfecthttps://github.com/vapor/Vaporhttps://github.com/ibm-swift/kiturahttps://github.com/zewo/Zewo 看完系列文章, 你能收获什么? Perfect在Mac本地环境的配置 在Ubuntu服务器上配置Swift编译环境 在Ubuntu服务器上安装MySql 使用Supervisor让你的Swift服务器项目后台运行 目前教程的部署方式过于简陋, 后面我也会想一想如何在本地编写代码后, 快速部署到服务器上, 整理出一整套的流程, 目前已经有了简单的思路, 还需要摸索. 当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡? 其实Perfect有自己的部署工具(http://perfect.org/zh/assistant/), 但是仅限于亚马逊云EC2服务器部署和Google App Engine 谷歌应用引擎部署, 鉴于自己买非以上两种的vps比较便宜, 而且自己写点接口, 不需要这么贵.就自己摸索出了一套简单的部署方式(在我搞定全部的问题后, 才发现网上有类似的文章, 但是都不够细致和全面, =. =)]]></content>
+      <categories>
+        <category>Swift-Perfect</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[为你的hexo博客配置个性域名]]></title>
     <url>%2F2017%2F03%2F05%2F%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D%2F</url>
     <content type="text"><![CDATA[前言文章以阿里云的.com域名为例子, 你也可以购买其他后缀的域名. 购买1.打开阿里云https://wanwang.aliyun.com/, 输入你想搜索的域名, 点击查域名. 2.选好域名, 域名的后缀, 加入清单, 确认信息, 然后去结算. 3.确定域名, 年限, 持有者为个人, 创建信息模板. 立即购买. 4.结算完成后, 点击右上角的控制台, 为域名进行解析. 解析1.点击域名, 域名列表, 找到域名进行解析. 2.添加3条解析记录.初次解析可能会有点慢. 记录类型, 主机记录, 记录值, 是需要我们填写的, 其他的不要管. 按我下面的指示填写, 除了pengpengtest.github.io中的pengpengtest需要换成你的github用户名, 其他的照着填. 1234记录类型 主机记录 记录值CNAME www 你的github用户名.github.ioA @ 192.30.252.153A @ 192.30.252.154 本地配置1.先进入桌面, cd 你的hexo本地目录, cd source, touch CNAME创建CNAME文件, open CNAME打开并编辑. 2.填入域名, 不用加任何http://或者www, 填写完成后保存退出. 3.输入../回到你的hexo本地目录. hexo g -d重新生成部署. 4.然后访问域名, 比如我的, swift520.com, 成功!~]]></content>
