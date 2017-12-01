@@ -9,9 +9,9 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[使用Supervisor让你的Swift服务器项目后台运行]]></title>
-    <url>%2F2017%2F10%2F07%2F%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%2F</url>
-    <content type="text"><![CDATA[需求当你按control + c退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了. 这个时候就需要用supervisor来让项目一直在后台运行, 这样, 你编写的api才能一直能访问. 基本配置和说明打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在Code文件夹, 并且创建了一个文件, 名字叫script.sh的文件. /root/Code/script.sh, 也就是你需要supervisor帮你执行这个脚本.并且一直后台运行. /root/Code的script.sh里面, 编写着路径地址和执行命令. 12cd /root/Code/PerfectTemplate.build/debug/PerfectTemplate 安装并配置输入sudo apt-get install supervisor安装supervisor. 安装完成后, 进入cd /etc/supervisor/conf.d, 创建并编辑 vim swiftServer.conf, swiftServer是我的文件名和program名, 你也可以用你喜欢的. 在文件中粘贴以下代码, 1234567891011[program:swiftServer] // swiftServer 刚刚取的program名command=sh script.sh // 执行的脚本名称process_name=%(program_name)sdirectory=/root/Code // 执行的脚本路径autorestart=trueuser=root // 用户名 更多的supervisor配置信息请自行查阅, 这里只保证项目能正常启动起来. 输入supervisorctl reload让你刚刚的配置生效. 输入supervisorctl start swiftServer启动并后台运行 再次在网页中打开服务器ip:8181, Hello, world!时刻与你同在. ^.^]]></content>
+    <title><![CDATA[开启你的Swift服务器之旅-Perfect框架]]></title>
+    <url>%2F2017%2F10%2F07%2F%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6%2F</url>
+    <content type="text"><![CDATA[前言一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. 最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了. 为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好. https://github.com/perfectlySoft/Perfect https://github.com/vapor/Vapor https://github.com/ibm-swift/kitura https://github.com/zewo/Zewo 看完系列文章, 你能收获什么? Perfect在Mac本地环境的配置 在Ubuntu服务器上配置Swift编译环境 在Ubuntu服务器上安装MySql 使用Supervisor让你的Swift服务器项目后台运行 Swift Perfect服务端的自动化部署 当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡? 其实Perfect有自己的部署工具http://perfect.org/zh/assistant/, 但是仅限于亚马逊云EC2服务器部署和Google App Engine 谷歌应用引擎部署, 鉴于自己买非以上两种的vps比较便宜, 而且自己写点接口, 不需要这么贵.]]></content>
       <categories>
         <category>Swift-Perfect</category>
       </categories>
@@ -33,17 +33,17 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[在Ubuntu安装MySql]]></title>
-    <url>%2F2017%2F10%2F07%2F%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql%2F</url>
-    <content type="text"><![CDATA[安装数据库打开终端, 链接服务器, 输入sudo apt-get install mysql-server mysql-client安装MySql数据库. 安装过程中会叫你输入两次密码, 安装完成后, 输入mysql -u root -p, 输入刚刚的密码, 进入数据库. 配置数据库的远程访问有时候需要远程管理服务器上的数据库, 就要配置远程访问. 输入\q退出数据库.cd /etc/mysql/mysql.conf.d/进入文件夹, vi mysqld.cnf打开配置文件, 把bind-address = 127.0.0.1前面加个#给注释了. 然后重新mysql -u root -p进入数据库, 执行GRANT ALL PRIVILEGES ON *.* TO &lt;user&gt;@&quot;%&quot; IDENTIFIED BY &#39;&lt;password&gt;&#39; WITH GRANT OPTION;, &lt;user&gt;换成你想设置的用户名, &lt;password&gt;换成密码, 然后再执行FLUSH PRIVILEGES刷新权限. 最后重启一下数据库. mac和ubuntu的数据库命令是不一样的 123sudo service mysql start 开启sudo service mysql stop 停止sudo service mysql restart 重启 打开电脑上的的数据库软件, 输入你的服务器ip地址, 端口号默认3306, 输入刚刚设置的用户名和密码.连接. 现在, 你已经用本地数据库软件成功连接服务器上的数据库了.]]></content>
+    <title><![CDATA[使用Supervisor让你的Swift服务器项目后台运行]]></title>
+    <url>%2F2017%2F10%2F07%2F%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%2F</url>
+    <content type="text"><![CDATA[需求当你按control + c退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了. 这个时候就需要用supervisor来让项目一直在后台运行, 这样, 你编写的api才能一直能访问. 基本配置和说明打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在Code文件夹, 并且创建了一个文件, 名字叫script.sh的文件. /root/Code/script.sh, 也就是你需要supervisor帮你执行这个脚本.并且一直后台运行. /root/Code的script.sh里面, 编写着路径地址和执行命令. 12cd /root/Code/PerfectTemplate.build/debug/PerfectTemplate 安装并配置输入sudo apt-get install supervisor安装supervisor. 安装完成后, 进入cd /etc/supervisor/conf.d, 创建并编辑 vim swiftServer.conf, swiftServer是我的文件名和program名, 你也可以用你喜欢的. 在文件中粘贴以下代码, 1234567891011[program:swiftServer] // swiftServer 刚刚取的program名command=sh script.sh // 执行的脚本名称process_name=%(program_name)sdirectory=/root/Code // 执行的脚本路径autorestart=trueuser=root // 用户名 更多的supervisor配置信息请自行查阅, 这里只保证项目能正常启动起来. 输入supervisorctl reload让你刚刚的配置生效. 输入supervisorctl start swiftServer启动并后台运行 再次在网页中打开服务器ip:8181, Hello, world!时刻与你同在. ^.^]]></content>
       <categories>
         <category>Swift-Perfect</category>
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[开启你的Swift服务器之旅-Perfect框架]]></title>
-    <url>%2F2017%2F10%2F07%2F%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6%2F</url>
-    <content type="text"><![CDATA[前言一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. 最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了. 为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好. https://github.com/perfectlySoft/Perfect https://github.com/vapor/Vapor https://github.com/ibm-swift/kitura https://github.com/zewo/Zewo 看完系列文章, 你能收获什么? Perfect在Mac本地环境的配置 在Ubuntu服务器上配置Swift编译环境 在Ubuntu服务器上安装MySql 使用Supervisor让你的Swift服务器项目后台运行 Swift Perfect服务端的自动化部署 当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡? 其实Perfect有自己的部署工具http://perfect.org/zh/assistant/, 但是仅限于亚马逊云EC2服务器部署和Google App Engine 谷歌应用引擎部署, 鉴于自己买非以上两种的vps比较便宜, 而且自己写点接口, 不需要这么贵.]]></content>
+    <title><![CDATA[在Ubuntu安装MySql]]></title>
+    <url>%2F2017%2F10%2F07%2F%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql%2F</url>
+    <content type="text"><![CDATA[安装数据库打开终端, 链接服务器, 输入sudo apt-get install mysql-server mysql-client安装MySql数据库. 安装过程中会叫你输入两次密码, 安装完成后, 输入mysql -u root -p, 输入刚刚的密码, 进入数据库. 配置数据库的远程访问有时候需要远程管理服务器上的数据库, 就要配置远程访问. 输入\q退出数据库.cd /etc/mysql/mysql.conf.d/进入文件夹, vi mysqld.cnf打开配置文件, 把bind-address = 127.0.0.1前面加个#给注释了. 然后重新mysql -u root -p进入数据库, 执行GRANT ALL PRIVILEGES ON *.* TO &lt;user&gt;@&quot;%&quot; IDENTIFIED BY &#39;&lt;password&gt;&#39; WITH GRANT OPTION;, &lt;user&gt;换成你想设置的用户名, &lt;password&gt;换成密码, 然后再执行FLUSH PRIVILEGES刷新权限. 最后重启一下数据库. mac和ubuntu的数据库命令是不一样的 123sudo service mysql start 开启sudo service mysql stop 停止sudo service mysql restart 重启 打开电脑上的的数据库软件, 输入你的服务器ip地址, 端口号默认3306, 输入刚刚设置的用户名和密码.连接. 现在, 你已经用本地数据库软件成功连接服务器上的数据库了.]]></content>
       <categories>
         <category>Swift-Perfect</category>
       </categories>
