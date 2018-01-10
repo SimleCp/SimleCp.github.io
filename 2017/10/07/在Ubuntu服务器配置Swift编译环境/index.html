@@ -107,16 +107,32 @@
 
 
 
-<meta name="description" content="蜗牛, 为梦想而生。">
+<meta name="description" content="安装Ubuntu购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.  Ubuntu 14.04, 16.04 or 16.10 (64-bit)  配置Swift编译环境终端连接vps打开终端, 输入 ssh root@vps的ip地址, 输入vps的密码(vps自动生成的), 比如 ssh roo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在Ubuntu服务器配置Swift编译环境">
 <meta property="og:url" content="https://zedxpp.com/2017/10/07/在Ubuntu服务器配置Swift编译环境/index.html">
 <meta property="og:site_name" content="zedxpp-blog">
-<meta property="og:description" content="蜗牛, 为梦想而生。">
-<meta property="og:updated_time" content="2018-01-10T07:30:33.000Z">
+<meta property="og:description" content="安装Ubuntu购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.  Ubuntu 14.04, 16.04 or 16.10 (64-bit)  配置Swift编译环境终端连接vps打开终端, 输入 ssh root@vps的ip地址, 输入vps的密码(vps自动生成的), 比如 ssh roo">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-094122.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-094244.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-094907.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-094921.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-095254.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-095749.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-095335.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-100114.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-100400.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-100516.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-100913.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-101022.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-101104.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-101220.png">
+<meta property="og:image" content="http://zedxpp.com/images/Perfect/QQ20171007-101826.png">
+<meta property="og:updated_time" content="2018-01-10T07:49:51.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在Ubuntu服务器配置Swift编译环境">
-<meta name="twitter:description" content="蜗牛, 为梦想而生。">
+<meta name="twitter:description" content="安装Ubuntu购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.  Ubuntu 14.04, 16.04 or 16.10 (64-bit)  配置Swift编译环境终端连接vps打开终端, 输入 ssh root@vps的ip地址, 输入vps的密码(vps自动生成的), 比如 ssh roo">
+<meta name="twitter:image" content="http://zedxpp.com/images/Perfect/QQ20171007-094122.png">
 
 
 
@@ -413,7 +429,58 @@
       
 
       
-        
+        <h2 id="安装Ubuntu"><a href="#安装Ubuntu" class="headerlink" title="安装Ubuntu"></a>安装Ubuntu</h2><p>购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新并且最兼容swift的是Ubuntu16.04 64位的.</p>
+<ul>
+<li>Ubuntu 14.04, 16.04 or 16.10 (64-bit)</li>
+</ul>
+<h2 id="配置Swift编译环境"><a href="#配置Swift编译环境" class="headerlink" title="配置Swift编译环境"></a>配置Swift编译环境</h2><h3 id="终端连接vps"><a href="#终端连接vps" class="headerlink" title="终端连接vps"></a>终端连接vps</h3><p>打开终端, 输入 <code>ssh root@vps的ip地址</code>, 输入vps的密码(vps自动生成的), 比如 <code>ssh root@133.84.12.61</code></p>
+<p>第一次连接会出现一个输入yes和no的询问, 输入yes回车继续</p>
+<p>当终端的开头变的和之前不一样的时候, 就是连接成功了, 比如我的, <code>root@swift:~#</code></p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-094122.png" alt="QQ20171007-094122"></p>
+<h3 id="配置必要环境"><a href="#配置必要环境" class="headerlink" title="配置必要环境"></a>配置必要环境</h3><p>输入以下命令安装必须的库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install openssl libssl-dev uuid-dev</div></pre></td></tr></table></figure>
+<p>现在, 你已经用终端和vps连接成功了, 接下来创建两个文件夹, 分别存放你的swift代码和swift工具的编译环境</p>
+<p>查看当前文件夹</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ls 查看当前目录下的文件夹, 不显示隐藏文件</div><div class="line">ls -a 查看当前目录下的文件夹, 显示隐藏文件</div></pre></td></tr></table></figure>
+<p>分别输入以下命令, 创建Code文件夹和Swift文件夹, 前者用来存放代码, 后者用来存放swift的编译环境(文件夹名字你可以自己取)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir Code</div><div class="line">mkdir Swift</div></pre></td></tr></table></figure>
+<p>输入 <code>ls -a</code> 继续查看文件夹</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-094244.png" alt="QQ20171007-094244"></p>
+<p><code>cd Swfit</code> 进入文件夹, 输入 <code>sudo apt-get install clang libicu-dev</code> 安装必要的工具, 出现问你是否继续的, 直接输入 <code>y</code> 继续</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-094907.png" alt="QQ20171007-094907"></p>
+<p>安装完成</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-094921.png" alt="QQ20171007-094921"></p>
+<h3 id="配置swift编译工具"><a href="#配置swift编译工具" class="headerlink" title="配置swift编译工具"></a>配置swift编译工具</h3><p>进入swift官方网站, 获取下载地址, <a href="https://swift.org/download/" target="_blank" rel="external">https://swift.org/download/</a></p>
+<p>我选择的是Releases版本, Swift 4.0, Ubuntu 16.04版本, 版本和你的vps系统版本对应即可. 选中<code>Ubuntu 16.04</code>, 右键获取链接地址, <code>https://swift.org/builds/swift-4.0-release/ubuntu1604/swift-4.0-RELEASE/swift-4.0-RELEASE-ubuntu16.04.tar.gz</code> 记录下来.</p>
+<p>在对应的<code>Ubuntu 16.04</code>下面, 选中<code>Signature</code>, 继续获取<code>Signature</code>的地址, 继续记录下来.</p>
+<p><code>第一个获取的是swift编译环境的地址, 第二个获取的是对应编译环境的签名地址.</code></p>
+<p>在终端中输入 <code>wget 刚刚获取的swift编译环境的地址</code></p>
+<p><code>wget https://swift.org/builds/swift-4.0-release/ubuntu1604/swift-4.0-RELEASE/swift-4.0-RELEASE-ubuntu16.04.tar.gz</code></p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-095254.png" alt="QQ20171007-095254"></p>
+<p>在终端中输入 <code>wget 签名地址</code></p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-095749.png" alt="QQ20171007-095749"></p>
+<p>等文件都下载完成后, 继续输入, </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">gpg --keyserver hkp://pool.sks-keyservers.net \</div><div class="line">      --recv-keys \</div><div class="line">      &apos;7463 A81A 4B2E EA1B 551F  FBCF D441 C977 412B 37AD&apos; \</div><div class="line">      &apos;1BE1 E29A 084C B305 F397  D62A 9F59 7F4D 21A5 6D5F&apos; \</div><div class="line">      &apos;A3BA FD35 56A5 9079 C068  94BD 63BC 1CFE 91D3 06C6&apos; \</div><div class="line">      &apos;5E4D F843 FB06 5D7F 7E24  FBA2 EF54 30F0 71E1 B235&apos;</div></pre></td></tr></table></figure>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-095335.png" alt="QQ20171007-095335"></p>
+<p>输入<code>ls</code>查看当前文件夹, 文件夹中有两个, 一个是swift编译工具的压缩包状态, 一个是签名文件.</p>
+<p>从终端中复制签名文件的名字, <code>swift-4.0-RELEASE-ubuntu16.04.tar.gz.sig</code> 在前面加上 <code>gpg --verify</code>, 变成 <code>gpg --verify swift-4.0-RELEASE-ubuntu16.04.tar.gz.sig</code>, 进行验证, 出现和图上一样的, 表示没问题.</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-100114.png" alt="QQ20171007-100114"></p>
+<p>输入 <code>tar xzf 包名</code>, 进行解压.</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-100400.png" alt="QQ20171007-100400"></p>
+<p>再次输入<code>ls</code>, 会发现多了一个文件夹.</p>
+<p>进入刚刚解压出来的文件夹里面, 再进入<code>usr</code>, 进入<code>bin</code>, 输入<code>pwd</code>, 获取全路径, 记录下来.</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-100516.png" alt="QQ20171007-100516"></p>
+<p>输入<code>cd ~</code>进入根目录, 输入<code>ls -a</code>, 输入<code>vi .profile</code>打开文件</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-100913.png" alt="QQ20171007-100913"></p>
+<p>在当前文件中加入<code>export PATH=刚刚获取的全路径:&quot;${PATH}&quot;</code>, 不要加到最后面一句命令的后面了. 否则就不能正常生效.把刚刚加入进去的那句命令复制(后面要用)</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-101022.png" alt="QQ20171007-101022"></p>
+<p>退出并保存<code>.profile</code>文件, 粘贴刚刚赋值的命令, 执行.</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-101104.png" alt="QQ20171007-101104"></p>
+<p>输入<code>swift --version</code>, 出现正确版本号, swift编译环境搭建完毕.</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-101220.png" alt="QQ20171007-101220"></p>
+<h3 id="在vps上编译项目"><a href="#在vps上编译项目" class="headerlink" title="在vps上编译项目"></a>在vps上编译项目</h3><p>继续查看当前文件夹, 进入<code>Code</code>文件夹, 按照之前在本地快速搭建服务器的方法, 再克隆并运行一次.<br><code>swift build</code>的时候, 如果出现和图中一样的error, <code>error while loading shared libraries: libcurl.so.4: cannot open shared object file: No such file or directory</code>, 输入<code>sudo apt-get install libcurl3</code>, 安装<code>libcurl3</code>, 继续后续步骤, 编译成功后, 使用<code>服务器地址:8181</code>访问, 网页中出现<code>Hello, world!</code>, 也就美滋滋了~</p>
+<p><img src="http://zedxpp.com/images/Perfect/QQ20171007-101826.png" alt="QQ20171007-101826"></p>
+
       
     </div>
     
@@ -501,8 +568,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -583,6 +659,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Ubuntu"><span class="nav-number">1.</span> <span class="nav-text">安装Ubuntu</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置Swift编译环境"><span class="nav-number">2.</span> <span class="nav-text">配置Swift编译环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#终端连接vps"><span class="nav-number">2.1.</span> <span class="nav-text">终端连接vps</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置必要环境"><span class="nav-number">2.2.</span> <span class="nav-text">配置必要环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置swift编译工具"><span class="nav-number">2.3.</span> <span class="nav-text">配置swift编译工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在vps上编译项目"><span class="nav-number">2.4.</span> <span class="nav-text">在vps上编译项目</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
