@@ -4,9 +4,9 @@
   <subtitle>蜗牛, 为梦想而生。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://zedxpp.com/"/>
+  <link href="http://zedxpp.com/"/>
   <updated>2018-01-10T07:58:18.000Z</updated>
-  <id>https://zedxpp.com/</id>
+  <id>http://zedxpp.com/</id>
   
   <author>
     <name>zedxpp</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Swift Perfect服务端的自动化部署</title>
-    <link href="https://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/"/>
-    <id>https://zedxpp.com/2017/12/01/Swift Perfect服务端的自动化部署/</id>
+    <link href="http://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/"/>
+    <id>http://zedxpp.com/2017/12/01/Swift Perfect服务端的自动化部署/</id>
     <published>2017-12-01T12:47:11.000Z</published>
     <updated>2018-01-10T07:58:18.000Z</updated>
     
@@ -61,15 +61,15 @@
     
     </summary>
     
-      <category term="Swift-Perfect" scheme="https://zedxpp.com/categories/Swift-Perfect/"/>
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
     
     
   </entry>
   
   <entry>
     <title>使用Supervisor让你的Swift服务器项目后台运行</title>
-    <link href="https://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/"/>
-    <id>https://zedxpp.com/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/</id>
+    <link href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/"/>
+    <id>http://zedxpp.com/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/</id>
     <published>2017-10-07T11:46:57.000Z</published>
     <updated>2017-10-07T12:05:29.000Z</updated>
     
@@ -95,52 +95,15 @@
     
     </summary>
     
-      <category term="Swift-Perfect" scheme="https://zedxpp.com/categories/Swift-Perfect/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>开启你的Swift服务器之旅-Perfect框架</title>
-    <link href="https://zedxpp.com/2017/10/07/%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6/"/>
-    <id>https://zedxpp.com/2017/10/07/开启你的Swift服务器之旅-Perfect框架/</id>
-    <published>2017-10-07T11:46:57.000Z</published>
-    <updated>2018-01-10T08:08:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. </p>
-<p>最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了.</p>
-<p>为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好.</p>
-<p><a href="https://github.com/perfectlySoft/Perfect" target="_blank" rel="external">https://github.com/perfectlySoft/Perfect</a></p>
-<p><a href="https://github.com/vapor/Vapor" target="_blank" rel="external">https://github.com/vapor/Vapor</a></p>
-<p><a href="https://github.com/ibm-swift/kitura" target="_blank" rel="external">https://github.com/ibm-swift/kitura</a></p>
-<p><a href="https://github.com/zewo/Zewo" target="_blank" rel="external">https://github.com/zewo/Zewo</a></p>
-<h2 id="看完系列文章-你能收获什么"><a href="#看完系列文章-你能收获什么" class="headerlink" title="看完系列文章, 你能收获什么?"></a>看完系列文章, 你能收获什么?</h2><ol>
-<li><a href="https://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">Perfect在Mac本地环境的配置</a></li>
-<li><a href="https://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/">在Ubuntu服务器上配置Swift编译环境</a></li>
-<li><a href="https://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/">在Ubuntu服务器上安装MySql</a></li>
-<li><a href="https://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/">使用Supervisor让你的Swift服务器项目后台运行</a></li>
-<li><a href="https://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/">Swift Perfect服务端的自动化部署</a></li>
-</ol>
-<p>当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡?</p>
-<p>其实Perfect有自己的部署工具<a href="https://perfect.org/zh/assistant/" target="_blank" rel="external">https://perfect.org/zh/assistant/</a>, 但是仅限于<code>亚马逊云EC2服务器部署</code>和<code>Google App Engine 谷歌应用引擎部署</code>, 鉴于自己买<code>非以上两种的vps</code>比较便宜, 而且自己写点接口, 不需要这么贵.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. &lt;/p&gt;
-&lt;p&gt;最开始看到sw
-    
-    </summary>
-    
-      <category term="Swift-Perfect" scheme="https://zedxpp.com/categories/Swift-Perfect/"/>
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
     
     
   </entry>
   
   <entry>
     <title>在Ubuntu服务器配置Swift编译环境</title>
-    <link href="https://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/"/>
-    <id>https://zedxpp.com/2017/10/07/在Ubuntu服务器配置Swift编译环境/</id>
+    <link href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://zedxpp.com/2017/10/07/在Ubuntu服务器配置Swift编译环境/</id>
     <published>2017-10-07T11:46:57.000Z</published>
     <updated>2018-01-10T08:03:17.000Z</updated>
     
@@ -203,15 +166,15 @@
     
     </summary>
     
-      <category term="Swift-Perfect" scheme="https://zedxpp.com/categories/Swift-Perfect/"/>
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
     
     
   </entry>
   
   <entry>
     <title>在Ubuntu安装MySql</title>
-    <link href="https://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/"/>
-    <id>https://zedxpp.com/2017/10/07/在Ubuntu安装MySql/</id>
+    <link href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/"/>
+    <id>http://zedxpp.com/2017/10/07/在Ubuntu安装MySql/</id>
     <published>2017-10-07T11:46:57.000Z</published>
     <updated>2018-01-10T08:08:03.000Z</updated>
     
@@ -236,15 +199,15 @@
     
     </summary>
     
-      <category term="Swift-Perfect" scheme="https://zedxpp.com/categories/Swift-Perfect/"/>
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
     
     
   </entry>
   
   <entry>
     <title>Swift Perfect Mac本地环境配置</title>
-    <link href="https://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
-    <id>https://zedxpp.com/2017/10/07/Swift Perfect Mac本地环境配置/</id>
+    <link href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://zedxpp.com/2017/10/07/Swift Perfect Mac本地环境配置/</id>
     <published>2017-10-07T11:46:57.000Z</published>
     <updated>2018-01-10T07:56:06.000Z</updated>
     
@@ -284,7 +247,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">import PerfectMySQL // 导入</div><div class="line"></div><div class="line">// 配置数据库信息</div><div class="line">let testHost = &quot;127.0.0.1&quot;</div><div class="line">let testUser = &quot;root&quot;</div><div class="line">let testPassword = &quot;数据库密码&quot;</div><div class="line">let testDB = &quot;mysql&quot;</div></pre></td></tr></table></figure>
 <p><code>除了密码需要改成你自己设置的密码, 其他的照搬</code></p>
 <p>加入以下函数并调用, 在这个函数声明之后, 随处调用即可</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">fetchData</span><span class="params">()</span></span> &#123;</div><div class="line">    <span class="keyword">let</span> mysql = <span class="type">MySQL</span>() <span class="comment">// 创建一个MySQL连接实例</span></div><div class="line">    <span class="keyword">let</span> connected = mysql.connect(host: testHost, user: testUser, password: testPassword)</div><div class="line">    <span class="keyword">guard</span> connected <span class="keyword">else</span> &#123;</div><div class="line">        <span class="comment">// 验证一下连接是否成功</span></div><div class="line">        <span class="built_in">print</span>(mysql.errorMessage())</div><div class="line">        <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="built_in">print</span>(<span class="string">"\(mysql.listDatabases())"</span>)</div><div class="line">    </div><div class="line">    <span class="keyword">defer</span> &#123;</div><div class="line">        mysql.close() <span class="comment">//这个延后操作能够保证在程序结束时无论什么结果都会自动关闭数据库连接</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">fetchData</span><span class="params">()</span></span> &#123;</div><div class="line">    <span class="keyword">let</span> mysql = <span class="type">MySQL</span>() <span class="comment">// 创建一个MySQL连接实例</span></div><div class="line">    <span class="keyword">let</span> connected = mysql.connect(host: testHost, user: testUser, password: testPassword)</div><div class="line">    <span class="keyword">guard</span> connected <span class="keyword">else</span> &#123;</div><div class="line">        <span class="comment">// 验证一下连接是否成功</span></div><div class="line">        <span class="built_in">print</span>(mysql.errorMessage())</div><div class="line">        <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="built_in">print</span>(<span class="string">"<span class="subst">\(mysql.listDatabases()</span>)"</span>)</div><div class="line">    </div><div class="line">    <span class="keyword">defer</span> &#123;</div><div class="line">        mysql.close() <span class="comment">//这个延后操作能够保证在程序结束时无论什么结果都会自动关闭数据库连接</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>运行项目, 控制台打印</p>
 <pre><code>[&quot;information_schema&quot;, &quot;mysql&quot;, &quot;performance_schema&quot;, &quot;sys&quot;]
 </code></pre><p>表示数据库已经用代码连接成功.</p>
@@ -296,15 +259,52 @@
     
     </summary>
     
-      <category term="Swift-Perfect" scheme="https://zedxpp.com/categories/Swift-Perfect/"/>
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>开启你的Swift服务器之旅-Perfect框架</title>
+    <link href="http://zedxpp.com/2017/10/07/%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6/"/>
+    <id>http://zedxpp.com/2017/10/07/开启你的Swift服务器之旅-Perfect框架/</id>
+    <published>2017-10-07T11:46:57.000Z</published>
+    <updated>2018-01-10T08:08:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. </p>
+<p>最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了.</p>
+<p>为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好.</p>
+<p><a href="https://github.com/perfectlySoft/Perfect" target="_blank" rel="external">https://github.com/perfectlySoft/Perfect</a></p>
+<p><a href="https://github.com/vapor/Vapor" target="_blank" rel="external">https://github.com/vapor/Vapor</a></p>
+<p><a href="https://github.com/ibm-swift/kitura" target="_blank" rel="external">https://github.com/ibm-swift/kitura</a></p>
+<p><a href="https://github.com/zewo/Zewo" target="_blank" rel="external">https://github.com/zewo/Zewo</a></p>
+<h2 id="看完系列文章-你能收获什么"><a href="#看完系列文章-你能收获什么" class="headerlink" title="看完系列文章, 你能收获什么?"></a>看完系列文章, 你能收获什么?</h2><ol>
+<li><a href="https://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">Perfect在Mac本地环境的配置</a></li>
+<li><a href="https://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/">在Ubuntu服务器上配置Swift编译环境</a></li>
+<li><a href="https://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/">在Ubuntu服务器上安装MySql</a></li>
+<li><a href="https://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/">使用Supervisor让你的Swift服务器项目后台运行</a></li>
+<li><a href="https://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/">Swift Perfect服务端的自动化部署</a></li>
+</ol>
+<p>当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡?</p>
+<p>其实Perfect有自己的部署工具<a href="https://perfect.org/zh/assistant/" target="_blank" rel="external">https://perfect.org/zh/assistant/</a>, 但是仅限于<code>亚马逊云EC2服务器部署</code>和<code>Google App Engine 谷歌应用引擎部署</code>, 鉴于自己买<code>非以上两种的vps</code>比较便宜, 而且自己写点接口, 不需要这么贵.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. &lt;/p&gt;
+&lt;p&gt;最开始看到sw
+    
+    </summary>
+    
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
     
     
   </entry>
   
   <entry>
     <title>为你的hexo博客配置个性域名</title>
-    <link href="https://zedxpp.com/2017/03/05/%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D/"/>
-    <id>https://zedxpp.com/2017/03/05/为你的hexo博客配置个性域名/</id>
+    <link href="http://zedxpp.com/2017/03/05/%E4%B8%BA%E4%BD%A0%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%AA%E6%80%A7%E5%9F%9F%E5%90%8D/"/>
+    <id>http://zedxpp.com/2017/03/05/为你的hexo博客配置个性域名/</id>
     <published>2017-03-05T14:49:43.000Z</published>
     <updated>2018-01-10T07:55:41.000Z</updated>
     
@@ -345,17 +345,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://zedxpp.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://zedxpp.com/categories/Hexo/"/>
     
     
-      <category term="配置Hexo域名" scheme="https://zedxpp.com/tags/%E9%85%8D%E7%BD%AEHexo%E5%9F%9F%E5%90%8D/"/>
+      <category term="配置Hexo域名" scheme="http://zedxpp.com/tags/%E9%85%8D%E7%BD%AEHexo%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
   <entry>
     <title>图片并茂教你搭建hexo博客,部署github,更换主题</title>
-    <link href="https://zedxpp.com/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
-    <id>https://zedxpp.com/2017/03/05/图片并茂教你搭建hexo博客,部署github,更换主题/</id>
+    <link href="http://zedxpp.com/2017/03/05/%E5%9B%BE%E7%89%87%E5%B9%B6%E8%8C%82%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2,%E9%83%A8%E7%BD%B2github,%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
+    <id>http://zedxpp.com/2017/03/05/图片并茂教你搭建hexo博客,部署github,更换主题/</id>
     <published>2017-03-05T14:48:33.000Z</published>
     <updated>2018-01-10T07:55:33.000Z</updated>
     
@@ -466,21 +466,21 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://zedxpp.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://zedxpp.com/categories/Hexo/"/>
     
     
-      <category term="搭建Hexo" scheme="https://zedxpp.com/tags/%E6%90%AD%E5%BB%BAHexo/"/>
+      <category term="搭建Hexo" scheme="http://zedxpp.com/tags/%E6%90%AD%E5%BB%BAHexo/"/>
     
-      <category term="部署Hexo" scheme="https://zedxpp.com/tags/%E9%83%A8%E7%BD%B2Hexo/"/>
+      <category term="部署Hexo" scheme="http://zedxpp.com/tags/%E9%83%A8%E7%BD%B2Hexo/"/>
     
-      <category term="更换Hexo主题" scheme="https://zedxpp.com/tags/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98/"/>
+      <category term="更换Hexo主题" scheme="http://zedxpp.com/tags/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>利用VPS搭建科学上网工具和个人博客(教程合集)</title>
-    <link href="https://zedxpp.com/2017/02/25/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BA%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E6%95%99%E7%A8%8B%E5%90%88%E9%9B%86)/"/>
-    <id>https://zedxpp.com/2017/02/25/利用VPS搭建科学上网工具和个人博客(教程合集)/</id>
+    <link href="http://zedxpp.com/2017/02/25/%E5%88%A9%E7%94%A8VPS%E6%90%AD%E5%BB%BA%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E6%95%99%E7%A8%8B%E5%90%88%E9%9B%86)/"/>
+    <id>http://zedxpp.com/2017/02/25/利用VPS搭建科学上网工具和个人博客(教程合集)/</id>
     <published>2017-02-25T14:34:53.000Z</published>
     <updated>2018-01-10T07:55:19.000Z</updated>
     
@@ -608,17 +608,17 @@
     
     </summary>
     
-      <category term="VPS" scheme="https://zedxpp.com/categories/VPS/"/>
+      <category term="VPS" scheme="http://zedxpp.com/categories/VPS/"/>
     
     
-      <category term="VPS科学上网" scheme="https://zedxpp.com/tags/VPS%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+      <category term="VPS科学上网" scheme="http://zedxpp.com/tags/VPS%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
   <entry>
     <title>Vim的简单使用</title>
-    <link href="https://zedxpp.com/2017/02/25/Vim%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/"/>
-    <id>https://zedxpp.com/2017/02/25/Vim的简单使用/</id>
+    <link href="http://zedxpp.com/2017/02/25/Vim%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/"/>
+    <id>http://zedxpp.com/2017/02/25/Vim的简单使用/</id>
     <published>2017-02-25T14:34:07.000Z</published>
     <updated>2018-01-10T07:50:43.000Z</updated>
     
@@ -639,19 +639,19 @@
     
     </summary>
     
-      <category term="Vim" scheme="https://zedxpp.com/categories/Vim/"/>
+      <category term="Vim" scheme="http://zedxpp.com/categories/Vim/"/>
     
     
-      <category term="Vim使用" scheme="https://zedxpp.com/tags/Vim%E4%BD%BF%E7%94%A8/"/>
+      <category term="Vim使用" scheme="http://zedxpp.com/tags/Vim%E4%BD%BF%E7%94%A8/"/>
     
-      <category term="VPS" scheme="https://zedxpp.com/tags/VPS/"/>
+      <category term="VPS" scheme="http://zedxpp.com/tags/VPS/"/>
     
   </entry>
   
   <entry>
     <title>Quartz2D</title>
-    <link href="https://zedxpp.com/2016/05/08/Quartz2D/"/>
-    <id>https://zedxpp.com/2016/05/08/Quartz2D/</id>
+    <link href="http://zedxpp.com/2016/05/08/Quartz2D/"/>
+    <id>http://zedxpp.com/2016/05/08/Quartz2D/</id>
     <published>2016-05-08T08:22:53.000Z</published>
     <updated>2016-05-08T08:22:53.000Z</updated>
     
@@ -787,17 +787,17 @@
     
     </summary>
     
-      <category term="Quartz2D" scheme="https://zedxpp.com/categories/Quartz2D/"/>
+      <category term="Quartz2D" scheme="http://zedxpp.com/categories/Quartz2D/"/>
     
     
-      <category term="Quartz2D" scheme="https://zedxpp.com/tags/Quartz2D/"/>
+      <category term="Quartz2D" scheme="http://zedxpp.com/tags/Quartz2D/"/>
     
   </entry>
   
   <entry>
     <title>Swift导入SQLite库, Swift桥接OC 步骤</title>
-    <link href="https://zedxpp.com/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%20Swift%E6%A1%A5%E6%8E%A5OC%20%E6%AD%A5%E9%AA%A4/"/>
-    <id>https://zedxpp.com/2016/04/14/Swift导入SQLite库, Swift桥接OC 步骤/</id>
+    <link href="http://zedxpp.com/2016/04/14/Swift%E5%AF%BC%E5%85%A5SQLite%E5%BA%93,%20Swift%E6%A1%A5%E6%8E%A5OC%20%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://zedxpp.com/2016/04/14/Swift导入SQLite库, Swift桥接OC 步骤/</id>
     <published>2016-04-14T02:25:08.000Z</published>
     <updated>2017-02-22T11:09:01.000Z</updated>
     
@@ -822,12 +822,12 @@
     
     </summary>
     
-      <category term="Swift" scheme="https://zedxpp.com/categories/Swift/"/>
+      <category term="Swift" scheme="http://zedxpp.com/categories/Swift/"/>
     
     
-      <category term="SQLite" scheme="https://zedxpp.com/tags/SQLite/"/>
+      <category term="SQLite" scheme="http://zedxpp.com/tags/SQLite/"/>
     
-      <category term="Swift" scheme="https://zedxpp.com/tags/Swift/"/>
+      <category term="Swift" scheme="http://zedxpp.com/tags/Swift/"/>
     
   </entry>
   
