@@ -101,76 +101,6 @@
   </entry>
   
   <entry>
-    <title>在Ubuntu安装MySql</title>
-    <link href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/"/>
-    <id>http://zedxpp.com/2017/10/07/在Ubuntu安装MySql/</id>
-    <published>2017-10-07T11:46:57.000Z</published>
-    <updated>2018-01-10T08:08:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="安装数据库"><a href="#安装数据库" class="headerlink" title="安装数据库"></a>安装数据库</h2><p>打开终端, 链接服务器, 输入<code>sudo apt-get install mysql-server mysql-client</code>安装MySql数据库. 安装过程中会叫你输入两次密码, </p>
-<p><img src="/images/Perfect/QQ20171007-102429.png" alt="QQ20171007-102429"><br><img src="/images/Perfect/QQ20171007-102447.png" alt="QQ20171007-102447"></p>
-<p>安装完成后, 输入<code>mysql -u root -p</code>, 输入刚刚的密码, 进入数据库.</p>
-<p><img src="/images/Perfect/QQ20171007-102903.png" alt="QQ20171007-102903"></p>
-<h2 id="配置数据库的远程访问"><a href="#配置数据库的远程访问" class="headerlink" title="配置数据库的远程访问"></a>配置数据库的远程访问</h2><p>有时候需要远程管理服务器上的数据库, 就要配置远程访问.</p>
-<p>输入<code>\q</code>退出数据库.<code>cd /etc/mysql/mysql.conf.d/</code>进入文件夹, <code>vi mysqld.cnf</code>打开配置文件, 把<code>bind-address = 127.0.0.1</code>前面加个<code>#</code>给注释了.</p>
-<p><img src="/images/Perfect/QQ20171007-104911.png" alt="QQ20171007-104911"></p>
-<p>然后重新<code>mysql -u root -p</code>进入数据库, 执行<code>GRANT ALL PRIVILEGES ON *.* TO &#39;&lt;user&gt;&#39;@&#39;%&#39; IDENTIFIED BY &#39;&lt;password&gt;&#39; WITH GRANT OPTION;</code>, <code>&lt;user&gt;</code>换成你想设置的用户名, <code>&lt;password&gt;</code>换成密码, <code>&#39;&#39;不能少了</code>, 然后再执行<code>FLUSH PRIVILEGES</code>刷新权限. 最后重启一下数据库.</p>
-<p>mac和ubuntu的数据库命令是不一样的</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo service mysql start 开启</div><div class="line">sudo service mysql stop 停止</div><div class="line">sudo service mysql restart 重启</div></pre></td></tr></table></figure>
-<p>打开电脑上的的数据库软件, 输入你的服务器ip地址, 端口号默认3306, 输入刚刚设置的用户名和密码.连接.</p>
-<p>现在, 你已经用本地数据库软件成功连接服务器上的数据库了.</p>
-<p><img src="/images/Perfect/QQ20171007-103629.png" alt="QQ20171007-103629"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;安装数据库&quot;&gt;&lt;a href=&quot;#安装数据库&quot; class=&quot;headerlink&quot; title=&quot;安装数据库&quot;&gt;&lt;/a&gt;安装数据库&lt;/h2&gt;&lt;p&gt;打开终端, 链接服务器, 输入&lt;code&gt;sudo apt-get install mysql-server mys
-    
-    </summary>
-    
-      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>开启你的Swift服务器之旅-Perfect框架</title>
-    <link href="http://zedxpp.com/2017/10/07/%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6/"/>
-    <id>http://zedxpp.com/2017/10/07/开启你的Swift服务器之旅-Perfect框架/</id>
-    <published>2017-10-07T11:46:57.000Z</published>
-    <updated>2018-01-21T02:43:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. </p>
-<p>最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了.</p>
-<p>为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好.</p>
-<p><a href="https://github.com/perfectlySoft/Perfect" target="_blank" rel="external">https://github.com/perfectlySoft/Perfect</a></p>
-<p><a href="https://github.com/vapor/Vapor" target="_blank" rel="external">https://github.com/vapor/Vapor</a></p>
-<p><a href="https://github.com/ibm-swift/kitura" target="_blank" rel="external">https://github.com/ibm-swift/kitura</a></p>
-<p><a href="https://github.com/zewo/Zewo" target="_blank" rel="external">https://github.com/zewo/Zewo</a></p>
-<h2 id="看完系列文章-你能收获什么"><a href="#看完系列文章-你能收获什么" class="headerlink" title="看完系列文章, 你能收获什么?"></a>看完系列文章, 你能收获什么?</h2><ol>
-<li><a href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">Perfect在Mac本地环境的配置</a></li>
-<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/">在Ubuntu服务器上配置Swift编译环境</a></li>
-<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/">在Ubuntu服务器上安装MySql</a></li>
-<li><a href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/">使用Supervisor让你的Swift服务器项目后台运行</a></li>
-<li><a href="http://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/">Swift Perfect服务端的自动化部署</a></li>
-</ol>
-<p>当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡?</p>
-<p>其实Perfect有自己的部署工具<a href="https://perfect.org/zh/assistant/" target="_blank" rel="external">https://perfect.org/zh/assistant/</a>, 但是仅限于<code>亚马逊云EC2服务器部署</code>和<code>Google App Engine 谷歌应用引擎部署</code>, 鉴于自己买<code>非以上两种的vps</code>比较便宜, 而且自己写点接口, 不需要这么贵.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. &lt;/p&gt;
-&lt;p&gt;最开始看到sw
-    
-    </summary>
-    
-      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>在Ubuntu服务器配置Swift编译环境</title>
     <link href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/"/>
     <id>http://zedxpp.com/2017/10/07/在Ubuntu服务器配置Swift编译环境/</id>
@@ -233,6 +163,76 @@
     <summary type="html">
     
       &lt;h2 id=&quot;安装Ubuntu&quot;&gt;&lt;a href=&quot;#安装Ubuntu&quot; class=&quot;headerlink&quot; title=&quot;安装Ubuntu&quot;&gt;&lt;/a&gt;安装Ubuntu&lt;/h2&gt;&lt;p&gt;购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新
+    
+    </summary>
+    
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>开启你的Swift服务器之旅-Perfect框架</title>
+    <link href="http://zedxpp.com/2017/10/07/%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6/"/>
+    <id>http://zedxpp.com/2017/10/07/开启你的Swift服务器之旅-Perfect框架/</id>
+    <published>2017-10-07T11:46:57.000Z</published>
+    <updated>2018-01-21T02:43:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. </p>
+<p>最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了.</p>
+<p>为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好.</p>
+<p><a href="https://github.com/perfectlySoft/Perfect" target="_blank" rel="external">https://github.com/perfectlySoft/Perfect</a></p>
+<p><a href="https://github.com/vapor/Vapor" target="_blank" rel="external">https://github.com/vapor/Vapor</a></p>
+<p><a href="https://github.com/ibm-swift/kitura" target="_blank" rel="external">https://github.com/ibm-swift/kitura</a></p>
+<p><a href="https://github.com/zewo/Zewo" target="_blank" rel="external">https://github.com/zewo/Zewo</a></p>
+<h2 id="看完系列文章-你能收获什么"><a href="#看完系列文章-你能收获什么" class="headerlink" title="看完系列文章, 你能收获什么?"></a>看完系列文章, 你能收获什么?</h2><ol>
+<li><a href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">Perfect在Mac本地环境的配置</a></li>
+<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/">在Ubuntu服务器上配置Swift编译环境</a></li>
+<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/">在Ubuntu服务器上安装MySql</a></li>
+<li><a href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/">使用Supervisor让你的Swift服务器项目后台运行</a></li>
+<li><a href="http://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/">Swift Perfect服务端的自动化部署</a></li>
+</ol>
+<p>当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡?</p>
+<p>其实Perfect有自己的部署工具<a href="https://perfect.org/zh/assistant/" target="_blank" rel="external">https://perfect.org/zh/assistant/</a>, 但是仅限于<code>亚马逊云EC2服务器部署</code>和<code>Google App Engine 谷歌应用引擎部署</code>, 鉴于自己买<code>非以上两种的vps</code>比较便宜, 而且自己写点接口, 不需要这么贵.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. &lt;/p&gt;
+&lt;p&gt;最开始看到sw
+    
+    </summary>
+    
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在Ubuntu安装MySql</title>
+    <link href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/"/>
+    <id>http://zedxpp.com/2017/10/07/在Ubuntu安装MySql/</id>
+    <published>2017-10-07T11:46:57.000Z</published>
+    <updated>2018-01-10T08:08:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装数据库"><a href="#安装数据库" class="headerlink" title="安装数据库"></a>安装数据库</h2><p>打开终端, 链接服务器, 输入<code>sudo apt-get install mysql-server mysql-client</code>安装MySql数据库. 安装过程中会叫你输入两次密码, </p>
+<p><img src="/images/Perfect/QQ20171007-102429.png" alt="QQ20171007-102429"><br><img src="/images/Perfect/QQ20171007-102447.png" alt="QQ20171007-102447"></p>
+<p>安装完成后, 输入<code>mysql -u root -p</code>, 输入刚刚的密码, 进入数据库.</p>
+<p><img src="/images/Perfect/QQ20171007-102903.png" alt="QQ20171007-102903"></p>
+<h2 id="配置数据库的远程访问"><a href="#配置数据库的远程访问" class="headerlink" title="配置数据库的远程访问"></a>配置数据库的远程访问</h2><p>有时候需要远程管理服务器上的数据库, 就要配置远程访问.</p>
+<p>输入<code>\q</code>退出数据库.<code>cd /etc/mysql/mysql.conf.d/</code>进入文件夹, <code>vi mysqld.cnf</code>打开配置文件, 把<code>bind-address = 127.0.0.1</code>前面加个<code>#</code>给注释了.</p>
+<p><img src="/images/Perfect/QQ20171007-104911.png" alt="QQ20171007-104911"></p>
+<p>然后重新<code>mysql -u root -p</code>进入数据库, 执行<code>GRANT ALL PRIVILEGES ON *.* TO &#39;&lt;user&gt;&#39;@&#39;%&#39; IDENTIFIED BY &#39;&lt;password&gt;&#39; WITH GRANT OPTION;</code>, <code>&lt;user&gt;</code>换成你想设置的用户名, <code>&lt;password&gt;</code>换成密码, <code>&#39;&#39;不能少了</code>, 然后再执行<code>FLUSH PRIVILEGES</code>刷新权限. 最后重启一下数据库.</p>
+<p>mac和ubuntu的数据库命令是不一样的</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo service mysql start 开启</div><div class="line">sudo service mysql stop 停止</div><div class="line">sudo service mysql restart 重启</div></pre></td></tr></table></figure>
+<p>打开电脑上的的数据库软件, 输入你的服务器ip地址, 端口号默认3306, 输入刚刚设置的用户名和密码.连接.</p>
+<p>现在, 你已经用本地数据库软件成功连接服务器上的数据库了.</p>
+<p><img src="/images/Perfect/QQ20171007-103629.png" alt="QQ20171007-103629"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装数据库&quot;&gt;&lt;a href=&quot;#安装数据库&quot; class=&quot;headerlink&quot; title=&quot;安装数据库&quot;&gt;&lt;/a&gt;安装数据库&lt;/h2&gt;&lt;p&gt;打开终端, 链接服务器, 输入&lt;code&gt;sudo apt-get install mysql-server mys
     
     </summary>
     
