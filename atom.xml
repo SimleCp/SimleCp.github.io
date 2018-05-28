@@ -87,6 +87,40 @@
   </entry>
   
   <entry>
+    <title>使用Supervisor让你的Swift服务器项目后台运行</title>
+    <link href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/"/>
+    <id>http://zedxpp.com/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/</id>
+    <published>2017-10-07T11:46:57.000Z</published>
+    <updated>2017-10-07T12:05:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>当你按<code>control + c</code>退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了.</p>
+<p>这个时候就需要用<code>supervisor</code>来让项目一直在后台运行, 这样, 你编写的api才能一直能访问.</p>
+<h2 id="基本配置和说明"><a href="#基本配置和说明" class="headerlink" title="基本配置和说明"></a>基本配置和说明</h2><p>打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在<code>Code</code>文件夹, 并且创建了一个文件, 名字叫<code>script.sh</code>的文件.</p>
+<p><code>/root/Code/script.sh</code>, 也就是你需要supervisor帮你执行这个脚本.并且一直后台运行.</p>
+<p><code>/root/Code</code>的<code>script.sh</code>里面, 编写着路径地址和执行命令.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /root/Code/PerfectTemplate</div><div class="line">.build/debug/PerfectTemplate</div></pre></td></tr></table></figure>
+<h2 id="安装并配置"><a href="#安装并配置" class="headerlink" title="安装并配置"></a>安装并配置</h2><p>输入<code>sudo apt-get install supervisor</code>安装supervisor.</p>
+<p>安装完成后, 进入<code>cd /etc/supervisor/conf.d</code>, 创建并编辑 <code>vim swiftServer.conf</code>, <code>swiftServer</code>是我的文件名和program名, 你也可以用你喜欢的.</p>
+<p>在文件中粘贴以下代码, </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[program:swiftServer] // swiftServer 刚刚取的program名</div><div class="line"></div><div class="line">command=sh script.sh // 执行的脚本名称</div><div class="line"></div><div class="line">process_name=%(program_name)s</div><div class="line"></div><div class="line">directory=/root/Code // 执行的脚本路径</div><div class="line"></div><div class="line">autorestart=true</div><div class="line"></div><div class="line">user=root // 用户名</div></pre></td></tr></table></figure>
+<p><code>更多的supervisor配置信息请自行查阅, 这里只保证项目能正常启动起来.</code></p>
+<p>输入<code>supervisorctl reload</code>让你刚刚的配置生效.</p>
+<p>输入<code>supervisorctl start swiftServer</code>启动并后台运行</p>
+<p>再次在网页中打开<code>服务器ip:8181</code>, <code>Hello, world!</code>时刻与你同在.  ^.^</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;当你按&lt;code&gt;control + c&lt;/code&gt;退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口
+    
+    </summary>
+    
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>开启你的Swift服务器之旅-Perfect框架</title>
     <link href="http://zedxpp.com/2017/10/07/%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6/"/>
     <id>http://zedxpp.com/2017/10/07/开启你的Swift服务器之旅-Perfect框架/</id>
@@ -115,66 +149,6 @@
     
       &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. &lt;/p&gt;
 &lt;p&gt;最开始看到sw
-    
-    </summary>
-    
-      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Swift Perfect Mac本地环境配置</title>
-    <link href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
-    <id>http://zedxpp.com/2017/10/07/Swift Perfect Mac本地环境配置/</id>
-    <published>2017-10-07T11:46:57.000Z</published>
-    <updated>2018-01-10T07:56:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Perfect框架中文文档地址: <a href="http://perfect.org/docs/index_zh_CN.html" target="_blank" rel="external">http://perfect.org/docs/index_zh_CN.html</a></p>
-<h2 id="开启本地服务器"><a href="#开启本地服务器" class="headerlink" title="开启本地服务器"></a>开启本地服务器</h2><p>首先, 根据Perfect框架的官网文档, 快速开启本地服务器 <a href="http://perfect.org/docs/gettingStarted_zh_CN.html" target="_blank" rel="external">http://perfect.org/docs/gettingStarted_zh_CN.html</a></p>
-<h2 id="数据库选择"><a href="#数据库选择" class="headerlink" title="数据库选择"></a>数据库选择</h2><p>后端开发, 必不可少的便是数据库, Perfect框架支持好几种数据库, 我自己选用的是MySql数据库, 以下所有教程都是基于MySql数据库进行展开的.</p>
-<p><img src="/images/Perfect/15073473949127.jpg" alt=""></p>
-<p><code>教程所有内容主要是以在本地和服务器部署各种环境为主, 避免浪费不必要的时间在部署环境上.</code></p>
-<h2 id="在Mac上安装MySql"><a href="#在Mac上安装MySql" class="headerlink" title="在Mac上安装MySql"></a>在Mac上安装MySql</h2><p>打开终端, 安装mysql(请勿使用dmg的方式安装mysql, 经我测试, 发现会碰到一些麻烦的问题)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install mysql</div></pre></td></tr></table></figure>
-<ul>
-<li>在Mac OS 10.12 上面, 直接安装即可.</li>
-<li>在Mac OS 10.13 上面, 可能需要更新Homebrew, 更新Homebrew又需要Ruby, 更新Ruby又需要Rvm等等. 在这个版本的操作系统上面, Homebrew拿不到/usr/local文件夹的读写权限, 按照官方给出的解决方法(<a href="https://github.com/Homebrew/brew/issues/3228" target="_blank" rel="external">https://github.com/Homebrew/brew/issues/3228</a>), 在我自己的mac电脑上并不行, 来回折腾了1个多小时还是不行, 我决定采取暴力方法.直接卸载重装Homebrew, 重新安装后, 顺利的在mac上安装好了mysql.</li>
-</ul>
-<p><code>如果你也需要采用这种暴力方法, 请继续看, 如果你已经顺利安装了, 直接跳过卸载重装的部分.</code></p>
-<h3 id="卸载Homebrew"><a href="#卸载Homebrew" class="headerlink" title="卸载Homebrew"></a>卸载Homebrew</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> `brew --prefix` </div><div class="line">$ rm -rf Cellar$ brew prune </div><div class="line">$ rm -rf Library .git .gitignore bin/brew README.md share/man/man1/brew </div><div class="line">$ rm -rf ~/Library/Caches/Homebrew</div></pre></td></tr></table></figure>
-<ul>
-<li><a href="http://www.jianshu.com/p/18772092ee6b" target="_blank" rel="external">参考来自</a></li>
-</ul>
-<h3 id="重新安装Homebrew"><a href="#重新安装Homebrew" class="headerlink" title="重新安装Homebrew"></a>重新安装Homebrew</h3><p>进入Homebrew官网 <a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="external">https://brew.sh/index_zh-cn.html</a>, 复制这里的命令到终端安装即可(安装命令可能会变, 所以请自行前往复制)</p>
-<p><img src="/images/Perfect/15073483710624.jpg" alt=""></p>
-<h2 id="MySql启动与配置"><a href="#MySql启动与配置" class="headerlink" title="MySql启动与配置"></a>MySql启动与配置</h2><p>安装完成后, 手动启动mysql</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">mysql.server start    # 启动</div><div class="line">mysql.server stop     # 停止</div><div class="line">mysql.server restart  # 重启</div></pre></td></tr></table></figure>
-<p>打开数据库</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -u root -p</div></pre></td></tr></table></figure>
-<p>设置mysql密码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UPDATE user SET authentication_string=PASSWORD(&apos;newpassword&apos;) where USER=&apos;root&apos;;</div></pre></td></tr></table></figure>
-<p><code>更新用户名和密码, 用户名建议用root, 后面的教程都会以此为例子.</code></p>
-<p>设置完密码后刷新权限</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">FLUSH PRIVILEGES</div></pre></td></tr></table></figure>
-<p>输入 <code>\q</code> 退出数据库</p>
-<p>重新登录数据库, 尝试用新密码进入, 如果成功, 退出数据库, 进行接下来的步骤.</p>
-<p><code>建议在网上找一个数据库软件, 更加直观的查看数据和调试.</code></p>
-<h3 id="代码连接数据库"><a href="#代码连接数据库" class="headerlink" title="代码连接数据库"></a>代码连接数据库</h3><p>接下来回到本地服务器项目代码这边.</p>
-<p>打开<code>Package.swift</code>导入<code>.Package(url:&quot;https://github.com/PerfectlySoft/Perfect-MySQL.git&quot;, majorVersion: 3),</code> 注意最后面有个逗号.</p>
-<p>在终端执行<code>swift build</code>和<code>swift package generate-xcodeproj</code>, 用xcode打开项目.打开<code>main.swift</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">import PerfectMySQL // 导入</div><div class="line"></div><div class="line">// 配置数据库信息</div><div class="line">let testHost = &quot;127.0.0.1&quot;</div><div class="line">let testUser = &quot;root&quot;</div><div class="line">let testPassword = &quot;数据库密码&quot;</div><div class="line">let testDB = &quot;mysql&quot;</div></pre></td></tr></table></figure>
-<p><code>除了密码需要改成你自己设置的密码, 其他的照搬</code></p>
-<p>加入以下函数并调用, 在这个函数声明之后, 随处调用即可</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">fetchData</span><span class="params">()</span></span> &#123;</div><div class="line">    <span class="keyword">let</span> mysql = <span class="type">MySQL</span>() <span class="comment">// 创建一个MySQL连接实例</span></div><div class="line">    <span class="keyword">let</span> connected = mysql.connect(host: testHost, user: testUser, password: testPassword)</div><div class="line">    <span class="keyword">guard</span> connected <span class="keyword">else</span> &#123;</div><div class="line">        <span class="comment">// 验证一下连接是否成功</span></div><div class="line">        <span class="built_in">print</span>(mysql.errorMessage())</div><div class="line">        <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="built_in">print</span>(<span class="string">"<span class="subst">\(mysql.listDatabases()</span>)"</span>)</div><div class="line">    </div><div class="line">    <span class="keyword">defer</span> &#123;</div><div class="line">        mysql.close() <span class="comment">//这个延后操作能够保证在程序结束时无论什么结果都会自动关闭数据库连接</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>运行项目, 控制台打印</p>
-<pre><code>[&quot;information_schema&quot;, &quot;mysql&quot;, &quot;performance_schema&quot;, &quot;sys&quot;]
-</code></pre><p>表示数据库已经用代码连接成功.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Perfect框架中文文档地址: &lt;a href=&quot;http://perfect.org/docs/index_zh_CN.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://perfect.org/docs/index_zh_CN.ht
     
     </summary>
     
@@ -255,40 +229,6 @@
   </entry>
   
   <entry>
-    <title>使用Supervisor让你的Swift服务器项目后台运行</title>
-    <link href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/"/>
-    <id>http://zedxpp.com/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/</id>
-    <published>2017-10-07T11:46:57.000Z</published>
-    <updated>2017-10-07T12:05:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>当你按<code>control + c</code>退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了.</p>
-<p>这个时候就需要用<code>supervisor</code>来让项目一直在后台运行, 这样, 你编写的api才能一直能访问.</p>
-<h2 id="基本配置和说明"><a href="#基本配置和说明" class="headerlink" title="基本配置和说明"></a>基本配置和说明</h2><p>打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在<code>Code</code>文件夹, 并且创建了一个文件, 名字叫<code>script.sh</code>的文件.</p>
-<p><code>/root/Code/script.sh</code>, 也就是你需要supervisor帮你执行这个脚本.并且一直后台运行.</p>
-<p><code>/root/Code</code>的<code>script.sh</code>里面, 编写着路径地址和执行命令.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /root/Code/PerfectTemplate</div><div class="line">.build/debug/PerfectTemplate</div></pre></td></tr></table></figure>
-<h2 id="安装并配置"><a href="#安装并配置" class="headerlink" title="安装并配置"></a>安装并配置</h2><p>输入<code>sudo apt-get install supervisor</code>安装supervisor.</p>
-<p>安装完成后, 进入<code>cd /etc/supervisor/conf.d</code>, 创建并编辑 <code>vim swiftServer.conf</code>, <code>swiftServer</code>是我的文件名和program名, 你也可以用你喜欢的.</p>
-<p>在文件中粘贴以下代码, </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[program:swiftServer] // swiftServer 刚刚取的program名</div><div class="line"></div><div class="line">command=sh script.sh // 执行的脚本名称</div><div class="line"></div><div class="line">process_name=%(program_name)s</div><div class="line"></div><div class="line">directory=/root/Code // 执行的脚本路径</div><div class="line"></div><div class="line">autorestart=true</div><div class="line"></div><div class="line">user=root // 用户名</div></pre></td></tr></table></figure>
-<p><code>更多的supervisor配置信息请自行查阅, 这里只保证项目能正常启动起来.</code></p>
-<p>输入<code>supervisorctl reload</code>让你刚刚的配置生效.</p>
-<p>输入<code>supervisorctl start swiftServer</code>启动并后台运行</p>
-<p>再次在网页中打开<code>服务器ip:8181</code>, <code>Hello, world!</code>时刻与你同在.  ^.^</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;当你按&lt;code&gt;control + c&lt;/code&gt;退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口
-    
-    </summary>
-    
-      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>在Ubuntu安装MySql</title>
     <link href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/"/>
     <id>http://zedxpp.com/2017/10/07/在Ubuntu安装MySql/</id>
@@ -313,6 +253,66 @@
     <summary type="html">
     
       &lt;h2 id=&quot;安装数据库&quot;&gt;&lt;a href=&quot;#安装数据库&quot; class=&quot;headerlink&quot; title=&quot;安装数据库&quot;&gt;&lt;/a&gt;安装数据库&lt;/h2&gt;&lt;p&gt;打开终端, 链接服务器, 输入&lt;code&gt;sudo apt-get install mysql-server mys
+    
+    </summary>
+    
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Swift Perfect Mac本地环境配置</title>
+    <link href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://zedxpp.com/2017/10/07/Swift Perfect Mac本地环境配置/</id>
+    <published>2017-10-07T11:46:57.000Z</published>
+    <updated>2018-01-10T07:56:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Perfect框架中文文档地址: <a href="http://perfect.org/docs/index_zh_CN.html" target="_blank" rel="external">http://perfect.org/docs/index_zh_CN.html</a></p>
+<h2 id="开启本地服务器"><a href="#开启本地服务器" class="headerlink" title="开启本地服务器"></a>开启本地服务器</h2><p>首先, 根据Perfect框架的官网文档, 快速开启本地服务器 <a href="http://perfect.org/docs/gettingStarted_zh_CN.html" target="_blank" rel="external">http://perfect.org/docs/gettingStarted_zh_CN.html</a></p>
+<h2 id="数据库选择"><a href="#数据库选择" class="headerlink" title="数据库选择"></a>数据库选择</h2><p>后端开发, 必不可少的便是数据库, Perfect框架支持好几种数据库, 我自己选用的是MySql数据库, 以下所有教程都是基于MySql数据库进行展开的.</p>
+<p><img src="/images/Perfect/15073473949127.jpg" alt=""></p>
+<p><code>教程所有内容主要是以在本地和服务器部署各种环境为主, 避免浪费不必要的时间在部署环境上.</code></p>
+<h2 id="在Mac上安装MySql"><a href="#在Mac上安装MySql" class="headerlink" title="在Mac上安装MySql"></a>在Mac上安装MySql</h2><p>打开终端, 安装mysql(请勿使用dmg的方式安装mysql, 经我测试, 发现会碰到一些麻烦的问题)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install mysql</div></pre></td></tr></table></figure>
+<ul>
+<li>在Mac OS 10.12 上面, 直接安装即可.</li>
+<li>在Mac OS 10.13 上面, 可能需要更新Homebrew, 更新Homebrew又需要Ruby, 更新Ruby又需要Rvm等等. 在这个版本的操作系统上面, Homebrew拿不到/usr/local文件夹的读写权限, 按照官方给出的解决方法(<a href="https://github.com/Homebrew/brew/issues/3228" target="_blank" rel="external">https://github.com/Homebrew/brew/issues/3228</a>), 在我自己的mac电脑上并不行, 来回折腾了1个多小时还是不行, 我决定采取暴力方法.直接卸载重装Homebrew, 重新安装后, 顺利的在mac上安装好了mysql.</li>
+</ul>
+<p><code>如果你也需要采用这种暴力方法, 请继续看, 如果你已经顺利安装了, 直接跳过卸载重装的部分.</code></p>
+<h3 id="卸载Homebrew"><a href="#卸载Homebrew" class="headerlink" title="卸载Homebrew"></a>卸载Homebrew</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> `brew --prefix` </div><div class="line">$ rm -rf Cellar$ brew prune </div><div class="line">$ rm -rf Library .git .gitignore bin/brew README.md share/man/man1/brew </div><div class="line">$ rm -rf ~/Library/Caches/Homebrew</div></pre></td></tr></table></figure>
+<ul>
+<li><a href="http://www.jianshu.com/p/18772092ee6b" target="_blank" rel="external">参考来自</a></li>
+</ul>
+<h3 id="重新安装Homebrew"><a href="#重新安装Homebrew" class="headerlink" title="重新安装Homebrew"></a>重新安装Homebrew</h3><p>进入Homebrew官网 <a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="external">https://brew.sh/index_zh-cn.html</a>, 复制这里的命令到终端安装即可(安装命令可能会变, 所以请自行前往复制)</p>
+<p><img src="/images/Perfect/15073483710624.jpg" alt=""></p>
+<h2 id="MySql启动与配置"><a href="#MySql启动与配置" class="headerlink" title="MySql启动与配置"></a>MySql启动与配置</h2><p>安装完成后, 手动启动mysql</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">mysql.server start    # 启动</div><div class="line">mysql.server stop     # 停止</div><div class="line">mysql.server restart  # 重启</div></pre></td></tr></table></figure>
+<p>打开数据库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -u root -p</div></pre></td></tr></table></figure>
+<p>设置mysql密码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">UPDATE user SET authentication_string=PASSWORD(&apos;newpassword&apos;) where USER=&apos;root&apos;;</div></pre></td></tr></table></figure>
+<p><code>更新用户名和密码, 用户名建议用root, 后面的教程都会以此为例子.</code></p>
+<p>设置完密码后刷新权限</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">FLUSH PRIVILEGES</div></pre></td></tr></table></figure>
+<p>输入 <code>\q</code> 退出数据库</p>
+<p>重新登录数据库, 尝试用新密码进入, 如果成功, 退出数据库, 进行接下来的步骤.</p>
+<p><code>建议在网上找一个数据库软件, 更加直观的查看数据和调试.</code></p>
+<h3 id="代码连接数据库"><a href="#代码连接数据库" class="headerlink" title="代码连接数据库"></a>代码连接数据库</h3><p>接下来回到本地服务器项目代码这边.</p>
+<p>打开<code>Package.swift</code>导入<code>.Package(url:&quot;https://github.com/PerfectlySoft/Perfect-MySQL.git&quot;, majorVersion: 3),</code> 注意最后面有个逗号.</p>
+<p>在终端执行<code>swift build</code>和<code>swift package generate-xcodeproj</code>, 用xcode打开项目.打开<code>main.swift</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">import PerfectMySQL // 导入</div><div class="line"></div><div class="line">// 配置数据库信息</div><div class="line">let testHost = &quot;127.0.0.1&quot;</div><div class="line">let testUser = &quot;root&quot;</div><div class="line">let testPassword = &quot;数据库密码&quot;</div><div class="line">let testDB = &quot;mysql&quot;</div></pre></td></tr></table></figure>
+<p><code>除了密码需要改成你自己设置的密码, 其他的照搬</code></p>
+<p>加入以下函数并调用, 在这个函数声明之后, 随处调用即可</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">fetchData</span><span class="params">()</span></span> &#123;</div><div class="line">    <span class="keyword">let</span> mysql = <span class="type">MySQL</span>() <span class="comment">// 创建一个MySQL连接实例</span></div><div class="line">    <span class="keyword">let</span> connected = mysql.connect(host: testHost, user: testUser, password: testPassword)</div><div class="line">    <span class="keyword">guard</span> connected <span class="keyword">else</span> &#123;</div><div class="line">        <span class="comment">// 验证一下连接是否成功</span></div><div class="line">        <span class="built_in">print</span>(mysql.errorMessage())</div><div class="line">        <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="built_in">print</span>(<span class="string">"\(mysql.listDatabases())"</span>)</div><div class="line">    </div><div class="line">    <span class="keyword">defer</span> &#123;</div><div class="line">        mysql.close() <span class="comment">//这个延后操作能够保证在程序结束时无论什么结果都会自动关闭数据库连接</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>运行项目, 控制台打印</p>
+<pre><code>[&quot;information_schema&quot;, &quot;mysql&quot;, &quot;performance_schema&quot;, &quot;sys&quot;]
+</code></pre><p>表示数据库已经用代码连接成功.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Perfect框架中文文档地址: &lt;a href=&quot;http://perfect.org/docs/index_zh_CN.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://perfect.org/docs/index_zh_CN.ht
     
     </summary>
     
