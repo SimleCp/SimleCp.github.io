@@ -536,7 +536,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">import PerfectMySQL // 导入</div><div class="line"></div><div class="line">// 配置数据库信息</div><div class="line">let testHost = &quot;127.0.0.1&quot;</div><div class="line">let testUser = &quot;root&quot;</div><div class="line">let testPassword = &quot;数据库密码&quot;</div><div class="line">let testDB = &quot;mysql&quot;</div></pre></td></tr></table></figure>
 <p><code>除了密码需要改成你自己设置的密码, 其他的照搬</code></p>
 <p>加入以下函数并调用, 在这个函数声明之后, 随处调用即可</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">fetchData</span><span class="params">()</span></span> &#123;</div><div class="line">    <span class="keyword">let</span> mysql = <span class="type">MySQL</span>() <span class="comment">// 创建一个MySQL连接实例</span></div><div class="line">    <span class="keyword">let</span> connected = mysql.connect(host: testHost, user: testUser, password: testPassword)</div><div class="line">    <span class="keyword">guard</span> connected <span class="keyword">else</span> &#123;</div><div class="line">        <span class="comment">// 验证一下连接是否成功</span></div><div class="line">        <span class="built_in">print</span>(mysql.errorMessage())</div><div class="line">        <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="built_in">print</span>(<span class="string">"\(mysql.listDatabases())"</span>)</div><div class="line">    </div><div class="line">    <span class="keyword">defer</span> &#123;</div><div class="line">        mysql.close() <span class="comment">//这个延后操作能够保证在程序结束时无论什么结果都会自动关闭数据库连接</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">fetchData</span><span class="params">()</span></span> &#123;</div><div class="line">    <span class="keyword">let</span> mysql = <span class="type">MySQL</span>() <span class="comment">// 创建一个MySQL连接实例</span></div><div class="line">    <span class="keyword">let</span> connected = mysql.connect(host: testHost, user: testUser, password: testPassword)</div><div class="line">    <span class="keyword">guard</span> connected <span class="keyword">else</span> &#123;</div><div class="line">        <span class="comment">// 验证一下连接是否成功</span></div><div class="line">        <span class="built_in">print</span>(mysql.errorMessage())</div><div class="line">        <span class="keyword">return</span></div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="built_in">print</span>(<span class="string">"<span class="subst">\(mysql.listDatabases()</span>)"</span>)</div><div class="line">    </div><div class="line">    <span class="keyword">defer</span> &#123;</div><div class="line">        mysql.close() <span class="comment">//这个延后操作能够保证在程序结束时无论什么结果都会自动关闭数据库连接</span></div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>运行项目, 控制台打印</p>
 <pre><code>[&quot;information_schema&quot;, &quot;mysql&quot;, &quot;performance_schema&quot;, &quot;sys&quot;]
 </code></pre><p>表示数据库已经用代码连接成功.</p>
@@ -567,8 +567,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/03/05/为你的hexo博客配置个性域名/" rel="next" title="为你的hexo博客配置个性域名">
-                <i class="fa fa-chevron-left"></i> 为你的hexo博客配置个性域名
+              <a href="/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/" rel="next" title="使用Supervisor让你的Swift服务器项目后台运行">
+                <i class="fa fa-chevron-left"></i> 使用Supervisor让你的Swift服务器项目后台运行
               </a>
             
           </div>
@@ -577,8 +577,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/" rel="prev" title="使用Supervisor让你的Swift服务器项目后台运行">
-                使用Supervisor让你的Swift服务器项目后台运行 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/10/07/在Ubuntu安装MySql/" rel="prev" title="在Ubuntu安装MySql">
+                在Ubuntu安装MySql <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
