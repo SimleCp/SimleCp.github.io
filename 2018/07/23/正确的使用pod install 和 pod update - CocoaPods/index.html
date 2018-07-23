@@ -134,16 +134,16 @@
 
 
 
-  <meta name="description" content="正确的使用pod install 和 pod update - CocoaPods以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的p">
+  <meta name="description" content="以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的pod-install-vs-update文档后, 翻译并记录了这篇文章. pod">
 <meta property="og:type" content="article">
 <meta property="og:title" content="正确的使用pod install 和 pod update - CocoaPods">
 <meta property="og:url" content="http://zedxpp.com/2018/07/23/正确的使用pod install 和 pod update - CocoaPods/index.html">
 <meta property="og:site_name" content="zedxpp-blog">
-<meta property="og:description" content="正确的使用pod install 和 pod update - CocoaPods以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的p">
+<meta property="og:description" content="以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的pod-install-vs-update文档后, 翻译并记录了这篇文章. pod">
 <meta property="og:updated_time" content="2018-07-23T09:07:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="正确的使用pod install 和 pod update - CocoaPods">
-<meta name="twitter:description" content="正确的使用pod install 和 pod update - CocoaPods以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的p">
+<meta name="twitter:description" content="以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的pod-install-vs-update文档后, 翻译并记录了这篇文章. pod">
 
 
 
@@ -485,7 +485,7 @@
       
 
       
-        <h1 id="正确的使用pod-install-和-pod-update-CocoaPods"><a href="#正确的使用pod-install-和-pod-update-CocoaPods" class="headerlink" title="正确的使用pod install 和 pod update - CocoaPods"></a>正确的使用pod install 和 pod update - CocoaPods</h1><p>以前一直是第一次在项目中想要生成<code>.xcworkspace项目</code>和<code>Pods目录</code>的时候, 会使用<code>pod install</code>命令, 其他的时候一律使用<code>pod update</code>命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的<a href="https://guides.cocoapods.org/using/pod-install-vs-update.html" target="_blank" rel="external">pod-install-vs-update</a>文档后, 翻译并记录了这篇文章.</p>
+        <p>以前一直是第一次在项目中想要生成<code>.xcworkspace项目</code>和<code>Pods目录</code>的时候, 会使用<code>pod install</code>命令, 其他的时候一律使用<code>pod update</code>命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的<a href="https://guides.cocoapods.org/using/pod-install-vs-update.html" target="_blank" rel="external">pod-install-vs-update</a>文档后, 翻译并记录了这篇文章.</p>
 <h2 id="pod-install"><a href="#pod-install" class="headerlink" title="pod install"></a>pod install</h2><ol>
 <li>在项目中第一次使用CocoaPods, 进行安装的时候使用这个命令.</li>
 <li>在<code>Podfile</code>中<code>增加</code>或<code>删除</code>某个pod后, 也是使用这个命令. 而不是<code>pod update</code>.</li>
@@ -763,7 +763,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#正确的使用pod-install-和-pod-update-CocoaPods"><span class="nav-number">1.</span> <span class="nav-text">正确的使用pod install 和 pod update - CocoaPods</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#pod-install"><span class="nav-number">1.1.</span> <span class="nav-text">pod install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pod-outdated"><span class="nav-number">1.2.</span> <span class="nav-text">pod outdated</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pod-update"><span class="nav-number">1.3.</span> <span class="nav-text">pod update</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#预期用途"><span class="nav-number">1.4.</span> <span class="nav-text">预期用途</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#必须提交的Podfile-lock"><span class="nav-number">1.5.</span> <span class="nav-text">必须提交的Podfile.lock</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#场景示例"><span class="nav-number">1.6.</span> <span class="nav-text">场景示例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用指定版本的Podfile是不够的"><span class="nav-number">1.7.</span> <span class="nav-text">使用指定版本的Podfile是不够的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我应该将Pods目录添加到源代码管理中吗？"><span class="nav-number">1.8.</span> <span class="nav-text">我应该将Pods目录添加到源代码管理中吗？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#添加Pod目录的好处"><span class="nav-number">1.8.1.</span> <span class="nav-text">添加Pod目录的好处</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#忽略Pods目录的好处"><span class="nav-number">1.8.2.</span> <span class="nav-text">忽略Pods目录的好处</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#pod-install"><span class="nav-number">1.</span> <span class="nav-text">pod install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pod-outdated"><span class="nav-number">2.</span> <span class="nav-text">pod outdated</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pod-update"><span class="nav-number">3.</span> <span class="nav-text">pod update</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#预期用途"><span class="nav-number">4.</span> <span class="nav-text">预期用途</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#必须提交的Podfile-lock"><span class="nav-number">5.</span> <span class="nav-text">必须提交的Podfile.lock</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#场景示例"><span class="nav-number">6.</span> <span class="nav-text">场景示例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用指定版本的Podfile是不够的"><span class="nav-number">7.</span> <span class="nav-text">使用指定版本的Podfile是不够的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我应该将Pods目录添加到源代码管理中吗？"><span class="nav-number">8.</span> <span class="nav-text">我应该将Pods目录添加到源代码管理中吗？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#添加Pod目录的好处"><span class="nav-number">8.1.</span> <span class="nav-text">添加Pod目录的好处</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#忽略Pods目录的好处"><span class="nav-number">8.2.</span> <span class="nav-text">忽略Pods目录的好处</span></a></li></ol></li></ol></div>
             
 
           </div>

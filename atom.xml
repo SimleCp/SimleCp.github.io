@@ -22,7 +22,7 @@
     <published>2018-07-23T09:05:39.000Z</published>
     <updated>2018-07-23T09:07:26.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="正确的使用pod-install-和-pod-update-CocoaPods"><a href="#正确的使用pod-install-和-pod-update-CocoaPods" class="headerlink" title="正确的使用pod install 和 pod update - CocoaPods"></a>正确的使用pod install 和 pod update - CocoaPods</h1><p>以前一直是第一次在项目中想要生成<code>.xcworkspace项目</code>和<code>Pods目录</code>的时候, 会使用<code>pod install</code>命令, 其他的时候一律使用<code>pod update</code>命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的<a href="https://guides.cocoapods.org/using/pod-install-vs-update.html" target="_blank" rel="external">pod-install-vs-update</a>文档后, 翻译并记录了这篇文章.</p>
+    <content type="html"><![CDATA[<p>以前一直是第一次在项目中想要生成<code>.xcworkspace项目</code>和<code>Pods目录</code>的时候, 会使用<code>pod install</code>命令, 其他的时候一律使用<code>pod update</code>命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的<a href="https://guides.cocoapods.org/using/pod-install-vs-update.html" target="_blank" rel="external">pod-install-vs-update</a>文档后, 翻译并记录了这篇文章.</p>
 <h2 id="pod-install"><a href="#pod-install" class="headerlink" title="pod install"></a>pod install</h2><ol>
 <li>在项目中第一次使用CocoaPods, 进行安装的时候使用这个命令.</li>
 <li>在<code>Podfile</code>中<code>增加</code>或<code>删除</code>某个pod后, 也是使用这个命令. 而不是<code>pod update</code>.</li>
@@ -80,7 +80,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;正确的使用pod-install-和-pod-update-CocoaPods&quot;&gt;&lt;a href=&quot;#正确的使用pod-install-和-pod-update-CocoaPods&quot; class=&quot;headerlink&quot; title=&quot;正确的使用pod insta
+      &lt;p&gt;以前一直是第一次在项目中想要生成&lt;code&gt;.xcworkspace项目&lt;/code&gt;和&lt;code&gt;Pods目录&lt;/code&gt;的时候, 会使用&lt;code&gt;pod install&lt;/code&gt;命令, 其他的时候一律使用&lt;code&gt;pod update&lt;/code&gt;命令. 直到
     
     </summary>
     
@@ -141,77 +141,6 @@
   </entry>
   
   <entry>
-    <title>使用Supervisor让你的Swift服务器项目后台运行</title>
-    <link href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/"/>
-    <id>http://zedxpp.com/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/</id>
-    <published>2017-10-07T11:46:57.000Z</published>
-    <updated>2017-10-07T12:05:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>当你按<code>control + c</code>退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了.</p>
-<p>这个时候就需要用<code>supervisor</code>来让项目一直在后台运行, 这样, 你编写的api才能一直能访问.</p>
-<h2 id="基本配置和说明"><a href="#基本配置和说明" class="headerlink" title="基本配置和说明"></a>基本配置和说明</h2><p>打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在<code>Code</code>文件夹, 并且创建了一个文件, 名字叫<code>script.sh</code>的文件.</p>
-<p><code>/root/Code/script.sh</code>, 也就是你需要supervisor帮你执行这个脚本.并且一直后台运行.</p>
-<p><code>/root/Code</code>的<code>script.sh</code>里面, 编写着路径地址和执行命令.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /root/Code/PerfectTemplate</div><div class="line">.build/debug/PerfectTemplate</div></pre></td></tr></table></figure>
-<h2 id="安装并配置"><a href="#安装并配置" class="headerlink" title="安装并配置"></a>安装并配置</h2><p>输入<code>sudo apt-get install supervisor</code>安装supervisor.</p>
-<p>安装完成后, 进入<code>cd /etc/supervisor/conf.d</code>, 创建并编辑 <code>vim swiftServer.conf</code>, <code>swiftServer</code>是我的文件名和program名, 你也可以用你喜欢的.</p>
-<p>在文件中粘贴以下代码, </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[program:swiftServer] // swiftServer 刚刚取的program名</div><div class="line"></div><div class="line">command=sh script.sh // 执行的脚本名称</div><div class="line"></div><div class="line">process_name=%(program_name)s</div><div class="line"></div><div class="line">directory=/root/Code // 执行的脚本路径</div><div class="line"></div><div class="line">autorestart=true</div><div class="line"></div><div class="line">user=root // 用户名</div></pre></td></tr></table></figure>
-<p><code>更多的supervisor配置信息请自行查阅, 这里只保证项目能正常启动起来.</code></p>
-<p>输入<code>supervisorctl reload</code>让你刚刚的配置生效.</p>
-<p>输入<code>supervisorctl start swiftServer</code>启动并后台运行</p>
-<p>再次在网页中打开<code>服务器ip:8181</code>, <code>Hello, world!</code>时刻与你同在.  ^.^</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;当你按&lt;code&gt;control + c&lt;/code&gt;退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口
-    
-    </summary>
-    
-      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>开启你的Swift服务器之旅-Perfect框架</title>
-    <link href="http://zedxpp.com/2017/10/07/%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6/"/>
-    <id>http://zedxpp.com/2017/10/07/开启你的Swift服务器之旅-Perfect框架/</id>
-    <published>2017-10-07T11:46:57.000Z</published>
-    <updated>2018-01-21T02:43:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. </p>
-<p>最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了.</p>
-<p>为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好.</p>
-<p><a href="https://github.com/perfectlySoft/Perfect" target="_blank" rel="external">https://github.com/perfectlySoft/Perfect</a></p>
-<p><a href="https://github.com/vapor/Vapor" target="_blank" rel="external">https://github.com/vapor/Vapor</a></p>
-<p><a href="https://github.com/ibm-swift/kitura" target="_blank" rel="external">https://github.com/ibm-swift/kitura</a></p>
-<p><a href="https://github.com/zewo/Zewo" target="_blank" rel="external">https://github.com/zewo/Zewo</a></p>
-<h2 id="看完系列文章-你能收获什么"><a href="#看完系列文章-你能收获什么" class="headerlink" title="看完系列文章, 你能收获什么?"></a>看完系列文章, 你能收获什么?</h2><ol>
-<li><a href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">Perfect在Mac本地环境的配置</a></li>
-<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/">在Ubuntu服务器上配置Swift编译环境</a></li>
-<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/">在Ubuntu服务器上安装MySql</a></li>
-<li><a href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/">使用Supervisor让你的Swift服务器项目后台运行</a></li>
-<li><a href="http://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/">Swift Perfect服务端的自动化部署</a></li>
-</ol>
-<p>当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡?</p>
-<p>其实Perfect有自己的部署工具<a href="https://perfect.org/zh/assistant/" target="_blank" rel="external">https://perfect.org/zh/assistant/</a>, 但是仅限于<code>亚马逊云EC2服务器部署</code>和<code>Google App Engine 谷歌应用引擎部署</code>, 鉴于自己买<code>非以上两种的vps</code>比较便宜, 而且自己写点接口, 不需要这么贵.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. &lt;/p&gt;
-&lt;p&gt;最开始看到sw
-    
-    </summary>
-    
-      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Swift Perfect Mac本地环境配置</title>
     <link href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     <id>http://zedxpp.com/2017/10/07/Swift Perfect Mac本地环境配置/</id>
@@ -263,6 +192,43 @@
     <summary type="html">
     
       &lt;p&gt;Perfect框架中文文档地址: &lt;a href=&quot;http://perfect.org/docs/index_zh_CN.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://perfect.org/docs/index_zh_CN.ht
+    
+    </summary>
+    
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>开启你的Swift服务器之旅-Perfect框架</title>
+    <link href="http://zedxpp.com/2017/10/07/%E5%BC%80%E5%90%AF%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%8B%E6%97%85-Perfect%E6%A1%86%E6%9E%B6/"/>
+    <id>http://zedxpp.com/2017/10/07/开启你的Swift服务器之旅-Perfect框架/</id>
+    <published>2017-10-07T11:46:57.000Z</published>
+    <updated>2018-01-21T02:43:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. </p>
+<p>最开始看到swift相关的新闻, 已经知道swift能够编写服务器, 但是一直没有怎么关注, 直到那天我简单看了一下swift的几个服务器框架, 才发现今日的swift服务器框架, 早已足够满足我的现有需求了.</p>
+<p>为什么要选择Perfect这个框架, 是因为他星星最多, 中英文文档. 非常友好.</p>
+<p><a href="https://github.com/perfectlySoft/Perfect" target="_blank" rel="external">https://github.com/perfectlySoft/Perfect</a></p>
+<p><a href="https://github.com/vapor/Vapor" target="_blank" rel="external">https://github.com/vapor/Vapor</a></p>
+<p><a href="https://github.com/ibm-swift/kitura" target="_blank" rel="external">https://github.com/ibm-swift/kitura</a></p>
+<p><a href="https://github.com/zewo/Zewo" target="_blank" rel="external">https://github.com/zewo/Zewo</a></p>
+<h2 id="看完系列文章-你能收获什么"><a href="#看完系列文章-你能收获什么" class="headerlink" title="看完系列文章, 你能收获什么?"></a>看完系列文章, 你能收获什么?</h2><ol>
+<li><a href="http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">Perfect在Mac本地环境的配置</a></li>
+<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AESwift%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/">在Ubuntu服务器上配置Swift编译环境</a></li>
+<li><a href="http://zedxpp.com/2017/10/07/%E5%9C%A8Ubuntu%E5%AE%89%E8%A3%85MySql/">在Ubuntu服务器上安装MySql</a></li>
+<li><a href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/">使用Supervisor让你的Swift服务器项目后台运行</a></li>
+<li><a href="http://zedxpp.com/2017/12/01/Swift%20Perfect%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/">Swift Perfect服务端的自动化部署</a></li>
+</ol>
+<p>当你掌握了以上的姿势后, 你就可以给自己编写接口了, 是不是很赤鸡?</p>
+<p>其实Perfect有自己的部署工具<a href="https://perfect.org/zh/assistant/" target="_blank" rel="external">https://perfect.org/zh/assistant/</a>, 但是仅限于<code>亚马逊云EC2服务器部署</code>和<code>Google App Engine 谷歌应用引擎部署</code>, 鉴于自己买<code>非以上两种的vps</code>比较便宜, 而且自己写点接口, 不需要这么贵.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直想学习一门后端语言, 能够写一些Api给自己的App使用. 考虑过js配合node.js, 后来放弃了. &lt;/p&gt;
+&lt;p&gt;最开始看到sw
     
     </summary>
     
@@ -334,6 +300,40 @@
     <summary type="html">
     
       &lt;h2 id=&quot;安装Ubuntu&quot;&gt;&lt;a href=&quot;#安装Ubuntu&quot; class=&quot;headerlink&quot; title=&quot;安装Ubuntu&quot;&gt;&lt;/a&gt;安装Ubuntu&lt;/h2&gt;&lt;p&gt;购买vps, 安装Ubuntu, 请安装以下3种os中的任意一种. 我购买的vps上, 最新
+    
+    </summary>
+    
+      <category term="Swift-Perfect" scheme="http://zedxpp.com/categories/Swift-Perfect/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用Supervisor让你的Swift服务器项目后台运行</title>
+    <link href="http://zedxpp.com/2017/10/07/%E4%BD%BF%E7%94%A8Supervisor%E8%AE%A9%E4%BD%A0%E7%9A%84Swift%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%A1%B9%E7%9B%AE%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C/"/>
+    <id>http://zedxpp.com/2017/10/07/使用Supervisor让你的Swift服务器项目后台运行/</id>
+    <published>2017-10-07T11:46:57.000Z</published>
+    <updated>2017-10-07T12:05:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>当你按<code>control + c</code>退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口号访问, 已经无法响应了.</p>
+<p>这个时候就需要用<code>supervisor</code>来让项目一直在后台运行, 这样, 你编写的api才能一直能访问.</p>
+<h2 id="基本配置和说明"><a href="#基本配置和说明" class="headerlink" title="基本配置和说明"></a>基本配置和说明</h2><p>打开终端连接上服务器.创建找一个文件夹存放你的脚本.我存放在<code>Code</code>文件夹, 并且创建了一个文件, 名字叫<code>script.sh</code>的文件.</p>
+<p><code>/root/Code/script.sh</code>, 也就是你需要supervisor帮你执行这个脚本.并且一直后台运行.</p>
+<p><code>/root/Code</code>的<code>script.sh</code>里面, 编写着路径地址和执行命令.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /root/Code/PerfectTemplate</div><div class="line">.build/debug/PerfectTemplate</div></pre></td></tr></table></figure>
+<h2 id="安装并配置"><a href="#安装并配置" class="headerlink" title="安装并配置"></a>安装并配置</h2><p>输入<code>sudo apt-get install supervisor</code>安装supervisor.</p>
+<p>安装完成后, 进入<code>cd /etc/supervisor/conf.d</code>, 创建并编辑 <code>vim swiftServer.conf</code>, <code>swiftServer</code>是我的文件名和program名, 你也可以用你喜欢的.</p>
+<p>在文件中粘贴以下代码, </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[program:swiftServer] // swiftServer 刚刚取的program名</div><div class="line"></div><div class="line">command=sh script.sh // 执行的脚本名称</div><div class="line"></div><div class="line">process_name=%(program_name)s</div><div class="line"></div><div class="line">directory=/root/Code // 执行的脚本路径</div><div class="line"></div><div class="line">autorestart=true</div><div class="line"></div><div class="line">user=root // 用户名</div></pre></td></tr></table></figure>
+<p><code>更多的supervisor配置信息请自行查阅, 这里只保证项目能正常启动起来.</code></p>
+<p>输入<code>supervisorctl reload</code>让你刚刚的配置生效.</p>
+<p>输入<code>supervisorctl start swiftServer</code>启动并后台运行</p>
+<p>再次在网页中打开<code>服务器ip:8181</code>, <code>Hello, world!</code>时刻与你同在.  ^.^</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;当你按&lt;code&gt;control + c&lt;/code&gt;退出vps上的swift项目运行的时候, 其实你的项目已经停止了, 用服务器ip+端口
     
     </summary>
     
