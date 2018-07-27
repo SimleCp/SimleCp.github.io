@@ -134,16 +134,16 @@
 
 
 
-  <meta name="description" content="以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的pod-install-vs-update文档后, 翻译并记录了这篇文章. pod">
+  <meta name="description" content="pod install 在项目中第一次使用CocoaPods, 进行安装的时候使用这个命令. 在Podfile中增加或删除某个pod后, 也是使用这个命令. 而不是pod update.   每次运行pod install命令, 下载并安装新的pod时, 它会为Podfile.lock文件中的每个pod写入已安装的版本. 此文件跟踪每个pod的已安装版本并锁定这些版本(.lock命名因此而来).">
 <meta property="og:type" content="article">
 <meta property="og:title" content="正确的使用pod install 和 pod update - CocoaPods">
 <meta property="og:url" content="http://zedxpp.com/2018/07/23/正确的使用pod install 和 pod update - CocoaPods/index.html">
 <meta property="og:site_name" content="zedxpp-blog">
-<meta property="og:description" content="以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的pod-install-vs-update文档后, 翻译并记录了这篇文章. pod">
+<meta property="og:description" content="pod install 在项目中第一次使用CocoaPods, 进行安装的时候使用这个命令. 在Podfile中增加或删除某个pod后, 也是使用这个命令. 而不是pod update.   每次运行pod install命令, 下载并安装新的pod时, 它会为Podfile.lock文件中的每个pod写入已安装的版本. 此文件跟踪每个pod的已安装版本并锁定这些版本(.lock命名因此而来).">
 <meta property="og:updated_time" content="2018-07-23T09:07:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="正确的使用pod install 和 pod update - CocoaPods">
-<meta name="twitter:description" content="以前一直是第一次在项目中想要生成.xcworkspace项目和Pods目录的时候, 会使用pod install命令, 其他的时候一律使用pod update命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的pod-install-vs-update文档后, 翻译并记录了这篇文章. pod">
+<meta name="twitter:description" content="pod install 在项目中第一次使用CocoaPods, 进行安装的时候使用这个命令. 在Podfile中增加或删除某个pod后, 也是使用这个命令. 而不是pod update.   每次运行pod install命令, 下载并安装新的pod时, 它会为Podfile.lock文件中的每个pod写入已安装的版本. 此文件跟踪每个pod的已安装版本并锁定这些版本(.lock命名因此而来).">
 
 
 
@@ -485,8 +485,7 @@
       
 
       
-        <p>以前一直是第一次在项目中想要生成<code>.xcworkspace项目</code>和<code>Pods目录</code>的时候, 会使用<code>pod install</code>命令, 其他的时候一律使用<code>pod update</code>命令. 直到最近项目中大量使用私有库, 并且刚好想看一下CocoaPods相关的使用, 才发现原来这两个命令是完全不同的作用. 在查看CocoaPods官网的<a href="https://guides.cocoapods.org/using/pod-install-vs-update.html" target="_blank" rel="external">pod-install-vs-update</a>文档后, 翻译并记录了这篇文章.</p>
-<h2 id="pod-install"><a href="#pod-install" class="headerlink" title="pod install"></a>pod install</h2><ol>
+        <h2 id="pod-install"><a href="#pod-install" class="headerlink" title="pod install"></a>pod install</h2><ol>
 <li>在项目中第一次使用CocoaPods, 进行安装的时候使用这个命令.</li>
 <li>在<code>Podfile</code>中<code>增加</code>或<code>删除</code>某个pod后, 也是使用这个命令. 而不是<code>pod update</code>.</li>
 </ol>
